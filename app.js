@@ -168,19 +168,34 @@ function glossHint(text) {
     result = result.replace(/(<[^>]+>)|([^<]+)/g, (match, tag, txt) => {
       if (tag) return tag;
       if (!txt) return match;
-      return txt.replace(re, `<abbr class="g-hint" title="${def}" onclick="toggleGlossHint(this,event)">${term}</abbr>`);
+      return txt.replace(re, `<abbr class="g-hint" title="${def}">${term}</abbr>`);
     });
   });
   return result;
 }
 
 // ── Glossary hint tap handler (mobile) ───────────────────────────────────────
-function toggleGlossHint(el, e) {
-  if (e) { e.preventDefault(); e.stopPropagation(); }
+function toggleGlossHint(el) {
   const isOpen = el.classList.contains('g-hint--open');
-  document.querySelectorAll('abbr.g-hint--open').forEach(a => a.classList.remove('g-hint--open'));
-  if (!isOpen) el.classList.add('g-hint--open');
+  document.querySelectorAll('abbr.g-hint--open, abbr.g-hint--flip').forEach(a => a.classList.remove('g-hint--open', 'g-hint--flip'));
+  if (!isOpen) {
+    const rect = el.getBoundingClientRect();
+    if (rect.left + 228 > window.innerWidth - 12) el.classList.add('g-hint--flip');
+    el.classList.add('g-hint--open');
+  }
 }
+// touchstart with preventDefault stops the synthetic click reaching the answer button
+document.addEventListener('touchstart', function(e) {
+  const hint = e.target.closest('abbr.g-hint');
+  if (hint) {
+    e.preventDefault();
+    e.stopPropagation();
+    toggleGlossHint(hint);
+  } else {
+    document.querySelectorAll('abbr.g-hint--open').forEach(a => a.classList.remove('g-hint--open'));
+  }
+}, { capture: true, passive: false });
+// Desktop: close on click outside
 document.addEventListener('click', function(e) {
   if (!e.target.closest('abbr.g-hint')) {
     document.querySelectorAll('abbr.g-hint--open').forEach(a => a.classList.remove('g-hint--open'));
@@ -649,8 +664,8 @@ function renderQuestion() {
     const isSel = sel.has(i);
     const b = document.createElement('button');
     b.className = 'opt' + (isSel ? ' selected' : '');
-    b.innerHTML = `<span class="check">${isSel ? '✓' : ''}</span><span>${text}</span>`;
-    b.onclick = () => toggle(i);
+    b.innerHTML = `<span class="check">${isSel ? '✓' : ''}</span><span>${glossHint(text)}</span>`;
+    b.onclick = (e) => { if (e.target.closest('abbr.g-hint')) return; toggle(i); };
     div.appendChild(b);
   });
   document.getElementById('btnBack').textContent = u.back;
@@ -904,8 +919,8 @@ function renderCreativeQ() {
     const isSel = sel.has(i);
     const b = document.createElement('button');
     b.className = 'opt' + (isSel ? ' selected' : '');
-    b.innerHTML = `<span class="check">${isSel ? '✓' : ''}</span><span>${text}</span>`;
-    b.onclick = () => toggleCreative(i);
+    b.innerHTML = `<span class="check">${isSel ? '✓' : ''}</span><span>${glossHint(text)}</span>`;
+    b.onclick = (e) => { if (e.target.closest('abbr.g-hint')) return; toggleCreative(i); };
     div.appendChild(b);
   });
 
@@ -1136,7 +1151,7 @@ function renderPoQ() {
     const isSel = sel.has(i);
     const b = document.createElement('button');
     b.className = 'opt' + (isSel ? ' selected' : '');
-    b.innerHTML = `<span class="check">${isSel ? '✓' : ''}</span><span>${text}</span>`;
+    b.innerHTML = `<span class="check">${isSel ? '✓' : ''}</span><span>${glossHint(text)}</span>`;
     b.onclick = () => selectPoOpt(i);
     div.appendChild(b);
   });
@@ -1362,8 +1377,8 @@ function renderBusinessQ() {
     const isSel = sel.has(i);
     const b = document.createElement('button');
     b.className = 'opt' + (isSel ? ' selected' : '');
-    b.innerHTML = `<span class="check">${isSel ? '✓' : ''}</span><span>${text}</span>`;
-    b.onclick = () => toggleBusiness(i);
+    b.innerHTML = `<span class="check">${isSel ? '✓' : ''}</span><span>${glossHint(text)}</span>`;
+    b.onclick = (e) => { if (e.target.closest('abbr.g-hint')) return; toggleBusiness(i); };
     div.appendChild(b);
   });
 
@@ -1628,8 +1643,8 @@ function renderL2Question() {
     const isSel = sel.has(i);
     const b = document.createElement('button');
     b.className = 'opt' + (isSel ? ' selected' : '');
-    b.innerHTML = `<span class="check">${isSel ? '✓' : ''}</span><span>${text}</span>`;
-    b.onclick = () => toggleL2(i);
+    b.innerHTML = `<span class="check">${isSel ? '✓' : ''}</span><span>${glossHint(text)}</span>`;
+    b.onclick = (e) => { if (e.target.closest('abbr.g-hint')) return; toggleL2(i); };
     div.appendChild(b);
   });
 
@@ -1917,8 +1932,8 @@ function renderScienceQ() {
     const isSel = sel.has(i);
     const b = document.createElement('button');
     b.className = 'opt' + (isSel ? ' selected' : '');
-    b.innerHTML = `<span class="check">${isSel ? '✓' : ''}</span><span>${text}</span>`;
-    b.onclick = () => toggleScience(i);
+    b.innerHTML = `<span class="check">${isSel ? '✓' : ''}</span><span>${glossHint(text)}</span>`;
+    b.onclick = (e) => { if (e.target.closest('abbr.g-hint')) return; toggleScience(i); };
     div.appendChild(b);
   });
 
@@ -2135,8 +2150,8 @@ function renderPedagogyQ() {
     const isSel = sel.has(i);
     const b = document.createElement('button');
     b.className = 'opt' + (isSel ? ' selected' : '');
-    b.innerHTML = `<span class="check">${isSel ? '✓' : ''}</span><span>${text}</span>`;
-    b.onclick = () => togglePedagogy(i);
+    b.innerHTML = `<span class="check">${isSel ? '✓' : ''}</span><span>${glossHint(text)}</span>`;
+    b.onclick = (e) => { if (e.target.closest('abbr.g-hint')) return; togglePedagogy(i); };
     div.appendChild(b);
   });
 
@@ -2353,8 +2368,8 @@ function renderEngineeringQ() {
     const isSel = sel.has(i);
     const b = document.createElement('button');
     b.className = 'opt' + (isSel ? ' selected' : '');
-    b.innerHTML = `<span class="check">${isSel ? '✓' : ''}</span><span>${text}</span>`;
-    b.onclick = () => toggleEngineering(i);
+    b.innerHTML = `<span class="check">${isSel ? '✓' : ''}</span><span>${glossHint(text)}</span>`;
+    b.onclick = (e) => { if (e.target.closest('abbr.g-hint')) return; toggleEngineering(i); };
     div.appendChild(b);
   });
 

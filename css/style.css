@@ -263,6 +263,10 @@ abbr.g-hint:focus::after,
 abbr.g-hint--open::after {
   opacity: 1;
 }
+abbr.g-hint--flip::after {
+  left: auto;
+  right: 0;
+}
 @media (max-width: 500px) {
   abbr.g-hint::after { width: 170px; font-size: 11px; }
 }
