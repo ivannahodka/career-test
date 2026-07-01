@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Глоссарий профессиональных терминов · Career Glossary — Career Orientation Test</title>
+<meta name="description" content="Профессиональный глоссарий на 9 языках: IT, дизайн, маркетинг, медицина, наука, педагогика, инженерия. Простым языком. · Career glossary in 9 languages: IT, design, marketing, medicine, science, education, engineering.">
+<link rel="canonical" href="https://ivannahodka.github.io/career-test/glossary.html">
+<!-- Open Graph / мессенджеры -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ivannahodka.github.io/career-test/glossary.html">
+<meta property="og:title" content="Глоссарий профессиональных терминов · Career Glossary">
+<meta property="og:description" content="Термины из IT, дизайна, маркетинга, медицины, науки, педагогики и инженерии — на 9 языках. Бесплатно. · Terms from IT, design, marketing, medicine, science and engineering in 9 languages. Free.">
+<meta property="og:image" content="https://ivannahodka.github.io/career-test/og-image.png">
+<meta property="og:site_name" content="Тест профориентации · Career Orientation Test">
+<!-- Twitter / X Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Глоссарий профессиональных терминов · Career Glossary">
+<meta name="twitter:description" content="IT, дизайн, маркетинг, медицина, наука, инженерия — термины на 9 языках. Бесплатно. · IT, design, marketing, medicine, science, engineering — terms in 9 languages. Free.">
+<meta name="twitter:image" content="https://ivannahodka.github.io/career-test/og-image.png">
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "Глоссарий профессиональных терминов · Career Glossary",
+  "description": "Профессиональный глоссарий на 9 языках: IT, дизайн, маркетинг, медицина, наука, педагогика, инженерия. Для школьников и студентов.",
+  "inLanguage": ["ru","en","de","fr","es","pt","ar","he"],
+  "isAccessibleForFree": true,
+  "author": { "@type": "Person", "name": "Иван Тарасенко" },
+  "url": "https://ivannahodka.github.io/career-test/glossary.html"
+}
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1TXFZ9XPRS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1TXFZ9XPRS');
+</script>
+<link rel="icon" href="favicon.ico" sizes="any">
+<style>
+  :root {
+    --bg: #0f1117;
+    --card: #1a1d2e;
+    --border: #2a2d3e;
+    --accent: #6c63ff;
+    --accent2: #a78bfa;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, sans-serif; min-height: 100vh; }
+
+  .top-bar {
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    flex-wrap: wrap;
+  }
+  .back-link { color: var(--accent2); text-decoration: none; font-size: 14px; white-space: nowrap; }
+  .back-link:hover { text-decoration: underline; }
+  .top-bar h1 { font-size: 17px; font-weight: 700; }
+  .search-wrap { position: relative; flex: 1; min-width: 160px; max-width: 300px; }
+  .search-wrap input {
+    width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 14px;
+    padding: 7px 12px 7px 32px;
+    outline: none;
+  }
+  .search-wrap input:focus { border-color: var(--accent); }
+  .search-icon { position: absolute; left: 9px; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 14px; pointer-events: none; }
+
+  .lang-toggle { display: flex; gap: 4px; flex-wrap: wrap; }
+  .lang-btn {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--muted);
+    font-size: 12px;
+    padding: 4px 9px;
+    cursor: pointer;
+    transition: all .15s;
+  }
+  .lang-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .count-badge { font-size: 12px; color: var(--muted); white-space: nowrap; margin-left: auto; }
+  .section-filters { display: flex; gap: 6px; flex-wrap: wrap; padding: 10px 14px; border-bottom: 1px solid var(--border); background: var(--card); }
+  .sec-btn { background: var(--bg); border: 1px solid var(--border); border-radius: 20px; color: var(--muted); font-size: 12px; padding: 4px 12px; cursor: pointer; transition: all .15s; white-space: nowrap; }
+  .sec-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .sec-btn:hover:not(.active) { border-color: var(--accent); color: var(--accent2); }
+
+  .container { max-width: 880px; margin: 0 auto; padding: 20px 14px 60px; }
+  .alpha-section { margin-bottom: 28px; }
+  .alpha-header {
+    font-size: 20px; font-weight: 800; color: var(--accent2);
+    margin-bottom: 10px; padding-bottom: 5px;
+    border-bottom: 1px solid var(--border); letter-spacing: .02em;
+  }
+  .terms-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 9px; }
+  .term-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 11px 13px; transition: border-color .15s;
+  }
+  .term-card:hover { border-color: var(--accent); }
+  .term-name { font-weight: 700; font-size: 13px; color: var(--accent2); margin-bottom: 4px; font-family: 'Courier New', monospace; }
+  .term-def { font-size: 12px; color: var(--muted); line-height: 1.5; }
+  .empty { text-align: center; padding: 60px 20px; color: var(--muted); font-size: 15px; }
+
+  /* RTL support */
+  [dir="rtl"] .search-icon { left: auto; right: 9px; }
+  [dir="rtl"] .search-wrap input { padding: 7px 32px 7px 12px; }
+  [dir="rtl"] .count-badge { margin-left: 0; margin-right: auto; }
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+  <a class="back-link" href="index.html" id="back-link">← Назад</a>
+  <h1>📖 Career Glossary</h1>
+  <div class="search-wrap">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="search" placeholder="Search…" oninput="render()">
+  </div>
+  <div class="lang-toggle" id="lang-btns"></div>
+  <span class="count-badge" id="count-badge"></span>
+</div>
+<div class="section-filters" id="sec-filters"></div>
+
+<div class="container" id="container"></div>
+
+<script src="langs/lang-base.js"></script>
+<script src="langs/lang-ru.js"></script>
+<script src="langs/lang-en.js"></script>
+<script src="langs/lang-de.js"></script>
+<script src="langs/lang-fr.js"></script>
+<script src="langs/lang-es.js"></script>
+<script src="langs/lang-pt.js"></script>
+<script src="langs/lang-ar.js"></script>
+<script src="langs/lang-he.js"></script>
+<script src="langs/lang-zh.js"></script>
+<script src="glossary.js"></script>
+<script>
+const LANG_ORDER = ['ru','en','de','fr','es','pt','ar','he','zh'];
+const LANG_LABELS = { ru:'RU', en:'EN', de:'DE', fr:'FR', es:'ES', pt:'PT', ar:'AR', he:'HE', zh:'中文' };
+const SEARCH_PLACEHOLDER = {
+  ru:'Поиск термина…', en:'Search term…', de:'Begriff suchen…',
+  fr:'Chercher un terme…', es:'Buscar término…', pt:'Buscar termo…',
+  ar:'ابحث عن مصطلح…', he:'חפש מונח…', zh:'搜索术语…'
+};
+const BACK_LABEL = {
+  ru:'← Назад', en:'← Back', de:'← Zurück',
+  fr:'← Retour', es:'← Volver', pt:'← Voltar',
+  ar:'→ عودة', he:'→ חזרה', zh:'← 返回'
+};
+
+let currentLang = (function(){ try { return localStorage.getItem('career_lang') || 'ru'; } catch(e) { return 'ru'; } })();
+
+// Build language buttons
+const btns = document.getElementById('lang-btns');
+LANG_ORDER.forEach(l => {
+  if (!GLOSSARY[l]) return;
+  const b = document.createElement('button');
+  b.className = 'lang-btn' + (l === currentLang ? ' active' : '');
+  b.id = 'btn-' + l;
+  b.textContent = LANG_LABELS[l];
+  b.onclick = () => setLang(l);
+  btns.appendChild(b);
+});
+
+function setLang(l) {
+  currentLang = l;
+  try { localStorage.setItem('career_lang', l); } catch(e) {}
+  LANG_ORDER.forEach(lang => {
+    const btn = document.getElementById('btn-' + lang);
+    if (btn) btn.classList.toggle('active', lang === l);
+  });
+  // RTL
+  const dir = (l === 'ar' || l === 'he') ? 'rtl' : 'ltr';
+  document.documentElement.dir = dir;
+  document.getElementById('search').placeholder = SEARCH_PLACEHOLDER[l] || 'Search…';
+  document.getElementById('back-link').textContent = BACK_LABEL[l] || '← Back';
+  buildSectionFilters();
+  render();
+}
+
+let currentSection = 'all';
+
+function buildSectionFilters() {
+  const el = document.getElementById('sec-filters');
+  if (!el || typeof GLOSSARY_SECTIONS === 'undefined') return;
+  const allLabel = {ru:'Все',en:'All',de:'Alle',fr:'Tout',es:'Todo',pt:'Tudo',ar:'الكل',he:'הכל'};
+  let html = `<button class="sec-btn active" data-sec="all" onclick="setSec('all')">${allLabel[currentLang]||'All'}</button>`;
+  GLOSSARY_SECTIONS.forEach(s => {
+    const lbl = s.label[currentLang] || s.label.en;
+    html += `<button class="sec-btn" data-sec="${s.key}" onclick="setSec('${s.key}')">${lbl}</button>`;
+  });
+  el.innerHTML = html;
+}
+
+function setSec(key) {
+  currentSection = key;
+  document.querySelectorAll('.sec-btn').forEach(b => b.classList.toggle('active', b.dataset.sec === key));
+  render();
+}
+
+function render() {
+  const q = document.getElementById('search').value.toLowerCase().trim();
+  // Merge: base = EN, overlay current language (fallback to EN for missing terms)
+  const base = Object.assign({}, GLOSSARY.en || {});
+  const overlay = GLOSSARY[currentLang] || {};
+  const data = Object.assign(base, overlay);
+
+  // Filter by section
+  let sectionTerms = null;
+  if (currentSection !== 'all' && typeof GLOSSARY_SECTIONS !== 'undefined') {
+    const sec = GLOSSARY_SECTIONS.find(s => s.key === currentSection);
+    if (sec) sectionTerms = new Set(sec.terms.map(t => t.toLowerCase()));
+  }
+
+  let entries = Object.entries(data);
+  if (sectionTerms) entries = entries.filter(([k]) => sectionTerms.has(k.toLowerCase()));
+  if (q) entries = entries.filter(([k,v]) => k.toLowerCase().includes(q) || v.toLowerCase().includes(q));
+  entries.sort(([a],[b]) => a.toLowerCase().localeCompare(b.toLowerCase(), undefined, {sensitivity:'base'}));
+
+  document.getElementById('count-badge').textContent = entries.length + ' terms';
+
+  const container = document.getElementById('container');
+  if (!entries.length) {
+    container.innerHTML = '<div class="empty">Ничего не найдено / Nothing found</div>';
+    return;
+  }
+
+  // Group alphabetically
+  const groups = {};
+  for (const [term, def] of entries) {
+    const letter = term[0].toUpperCase();
+    if (!groups[letter]) groups[letter] = [];
+    groups[letter].push({term, def});
+  }
+
+  const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  let html = '';
+  for (const letter of Object.keys(groups).sort()) {
+    html += `<div class="alpha-section"><div class="alpha-header">${esc(letter)}</div><div class="terms-grid">`;
+    for (const {term,def} of groups[letter]) {
+      html += `<div class="term-card"><div class="term-name">${esc(term)}</div><div class="term-def">${esc(def)}</div></div>`;
+    }
+    html += `</div></div>`;
+  }
+  container.innerHTML = html;
+}
+
+buildSectionFilters();
+setLang(currentLang);
+</script>
+</body>
+</html>
