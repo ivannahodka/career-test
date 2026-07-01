@@ -259,7 +259,8 @@ abbr.g-hint::after {
   font-weight: 400;
 }
 abbr.g-hint:hover::after,
-abbr.g-hint:focus::after {
+abbr.g-hint:focus::after,
+abbr.g-hint--open::after {
   opacity: 1;
 }
 @media (max-width: 500px) {

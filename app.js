@@ -168,11 +168,24 @@ function glossHint(text) {
     result = result.replace(/(<[^>]+>)|([^<]+)/g, (match, tag, txt) => {
       if (tag) return tag;
       if (!txt) return match;
-      return txt.replace(re, `<abbr class="g-hint" title="${def}">${term}</abbr>`);
+      return txt.replace(re, `<abbr class="g-hint" title="${def}" onclick="toggleGlossHint(this,event)">${term}</abbr>`);
     });
   });
   return result;
 }
+
+// ── Glossary hint tap handler (mobile) ───────────────────────────────────────
+function toggleGlossHint(el, e) {
+  if (e) { e.preventDefault(); e.stopPropagation(); }
+  const isOpen = el.classList.contains('g-hint--open');
+  document.querySelectorAll('abbr.g-hint--open').forEach(a => a.classList.remove('g-hint--open'));
+  if (!isOpen) el.classList.add('g-hint--open');
+}
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('abbr.g-hint')) {
+    document.querySelectorAll('abbr.g-hint--open').forEach(a => a.classList.remove('g-hint--open'));
+  }
+});
 
 let current = 0;
 let answers = Array.from({length: QS.length}, () => new Set());
