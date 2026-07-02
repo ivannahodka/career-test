@@ -405,34 +405,7 @@ function goDirectL2() {
   loadL2Script(l2ProfKey, function() {
     const d = getL2Data();
     if (!d) { showHome(); return; }
-    // Set header for the correct domain
-    (function() {
-      let tag, title, subtitle;
-      if (activeDomain === 'pedagogy') {
-        const pu = (PEDAGOGY_I18N[lang] || PEDAGOGY_I18N.ru).ui;
-        tag = pu.tag; title = pu.title; subtitle = pu.subtitle;
-      } else if (activeDomain === 'engineering') {
-        const eu = (ENGINEERING_I18N[lang] || ENGINEERING_I18N.ru).ui;
-        tag = eu.tag; title = eu.title; subtitle = eu.subtitle;
-      } else if (activeDomain === 'business') {
-        const bu = (BUSINESS_I18N[lang] || BUSINESS_I18N.en).ui;
-        tag = bu.tag; title = bu.title; subtitle = bu.subtitle;
-      } else if (activeDomain === 'science') {
-        const su = (SCIENCE_I18N[lang] || SCIENCE_I18N.en).ui;
-        tag = su.tag; title = su.title; subtitle = su.subtitle;
-      } else if (activeDomain === 'creative') {
-        const cu = (CREATIVE_I18N[lang] || CREATIVE_I18N.en).ui;
-        tag = cu.tag; title = cu.title; subtitle = cu.subtitle;
-      } else {
-        const u = I18N[lang].ui;
-        tag = u.tag; title = u.title; subtitle = u.subtitle;
-      }
-      document.getElementById('ui-tag').textContent      = tag || '';
-      document.getElementById('ui-title').textContent    = title || '';
-      document.getElementById('ui-subtitle').textContent = subtitle || '';
-      const qgl = document.getElementById('quiz-glossary-link');
-      if (qgl) qgl.textContent = hu('glossaryLink');
-    })();
+    renderDomainHeader();
     l2Current = 0;
     l2Answers = Array.from({length: d.questions.length}, () => new Set());
     const backLabel = (d.ui && d.ui.l2back) ? d.ui.l2back : (I18N[lang].ui.l2directBack || '← Назад');
@@ -1531,7 +1504,35 @@ function startL2() {
   }); // end loadL2Script
 }
 
+function renderDomainHeader() {
+  let tag, title, subtitle;
+  if (activeDomain === 'pedagogy') {
+    const pu = (PEDAGOGY_I18N[lang] || PEDAGOGY_I18N.ru).ui;
+    tag = pu.tag; title = pu.title; subtitle = pu.subtitle;
+  } else if (activeDomain === 'engineering') {
+    const eu = (ENGINEERING_I18N[lang] || ENGINEERING_I18N.ru).ui;
+    tag = eu.tag; title = eu.title; subtitle = eu.subtitle;
+  } else if (activeDomain === 'business') {
+    const bu = (BUSINESS_I18N[lang] || BUSINESS_I18N.en).ui;
+    tag = bu.tag; title = bu.title; subtitle = bu.subtitle;
+  } else if (activeDomain === 'science') {
+    const su = (SCIENCE_I18N[lang] || SCIENCE_I18N.en).ui;
+    tag = su.tag; title = su.title; subtitle = su.subtitle;
+  } else if (activeDomain === 'creative') {
+    const cu = (CREATIVE_I18N[lang] || CREATIVE_I18N.en).ui;
+    tag = cu.tag; title = cu.title; subtitle = cu.subtitle;
+  } else {
+    return renderHeader();
+  }
+  document.getElementById('ui-tag').textContent      = tag || '';
+  document.getElementById('ui-title').textContent    = title || '';
+  document.getElementById('ui-subtitle').textContent = subtitle || '';
+  const qgl = document.getElementById('quiz-glossary-link');
+  if (qgl) qgl.textContent = hu('glossaryLink');
+}
+
 function renderL2Question() {
+  renderDomainHeader();
   const d = getL2Data();
   const u = (d && d.ui) ? Object.assign({}, I18N[lang].ui, d.ui) : I18N[lang].ui;
   if (!d) return;
@@ -1585,6 +1586,7 @@ function goL2Back() {
 }
 
 function showL2Result(rerender) {
+  renderDomainHeader();
   const d = getL2Data();
   const u = (d && d.ui) ? Object.assign({}, I18N[lang].ui, d.ui) : I18N[lang].ui;
   const scores = {};
