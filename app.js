@@ -1666,17 +1666,15 @@ function showL2Result(rerender) {
   injectTooltips(document.getElementById('l2-winner'));
   injectTooltips(document.getElementById('l2-others'));
 
-  // Save L2 result for PDF export
-  if (!rerender) {
-    pdfResults.l2 = {
-      roleKey: topKey,
-      roleName: role.name,
-      roleEmoji: role.emoji,
-      roleDesc: role.desc,
-      roleDetail: role.detail,
-      roleStart: role.start || []
-    };
-  }
+  // Save L2 result for PDF export (always update so PDF reflects current language)
+  pdfResults.l2 = {
+    roleKey: topKey,
+    roleName: role.name,
+    roleEmoji: role.emoji,
+    roleDesc: role.desc,
+    roleDetail: role.detail,
+    roleStart: role.start || []
+  };
 
   // Show/update PDF button
   const pdfBtn = document.getElementById('btn-pdf-export');
