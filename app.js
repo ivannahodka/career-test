@@ -257,6 +257,30 @@ function buildHome() {
   const glEl = document.getElementById('home-glossary-link');
   if (glEl) glEl.textContent = hu('glossaryLink');
 
+  // How-to-use link — language-specific page
+  const howtoFile = { ru:'how-to-use.html', en:'how-to-use-en.html', de:'how-to-use-de.html',
+    fr:'how-to-use-fr.html', es:'how-to-use-es.html', pt:'how-to-use-pt.html',
+    zh:'how-to-use-zh.html', ar:'how-to-use-ar.html', he:'how-to-use-he.html' };
+  const howtoLabel = { ru:'Как работает тест', en:'How the test works', de:'Wie der Test funktioniert',
+    fr:'Comment fonctionne le test', es:'Cómo funciona el test', pt:'Como funciona o teste',
+    zh:'测试如何运作', ar:'كيف يعمل الاختبار', he:'איך עובד המבחן' };
+  const howtoEl = document.getElementById('home-howto-link');
+  if (howtoEl) {
+    howtoEl.href = howtoFile[lang] || 'how-to-use.html';
+    howtoEl.textContent = howtoLabel[lang] || howtoLabel.en;
+  }
+  const careerLabel = { ru:'Как выбрать профессию', en:'How to choose a career', de:'Wie man einen Beruf wählt',
+    fr:'Comment choisir une carrière', es:'Cómo elegir una carrera', pt:'Como escolher uma carreira',
+    zh:'如何选择职业', ar:'كيف تختار مهنة', he:'כיצד לבחור קריירה' };
+  const careerFile = { ru:'how-to-choose-ru.html', en:'how-to-choose-en.html', de:'how-to-choose-de.html',
+    fr:'how-to-choose-fr.html', es:'how-to-choose-es.html', pt:'how-to-choose-pt.html',
+    zh:'how-to-choose-zh.html', ar:'how-to-choose-ar.html', he:'how-to-choose-he.html' };
+  const careerEl = document.getElementById('home-career-link');
+  if (careerEl) {
+    careerEl.href = careerFile[lang] || 'how-to-choose-ru.html';
+    careerEl.textContent = careerLabel[lang] || careerLabel.en;
+  }
+
   // RTL arrow direction
   const arrows = document.querySelectorAll('.domain-card-arrow');
   arrows.forEach(a => { a.textContent = dir === 'rtl' ? '←' : '→'; });
