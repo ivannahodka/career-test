@@ -178,10 +178,37 @@
   </div>
 
   <!-- Quick nav links -->
-  <div style="text-align:center;margin:0 0 20px;display:flex;gap:24px;justify-content:center;flex-wrap:wrap">
+  <div style="text-align:center;margin:0 0 20px;display:flex;gap:24px;justify-content:center;flex-wrap:wrap;align-items:center">
     <a href="how-to-use.html" style="color:var(--accent);font-size:14px;text-decoration:none;font-weight:500" id="home-howto-link">❓ Как работает тест</a>
     <a href="how-to-choose-ru.html" style="color:var(--accent);font-size:14px;text-decoration:none;font-weight:500" id="home-career-link">📖 Как выбрать профессию</a>
+    <div style="position:relative;display:inline-block" id="articles-dropdown-wrap">
+      <button onclick="toggleArticlesMenu()" style="background:none;border:none;cursor:pointer;color:var(--accent);font-size:14px;font-weight:500;padding:0;display:flex;align-items:center;gap:4px" id="articles-btn">
+        📝 <span id="articles-btn-label">Статьи</span> <span id="articles-arrow" style="font-size:10px;transition:transform .2s">▾</span>
+      </button>
+      <div id="articles-menu" style="display:none;position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%);background:white;border:1px solid #e2e8f0;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.1);min-width:240px;z-index:100;overflow:hidden"></div>
+    </div>
   </div>
+  <style>
+    #articles-menu a{display:block;padding:10px 16px;color:#2d3748;text-decoration:none;font-size:13px;border-bottom:1px solid #f0f0f0}
+    #articles-menu a:last-child{border-bottom:none}
+    #articles-menu a:hover{background:#f7f8fc;color:var(--accent)}
+  </style>
+  <script>
+    function toggleArticlesMenu(){
+      var m=document.getElementById('articles-menu');
+      var a=document.getElementById('articles-arrow');
+      var open=m.style.display==='block';
+      m.style.display=open?'none':'block';
+      a.style.transform=open?'':'rotate(180deg)';
+    }
+    document.addEventListener('click',function(e){
+      var wrap=document.getElementById('articles-dropdown-wrap');
+      if(wrap&&!wrap.contains(e.target)){
+        document.getElementById('articles-menu').style.display='none';
+        document.getElementById('articles-arrow').style.transform='';
+      }
+    });
+  </script>
 
   <!-- Orientation CTA -->
   <div class="po-cta-wrap">

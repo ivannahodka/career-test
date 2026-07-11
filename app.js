@@ -280,6 +280,32 @@ function buildHome() {
     careerEl.href = careerFile[lang] || 'how-to-choose-ru.html';
     careerEl.textContent = careerLabel[lang] || careerLabel.en;
   }
+  // Articles dropdown menu
+  const ARTICLES = [
+    {
+      ru: { label:'💻 Как стать frontend-разработчиком', href:'articles/frontend-developer-ru.html' },
+      en: { label:'💻 How to become a frontend developer', href:'articles/frontend-developer-en.html' },
+      de: { label:'💻 Wie wird man Frontend-Entwickler?', href:'articles/frontend-developer-en.html' },
+      fr: { label:'💻 Comment devenir développeur frontend', href:'articles/frontend-developer-en.html' },
+      es: { label:'💻 Cómo convertirse en desarrollador frontend', href:'articles/frontend-developer-en.html' },
+      pt: { label:'💻 Como se tornar desenvolvedor frontend', href:'articles/frontend-developer-en.html' },
+      zh: { label:'💻 如何成为前端开发者', href:'articles/frontend-developer-en.html' },
+      ar: { label:'💻 كيف تصبح مطور frontend', href:'articles/frontend-developer-en.html' },
+      he: { label:'💻 איך להפוך למפתח frontend', href:'articles/frontend-developer-en.html' },
+    },
+    // Добавляй новые статьи сюда по той же схеме
+  ];
+  const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
+    es:'Artículos', pt:'Artigos', zh:'文章', ar:'مقالات', he:'מאמרים' };
+  const btnLabelEl = document.getElementById('articles-btn-label');
+  if (btnLabelEl) btnLabelEl.textContent = articlesBtnLabel[lang] || articlesBtnLabel.en;
+  const menu = document.getElementById('articles-menu');
+  if (menu) {
+    menu.innerHTML = ARTICLES.map(a => {
+      const item = a[lang] || a['en'];
+      return '<a href="' + item.href + '">' + item.label + '</a>';
+    }).join('');
+  }
 
   // RTL arrow direction
   const arrows = document.querySelectorAll('.domain-card-arrow');
