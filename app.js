@@ -293,6 +293,17 @@ function buildHome() {
       ar: { label:'💻 كيف تصبح مطور frontend', href:'articles/frontend-developer-en.html' },
       he: { label:'💻 איך להפוך למפתח frontend', href:'articles/frontend-developer-en.html' },
     },
+    {
+      ru: { label:'⚙️ Как стать backend-разработчиком', href:'articles/backend-developer-ru.html' },
+      en: { label:'⚙️ How to become a backend developer', href:'articles/backend-developer-en.html' },
+      de: { label:'⚙️ Wie wird man Backend-Entwickler?', href:'articles/backend-developer-en.html' },
+      fr: { label:'⚙️ Comment devenir développeur backend', href:'articles/backend-developer-en.html' },
+      es: { label:'⚙️ Cómo convertirse en desarrollador backend', href:'articles/backend-developer-en.html' },
+      pt: { label:'⚙️ Como se tornar desenvolvedor backend', href:'articles/backend-developer-en.html' },
+      zh: { label:'⚙️ 如何成为后端开发者', href:'articles/backend-developer-en.html' },
+      ar: { label:'⚙️ كيف تصبح مطور backend', href:'articles/backend-developer-en.html' },
+      he: { label:'⚙️ איך להפוך למפתח backend', href:'articles/backend-developer-en.html' },
+    },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
