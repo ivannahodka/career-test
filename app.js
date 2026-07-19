@@ -304,6 +304,17 @@ function buildHome() {
       ar: { label:'⚙️ كيف تصبح مطور backend', href:'articles/backend-developer-en.html' },
       he: { label:'⚙️ איך להפוך למפתח backend', href:'articles/backend-developer-en.html' },
     },
+    {
+      ru: { label:'🐞 Как стать QA-инженером', href:'articles/qa-engineer-ru.html' },
+      en: { label:'🐞 How to become a QA engineer', href:'articles/qa-engineer-en.html' },
+      de: { label:'🐞 Wie wird man QA-Ingenieur?', href:'articles/qa-engineer-en.html' },
+      fr: { label:'🐞 Comment devenir ingénieur QA', href:'articles/qa-engineer-en.html' },
+      es: { label:'🐞 Cómo convertirse en ingeniero QA', href:'articles/qa-engineer-en.html' },
+      pt: { label:'🐞 Como se tornar engenheiro de QA', href:'articles/qa-engineer-en.html' },
+      zh: { label:'🐞 如何成为QA工程师', href:'articles/qa-engineer-en.html' },
+      ar: { label:'🐞 كيف تصبح مهندس QA', href:'articles/qa-engineer-en.html' },
+      he: { label:'🐞 איך להפוך למהנדס QA', href:'articles/qa-engineer-en.html' },
+    },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
