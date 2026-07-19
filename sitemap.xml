@@ -128,25 +128,37 @@
   </url>
   <url>
     <loc>https://ivannahodka.github.io/career-test/articles/frontend-developer-ru.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ivannahodka.github.io/career-test/articles/frontend-developer-en.html</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ivannahodka.github.io/career-test/articles/backend-developer-ru.html</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ivannahodka.github.io/career-test/articles/backend-developer-en.html</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ivannahodka.github.io/career-test/articles/qa-engineer-ru.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ivannahodka.github.io/career-test/articles/qa-engineer-en.html</loc>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
