@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to become a DevOps engineer: teen guide</title>
+<meta name="description" content="How to become a DevOps engineer at 13–16: what to learn, Docker, CI/CD, the cloud, how much it pays. A clear guide with no fluff.">
+<link rel="canonical" href="https://ivannahodka.github.io/career-test/articles/devops-engineer-en.html">
+<link rel="alternate" hreflang="en" href="https://ivannahodka.github.io/career-test/articles/devops-engineer-en.html">
+<link rel="alternate" hreflang="ru" href="https://ivannahodka.github.io/career-test/articles/devops-engineer-ru.html">
+<link rel="alternate" hreflang="x-default" href="https://ivannahodka.github.io/career-test/articles/devops-engineer-ru.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ivannahodka.github.io/career-test/articles/devops-engineer-en.html">
+<meta property="og:title" content="How to become a DevOps engineer: teen guide">
+<meta property="og:description" content="How to become a DevOps engineer at 13–16: what to learn, Docker, CI/CD, the cloud, how much it pays. A clear guide with no fluff.">
+<meta property="og:locale" content="en">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to become a DevOps engineer: teen guide">
+<meta name="twitter:description" content="How to become a DevOps engineer at 13–16: what to learn, Docker, CI/CD, the cloud, how much it pays. A clear guide with no fluff.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"How to become a DevOps engineer: teen guide","description":"How to become a DevOps engineer at 13–16: what to learn, Docker, CI/CD, the cloud, how much it pays. A clear guide with no fluff.","url":"https://ivannahodka.github.io/career-test/articles/devops-engineer-en.html","inLanguage":"en","author":{"@type":"Organization","name":"Career Test"},"publisher":{"@type":"Organization","name":"Career Test","url":"https://ivannahodka.github.io/career-test/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do you need to become a backend developer first?", "acceptedAnswer": {"@type": "Answer", "text": "Not required, but it helps — it's useful to understand the code you'll be automatically deploying to servers. Many people get into DevOps through system administration rather than development."}}, {"@type": "Question", "name": "What's harder — DevOps or backend?", "acceptedAnswer": {"@type": "Answer", "text": "The difficulty is different. DevOps requires broad knowledge: networks, servers, security, some coding. Backend requires deeper focus on one language and the application's logic. DevOps is more about breadth, backend is more about depth."}}, {"@type": "Question", "name": "Can you start at 13–14?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, but it helps to first learn programming basics and the command line — DevOps is rarely someone's very first step into IT; it's usually the next stage after foundational skills."}}, {"@type": "Question", "name": "What's the difference between DevOps and SRE?", "acceptedAnswer": {"@type": "Answer", "text": "DevOps is a broad culture and set of practices for speeding up development and deployment. SRE (Site Reliability Engineer) is a narrower specialization focused on reliability and monitoring of production systems. In practice the two roles overlap a lot."}}]}</script>
+<style>
+  body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;color:#1a202c;line-height:1.75}
+  h1{font-size:2rem;margin-bottom:8px;line-height:1.3}
+  h2{font-size:1.35rem;margin:44px 0 12px;padding-bottom:6px;border-bottom:2px solid #6C63FF;color:#6C63FF}
+  h3{font-size:1.05rem;margin:24px 0 8px;color:#2d3748}
+  .subtitle{color:#718096;margin-bottom:36px;font-size:1.05rem}
+  .back{display:inline-block;margin-bottom:24px;color:#6C63FF;text-decoration:none;font-size:.95rem}
+  .back:hover{text-decoration:underline}
+  .cta{background:#6C63FF;color:white;display:inline-block;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700;margin:16px 0;font-size:1rem}
+  .cta:hover{background:#5a52d5}
+  .cta-block{background:#f0efff;border-radius:12px;padding:24px;margin:40px 0;text-align:center}
+  .cta-block p{margin:0 0 16px;font-size:1.05rem}
+  .tip{background:#f0fff4;border-left:4px solid #48bb78;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .warn{background:#fffbeb;border-left:4px solid #f6e05e;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .roadmap{counter-reset:step}
+  .step{counter-increment:step;background:#f7f8fc;border-left:4px solid #6C63FF;padding:16px 20px 16px 56px;border-radius:0 8px 8px 0;margin:16px 0;position:relative}
+  .step::before{content:counter(step);position:absolute;left:16px;top:16px;background:#6C63FF;color:white;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+  table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}
+  th{background:#6C63FF;color:white;padding:10px 12px;text-align:left}
+  td{padding:9px 12px;border-bottom:1px solid #e2e8f0}
+  tr:nth-child(even) td{background:#f7f8fc}
+  ul,ol{padding-left:24px}
+  li{margin:8px 0}
+  code{background:#f0efff;padding:2px 6px;border-radius:4px;font-size:.9em;color:#6C63FF}
+  footer{margin-top:56px;padding-top:16px;border-top:1px solid #e2e8f0;color:#a0aec0;font-size:.8rem}
+</style>
+</head>
+<body>
+<a class="back" href="https://ivannahodka.github.io/career-test/">← Free career aptitude test</a>
+
+<h1>How to become a DevOps engineer: a guide for teenagers</h1>
+<p class="subtitle">A DevOps engineer makes sure developers' code reaches users quickly and without problems. If you enjoy automating repetitive work and bringing order to processes — keep reading.</p>
+
+<p>DevOps (Development + Operations) is a specialist who connects development and operations. Without DevOps, even great code can sit for weeks waiting to be manually deployed to a server, and one wrong step can take the whole site down. A DevOps engineer builds a "pipeline" that does this automatically, quickly, and reliably.</p>
+
+<div class="cta-block">
+  <p>Not sure if IT is right for you? Take the free career test — 10 minutes</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Take the test →</a>
+</div>
+
+<h2>What does a DevOps engineer actually do?</h2>
+<p>If backend is a restaurant's kitchen and frontend is the dining room, DevOps is the logistics and warehouse system for the whole restaurant chain:</p>
+<ul>
+  <li><strong>Developer</strong> — writes the code, "cooks the dish."</li>
+  <li><strong>DevOps engineer</strong> — builds the system that automatically delivers that "dish" to every location quickly and without loss, keeps the fridges (servers) running, and quickly fixes things when they break.</li>
+  <li><strong>User</strong> — receives app updates without ever noticing how it happened.</li>
+</ul>
+<p>A DevOps engineer rarely writes an app's business logic. Their code is scripts, configuration, and automation that tie development, testing, and servers together into one fast process.</p>
+
+<h2>What you need to learn</h2>
+
+<h3>1. Linux and the command line</h3>
+<p>DevOps work happens mostly in a terminal, not a graphical interface. Understanding Linux commands is the foundation everything else builds on.</p>
+
+<h3>2. DevOps specializations</h3>
+<p>From there, specialization usually goes in a few directions:</p>
+<table>
+  <tr><th>Specialization</th><th>What you do</th><th>Tools</th></tr>
+  <tr><td><strong>CI/CD</strong></td><td>Automate building, testing, and deploying code</td><td>GitHub Actions, Jenkins, GitLab CI</td></tr>
+  <tr><td><strong>Containerization</strong></td><td>Package apps so they run the same way everywhere</td><td>Docker, Kubernetes</td></tr>
+  <tr><td><strong>Cloud</strong></td><td>Configure and manage servers in the cloud</td><td>AWS, Google Cloud, Azure</td></tr>
+  <tr><td><strong>Monitoring</strong></td><td>Watch server health and catch problems early</td><td>Grafana, Prometheus</td></tr>
+</table>
+<div class="tip"><strong>Recommendation:</strong> start with the command line and Git, then move to Docker. That gives you the foundation for everything else.</div>
+
+<h3>3. Git and CI/CD</h3>
+<p>CI/CD (Continuous Integration / Continuous Deployment) is automation that checks code on every change and deploys it to a server automatically once tests pass. This is the core of the DevOps role.</p>
+
+<h3>4. Docker and containers</h3>
+<p>A container is a "box" that packages an app together with everything it needs to run. It launches the same way on any machine — a developer's laptop, a test server, or production. This solves the classic "it worked on my machine" problem.</p>
+
+<h2>How long does it take?</h2>
+<table>
+  <tr><th>Stage</th><th>Time</th><th>Result</th></tr>
+  <tr><td>Linux + command line</td><td>1–2 months</td><td>Comfortable working in a terminal</td></tr>
+  <tr><td>Git + CI/CD basics</td><td>1 month</td><td>Can set up automated builds for a project</td></tr>
+  <tr><td>Docker</td><td>1–2 months</td><td>Package and run an app in a container</td></tr>
+  <tr><td>Junior level</td><td>8–14 months total</td><td>Ready for a first job or internship</td></tr>
+</table>
+<p>DevOps is rarely someone's very first job in IT — people usually come to it already knowing some programming or systems administration basics.</p>
+
+<h2>What to do right now</h2>
+<div class="roadmap">
+  <div class="step"><strong>Learn the command line</strong> — <a href="https://www.codecademy.com/learn/intro-to-the-command-line" target="_blank">Codecademy: Intro to the Command Line</a> — a free course with hands-on practice right in your browser.</div>
+  <div class="step"><strong>Learn Git and build your first pipeline</strong> — <a href="https://github.com/skills" target="_blank">GitHub Skills</a> — interactive lessons inside real GitHub repositories.</div>
+  <div class="step"><strong>Install Docker</strong> — work through the official <a href="https://docs.docker.com/get-started/" target="_blank">Docker: Get Started</a> guide and run your first container.</div>
+  <div class="step"><strong>Try Kubernetes basics</strong> — <a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/" target="_blank">Kubernetes Basics</a> — the official interactive tutorial.</div>
+  <div class="step"><strong>See the full picture</strong> — <a href="https://roadmap.sh/devops" target="_blank">roadmap.sh/devops</a> — what to learn next and in what order.</div>
+</div>
+
+<h2>Free resources</h2>
+<ul>
+  <li><a href="https://roadmap.sh/devops" target="_blank">roadmap.sh/devops</a> — a full map of DevOps engineering skills</li>
+  <li><a href="https://docs.docker.com/get-started/" target="_blank">Docker: Get Started</a> — the official guide to containers</li>
+  <li><a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/" target="_blank">Kubernetes Basics</a> — the official interactive tutorial</li>
+  <li><a href="https://github.com/skills" target="_blank">GitHub Skills</a> — practice Git, Actions, and CI/CD in real repositories</li>
+  <li><a href="https://www.codecademy.com/learn/intro-to-the-command-line" target="_blank">Codecademy: Intro to the Command Line</a> — a free start with the command line</li>
+  <li><a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a> — free courses, including DevOps fundamentals</li>
+</ul>
+
+<div class="warn">
+  <strong>Don't try to learn every tool at once.</strong> DevOps is a very broad field — Linux, networking, the cloud, containers, security. Start with the command line, Git, and Docker — that's enough for your first projects.
+</div>
+
+<h2>How much do DevOps engineers earn?</h2>
+<p>DevOps is traditionally one of the highest-paid technical tracks in IT — because this role carries responsibility for keeping everything running:</p>
+<ul>
+  <li><strong>Junior</strong> — entry level, usually requires basic Linux, Git, and Docker knowledge.</li>
+  <li><strong>Middle</strong> — comfortable income, typically reached after 2–3 years working with real infrastructure.</li>
+  <li><strong>Senior / DevOps Lead</strong> — one of the highest-paid levels in IT, on par with senior backend developers.</li>
+</ul>
+<p>DevOps engineers work remotely with ease — infrastructure is configured and managed from a terminal, regardless of where the engineer is physically located.</p>
+
+<h2>DevOps is probably right for you if...</h2>
+<ul>
+  <li>You enjoy automating repetitive work and eliminating manual steps</li>
+  <li>You're curious about how large systems work "under the hood"</li>
+  <li>You like solving problems fast, especially when something just broke</li>
+  <li>You like structure, order, and predictable processes</li>
+</ul>
+<p>It's probably not for you if the idea of being responsible for a service that could go down at any moment — and needing to fix it fast — makes you uneasy.</p>
+
+<div class="cta-block">
+  <p>Take the test — find out if DevOps suits you or if another IT direction is a better fit</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Take the free test →</a>
+</div>
+
+<h2>Frequently asked questions</h2>
+<h3>Do you need to become a backend developer first?</h3>
+<p>Not required, but it helps — it's useful to understand the code you'll be automatically deploying to servers. Many people get into DevOps through system administration rather than development.</p>
+
+<h3>What's harder — DevOps or backend?</h3>
+<p>The difficulty is different. DevOps requires broad knowledge: networks, servers, security, some coding. Backend requires deeper focus on one language and the application's logic. DevOps is more about breadth, backend is more about depth.</p>
+
+<h3>Can you start at 13–14?</h3>
+<p>Yes, but it helps to first learn programming basics and the command line — DevOps is rarely someone's very first step into IT; it's usually the next stage after foundational skills.</p>
+
+<h3>What's the difference between DevOps and SRE?</h3>
+<p>DevOps is a broad culture and set of practices for speeding up development and deployment. SRE (Site Reliability Engineer) is a narrower specialization focused on reliability and monitoring of production systems. In practice the two roles overlap a lot.</p>
+
+<h2>Related articles</h2>
+<ul>
+  <li><a href="frontend-developer-en.html">💻 How to become a frontend developer</a></li>
+  <li><a href="backend-developer-en.html">⚙️ How to become a backend developer</a></li>
+  <li><a href="qa-engineer-en.html">🐞 How to become a QA engineer</a></li>
+</ul>
+
+<footer>
+  <p>© Career Test · <a href="https://ivannahodka.github.io/career-test/">Career test</a> · <a href="../glossary-static-en.html">Glossary</a> · <a href="devops-engineer-ru.html">Русский</a></p>
+</footer>
+</body>
+</html>

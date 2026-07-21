@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Как стать DevOps-инженером: гайд для подростков</title>
+<meta name="description" content="Как стать DevOps-инженером с нуля в 13–16 лет: что учить, Docker, CI/CD, облака, сколько зарабатывают. Простой гайд без воды.">
+<link rel="canonical" href="https://ivannahodka.github.io/career-test/articles/devops-engineer-ru.html">
+<link rel="alternate" hreflang="ru" href="https://ivannahodka.github.io/career-test/articles/devops-engineer-ru.html">
+<link rel="alternate" hreflang="en" href="https://ivannahodka.github.io/career-test/articles/devops-engineer-en.html">
+<link rel="alternate" hreflang="x-default" href="https://ivannahodka.github.io/career-test/articles/devops-engineer-ru.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ivannahodka.github.io/career-test/articles/devops-engineer-ru.html">
+<meta property="og:title" content="Как стать DevOps-инженером: гайд для подростков">
+<meta property="og:description" content="Как стать DevOps-инженером с нуля в 13–16 лет: что учить, Docker, CI/CD, облака, сколько зарабатывают. Простой гайд без воды.">
+<meta property="og:locale" content="ru">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Как стать DevOps-инженером: гайд для подростков">
+<meta name="twitter:description" content="Как стать DevOps-инженером с нуля в 13–16 лет: что учить, Docker, CI/CD, облака, сколько зарабатывают. Простой гайд без воды.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Как стать DevOps-инженером: гайд для подростков","description":"Как стать DevOps-инженером с нуля в 13–16 лет: что учить, Docker, CI/CD, облака, сколько зарабатывают. Простой гайд без воды.","url":"https://ivannahodka.github.io/career-test/articles/devops-engineer-ru.html","inLanguage":"ru","author":{"@type":"Organization","name":"Career Test"},"publisher":{"@type":"Organization","name":"Career Test","url":"https://ivannahodka.github.io/career-test/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Нужно ли сначала стать backend-разработчиком?", "acceptedAnswer": {"@type": "Answer", "text": "Не обязательно, но это помогает — полезно понимать, как устроен код, который ты будешь автоматически разворачивать на серверах. Многие приходят в DevOps через системное администрирование, а не через разработку."}}, {"@type": "Question", "name": "Что сложнее — DevOps или backend?", "acceptedAnswer": {"@type": "Answer", "text": "Сложность разная. DevOps требует широкого кругозора: сети, серверы, безопасность, немного кода. Backend требует более глубокого погружения в один язык и логику приложения. DevOps — это скорее вширь, backend — вглубь."}}, {"@type": "Question", "name": "Можно ли начать в 13–14 лет?", "acceptedAnswer": {"@type": "Answer", "text": "Да, но полезно сначала освоить основы программирования и командную строку — DevOps редко бывает первым шагом в IT, чаще это следующая ступень после базовых навыков."}}, {"@type": "Question", "name": "Чем DevOps отличается от SRE?", "acceptedAnswer": {"@type": "Answer", "text": "DevOps — это общая культура и набор практик для ускорения разработки и выкладки кода. SRE (Site Reliability Engineer) — более узкая специализация на надёжности и мониторинге систем в проде. На практике задачи часто пересекаются."}}]}</script>
+<style>
+  body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;color:#1a202c;line-height:1.75}
+  h1{font-size:2rem;margin-bottom:8px;line-height:1.3}
+  h2{font-size:1.35rem;margin:44px 0 12px;padding-bottom:6px;border-bottom:2px solid #6C63FF;color:#6C63FF}
+  h3{font-size:1.05rem;margin:24px 0 8px;color:#2d3748}
+  .subtitle{color:#718096;margin-bottom:36px;font-size:1.05rem}
+  .back{display:inline-block;margin-bottom:24px;color:#6C63FF;text-decoration:none;font-size:.95rem}
+  .back:hover{text-decoration:underline}
+  .cta{background:#6C63FF;color:white;display:inline-block;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700;margin:16px 0;font-size:1rem}
+  .cta:hover{background:#5a52d5}
+  .cta-block{background:#f0efff;border-radius:12px;padding:24px;margin:40px 0;text-align:center}
+  .cta-block p{margin:0 0 16px;font-size:1.05rem}
+  .tip{background:#f0fff4;border-left:4px solid #48bb78;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .warn{background:#fffbeb;border-left:4px solid #f6e05e;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .roadmap{counter-reset:step}
+  .step{counter-increment:step;background:#f7f8fc;border-left:4px solid #6C63FF;padding:16px 20px 16px 56px;border-radius:0 8px 8px 0;margin:16px 0;position:relative}
+  .step::before{content:counter(step);position:absolute;left:16px;top:16px;background:#6C63FF;color:white;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+  table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}
+  th{background:#6C63FF;color:white;padding:10px 12px;text-align:left}
+  td{padding:9px 12px;border-bottom:1px solid #e2e8f0}
+  tr:nth-child(even) td{background:#f7f8fc}
+  ul,ol{padding-left:24px}
+  li{margin:8px 0}
+  code{background:#f0efff;padding:2px 6px;border-radius:4px;font-size:.9em;color:#6C63FF}
+  footer{margin-top:56px;padding-top:16px;border-top:1px solid #e2e8f0;color:#a0aec0;font-size:.8rem}
+</style>
+</head>
+<body>
+<a class="back" href="https://ivannahodka.github.io/career-test/">← Бесплатный тест на профессию</a>
+
+<h1>Как стать DevOps-инженером: гайд для подростков</h1>
+<p class="subtitle">DevOps-инженер делает так, чтобы код разработчиков быстро и без проблем попадал к пользователям. Если тебе нравится автоматизировать рутину и наводить порядок в процессах — читай дальше.</p>
+
+<p>DevOps (Development + Operations) — специалист, который соединяет разработку и эксплуатацию. Без DevOps даже отличный код может неделями ждать, пока его вручную выложат на сервер, а один неверный шаг может уронить весь сайт. DevOps-инженер строит "конвейер", который делает это автоматически, быстро и надёжно.</p>
+
+<div class="cta-block">
+  <p>Не уверен, подходит ли тебе IT? Пройди бесплатный тест — 10 минут</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти тест →</a>
+</div>
+
+<h2>Чем занимается DevOps-инженер</h2>
+<p>Если backend — это кухня ресторана, а frontend — зал, то DevOps — это логистика и склад сети ресторанов:</p>
+<ul>
+  <li><strong>Разработчик</strong> — пишет код, "готовит блюдо".</li>
+  <li><strong>DevOps-инженер</strong> — строит систему, которая автоматически доставляет это "блюдо" во все точки сети быстро и без потерь, следит, чтобы холодильники (серверы) не отключались, и быстро чинит, если что-то сломалось.</li>
+  <li><strong>Пользователь</strong> — получает обновления приложения, даже не замечая, как это произошло.</li>
+</ul>
+<p>DevOps-инженер редко пишет бизнес-логику приложения. Его код — это скрипты, конфигурации и автоматизация, которые связывают разработку, тестирование и серверы в единый быстрый процесс.</p>
+
+<h2>Что нужно выучить</h2>
+
+<h3>1. Linux и командная строка</h3>
+<p>DevOps работает в основном через терминал, а не через графический интерфейс. Понимание команд Linux — это база, без которой дальше двигаться сложно.</p>
+
+<h3>2. Направления в DevOps</h3>
+<p>Дальше специализация обычно идёт в нескольких направлениях:</p>
+<table>
+  <tr><th>Направление</th><th>Чем занимаешься</th><th>Инструменты</th></tr>
+  <tr><td><strong>CI/CD</strong></td><td>Автоматизация сборки, тестирования и выкладки кода</td><td>GitHub Actions, Jenkins, GitLab CI</td></tr>
+  <tr><td><strong>Контейнеризация</strong></td><td>Упаковка приложений так, чтобы они работали одинаково везде</td><td>Docker, Kubernetes</td></tr>
+  <tr><td><strong>Облака</strong></td><td>Настройка и управление серверами в облаке</td><td>AWS, Google Cloud, Azure</td></tr>
+  <tr><td><strong>Мониторинг</strong></td><td>Слежение за состоянием серверов и раннее обнаружение проблем</td><td>Grafana, Prometheus</td></tr>
+</table>
+<div class="tip"><strong>Рекомендация:</strong> начни с командной строки и Git, затем переходи к Docker. Это даёт основу для всего остального.</div>
+
+<h3>3. Git и CI/CD</h3>
+<p>CI/CD (Continuous Integration / Continuous Deployment) — это автоматизация, которая проверяет код при каждом изменении и сама выкладывает его на сервер, если тесты прошли успешно. Это ядро профессии DevOps.</p>
+
+<h3>4. Docker и контейнеры</h3>
+<p>Контейнер — это "коробка", в которую упаковано приложение со всем, что нужно для его работы. Она одинаково запускается на любом компьютере — у разработчика, на тестовом сервере или в проде. Это решает классическую проблему "у меня на компьютере работало".</p>
+
+<h2>Сколько времени нужно</h2>
+<table>
+  <tr><th>Этап</th><th>Время</th><th>Результат</th></tr>
+  <tr><td>Linux + командная строка</td><td>1–2 месяца</td><td>Уверенно работаешь в терминале</td></tr>
+  <tr><td>Git + основы CI/CD</td><td>1 месяц</td><td>Настраиваешь автоматическую сборку проекта</td></tr>
+  <tr><td>Docker</td><td>1–2 месяца</td><td>Упаковываешь и запускаешь приложение в контейнере</td></tr>
+  <tr><td>Junior-уровень</td><td>8–14 месяцев суммарно</td><td>Готов к первой работе или стажировке</td></tr>
+</table>
+<p>DevOps редко бывает самой первой профессией в IT — обычно к нему приходят, уже зная основы программирования или администрирования систем.</p>
+
+<h2>С чего начать прямо сейчас</h2>
+<div class="roadmap">
+  <div class="step"><strong>Освой командную строку</strong> — <a href="https://www.codecademy.com/learn/intro-to-the-command-line" target="_blank">Codecademy: Intro to the Command Line</a> — бесплатный курс с практикой прямо в браузере.</div>
+  <div class="step"><strong>Изучи Git и сделай первый пайплайн</strong> — <a href="https://github.com/skills" target="_blank">GitHub Skills</a> — интерактивные уроки прямо в реальных репозиториях GitHub.</div>
+  <div class="step"><strong>Установи Docker</strong> — пройди официальный <a href="https://docs.docker.com/get-started/" target="_blank">Docker: Get Started</a> и запусти свой первый контейнер.</div>
+  <div class="step"><strong>Попробуй основы Kubernetes</strong> — <a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/" target="_blank">Kubernetes Basics</a> — официальный интерактивный туториал.</div>
+  <div class="step"><strong>Посмотри полную карту</strong> — <a href="https://roadmap.sh/devops" target="_blank">roadmap.sh/devops</a> — что учить дальше и в каком порядке.</div>
+</div>
+
+<h2>Бесплатные ресурсы</h2>
+<ul>
+  <li><a href="https://roadmap.sh/devops" target="_blank">roadmap.sh/devops</a> — полная карта навыков DevOps-инженера</li>
+  <li><a href="https://docs.docker.com/get-started/" target="_blank">Docker: Get Started</a> — официальный гайд по контейнерам</li>
+  <li><a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/" target="_blank">Kubernetes Basics</a> — официальный интерактивный туториал</li>
+  <li><a href="https://github.com/skills" target="_blank">GitHub Skills</a> — практика Git, Actions и CI/CD в реальных репозиториях</li>
+  <li><a href="https://www.codecademy.com/learn/intro-to-the-command-line" target="_blank">Codecademy: Intro to the Command Line</a> — бесплатный старт с командной строкой</li>
+  <li><a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a> — бесплатные курсы, включая основы DevOps</li>
+</ul>
+
+<div class="warn">
+  <strong>Не пытайся выучить все инструменты сразу.</strong> DevOps — очень широкая область: Linux, сети, облака, контейнеры, безопасность. Начни с командной строки, Git и Docker — этого достаточно для первых проектов.
+</div>
+
+<h2>Сколько зарабатывают</h2>
+<p>DevOps традиционно один из наиболее высокооплачиваемых технических треков в IT — потому что на этом специалисте лежит ответственность за то, чтобы всё продолжало работать:</p>
+<ul>
+  <li><strong>Junior</strong> — начальный уровень, обычно требует базовых знаний Linux, Git и Docker.</li>
+  <li><strong>Middle</strong> — комфортный доход, достигается за 2–3 года практики с реальной инфраструктурой.</li>
+  <li><strong>Senior / DevOps Lead</strong> — один из самых высокооплачиваемых уровней в IT, наравне с ведущими backend-разработчиками.</li>
+</ul>
+<p>DevOps-инженеры легко работают удалённо — вся инфраструктура настраивается и управляется из терминала, независимо от того, где находится специалист.</p>
+
+<h2>DevOps подходит тебе, если...</h2>
+<ul>
+  <li>Тебе нравится автоматизировать рутину и убирать ручную работу</li>
+  <li>Тебе интересно, как устроены большие системы "под капотом"</li>
+  <li>Тебе нравится решать проблемы быстро, особенно когда что-то сломалось</li>
+  <li>Ты любишь порядок, системность и предсказуемые процессы</li>
+</ul>
+<p>Скорее не твоё, если тебя пугает ответственность за то, что сервис может упасть в неожиданный момент, и тебе будет некомфортно быстро это чинить.</p>
+
+<div class="cta-block">
+  <p>Пройди тест — узнай, подходит ли тебе DevOps или лучше другое направление в IT</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти бесплатный тест →</a>
+</div>
+
+<h2>Частые вопросы</h2>
+<h3>Нужно ли сначала стать backend-разработчиком?</h3>
+<p>Не обязательно, но это помогает — полезно понимать, как устроен код, который ты будешь автоматически разворачивать на серверах. Многие приходят в DevOps через системное администрирование, а не через разработку.</p>
+
+<h3>Что сложнее — DevOps или backend?</h3>
+<p>Сложность разная. DevOps требует широкого кругозора: сети, серверы, безопасность, немного кода. Backend требует более глубокого погружения в один язык и логику приложения. DevOps — это скорее вширь, backend — вглубь.</p>
+
+<h3>Можно ли начать в 13–14 лет?</h3>
+<p>Да, но полезно сначала освоить основы программирования и командную строку — DevOps редко бывает первым шагом в IT, чаще это следующая ступень после базовых навыков.</p>
+
+<h3>Чем DevOps отличается от SRE?</h3>
+<p>DevOps — это общая культура и набор практик для ускорения разработки и выкладки кода. SRE (Site Reliability Engineer) — более узкая специализация на надёжности и мониторинге систем в проде. На практике задачи часто пересекаются.</p>
+
+<h2>Похожие статьи</h2>
+<ul>
+  <li><a href="frontend-developer-ru.html">💻 Как стать frontend-разработчиком</a></li>
+  <li><a href="backend-developer-ru.html">⚙️ Как стать backend-разработчиком</a></li>
+  <li><a href="qa-engineer-ru.html">🐞 Как стать QA-инженером</a></li>
+</ul>
+
+<footer>
+  <p>© Career Test · <a href="https://ivannahodka.github.io/career-test/">Тест на профессию</a> · <a href="../glossary-static.html">Глоссарий</a> · <a href="devops-engineer-en.html">English</a></p>
+</footer>
+</body>
+</html>
