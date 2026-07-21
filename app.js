@@ -315,6 +315,17 @@ function buildHome() {
       ar: { label:'🐞 كيف تصبح مهندس QA', href:'articles/qa-engineer-en.html' },
       he: { label:'🐞 איך להפוך למהנדס QA', href:'articles/qa-engineer-en.html' },
     },
+    {
+      ru: { label:'🛠️ Как стать DevOps-инженером', href:'articles/devops-engineer-ru.html' },
+      en: { label:'🛠️ How to become a DevOps engineer', href:'articles/devops-engineer-en.html' },
+      de: { label:'🛠️ Wie wird man DevOps-Ingenieur?', href:'articles/devops-engineer-en.html' },
+      fr: { label:'🛠️ Comment devenir ingénieur DevOps', href:'articles/devops-engineer-en.html' },
+      es: { label:'🛠️ Cómo convertirse en ingeniero DevOps', href:'articles/devops-engineer-en.html' },
+      pt: { label:'🛠️ Como se tornar engenheiro DevOps', href:'articles/devops-engineer-en.html' },
+      zh: { label:'🛠️ 如何成为DevOps工程师', href:'articles/devops-engineer-en.html' },
+      ar: { label:'🛠️ كيف تصبح مهندس DevOps', href:'articles/devops-engineer-en.html' },
+      he: { label:'🛠️ איך להפוך למהנדס DevOps', href:'articles/devops-engineer-en.html' },
+    },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
