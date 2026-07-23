@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Как стать аналитиком данных (Data Analyst): гайд для подростков</title>
+<meta name="description" content="Как стать аналитиком данных с нуля в 13–16 лет: SQL, Excel, Python, статистика, разница с Data Scientist, сколько зарабатывают. Простой гайд без воды.">
+<link rel="canonical" href="https://ivannahodka.github.io/career-test/articles/data-analyst-ru.html">
+<link rel="alternate" hreflang="ru" href="https://ivannahodka.github.io/career-test/articles/data-analyst-ru.html">
+<link rel="alternate" hreflang="en" href="https://ivannahodka.github.io/career-test/articles/data-analyst-en.html">
+<link rel="alternate" hreflang="x-default" href="https://ivannahodka.github.io/career-test/articles/data-analyst-ru.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ivannahodka.github.io/career-test/articles/data-analyst-ru.html">
+<meta property="og:title" content="Как стать аналитиком данных (Data Analyst): гайд для подростков">
+<meta property="og:description" content="Как стать аналитиком данных с нуля в 13–16 лет: SQL, Excel, Python, статистика, разница с Data Scientist, сколько зарабатывают. Простой гайд без воды.">
+<meta property="og:locale" content="ru">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Как стать аналитиком данных (Data Analyst): гайд для подростков">
+<meta name="twitter:description" content="Как стать аналитиком данных с нуля в 13–16 лет: SQL, Excel, Python, статистика, разница с Data Scientist, сколько зарабатывают. Простой гайд без воды.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Как стать аналитиком данных (Data Analyst): гайд для подростков","description":"Как стать аналитиком данных с нуля в 13–16 лет: SQL, Excel, Python, статистика, разница с Data Scientist, сколько зарабатывают. Простой гайд без воды.","url":"https://ivannahodka.github.io/career-test/articles/data-analyst-ru.html","inLanguage":"ru","author":{"@type":"Organization","name":"Career Test"},"publisher":{"@type":"Organization","name":"Career Test","url":"https://ivannahodka.github.io/career-test/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Нужно ли знать математику на уровне вуза?", "acceptedAnswer": {"@type": "Answer", "text": "Для старта в Data Analyst достаточно школьной алгебры и базовой статистики. Более глубокая математика — линейная алгебра, теория вероятностей — нужна дальше, если пойдёшь в сторону Data Science и машинного обучения."}}, {"@type": "Question", "name": "В чём разница между Data Analyst и Data Scientist?", "acceptedAnswer": {"@type": "Answer", "text": "Data Analyst объясняет, что произошло и почему, используя SQL, Excel и BI-инструменты вроде Power BI. Data Scientist предсказывает, что произойдёт дальше, применяя Python, статистику и машинное обучение. Многие начинают аналитиком и постепенно переходят в data science."}}, {"@type": "Question", "name": "С какого языка программирования начинать — Python или R?", "acceptedAnswer": {"@type": "Answer", "text": "Лучше начать с Python — он более универсален, для него больше бесплатных курсов, библиотек и вакансий. R используется реже и в основном в узких научных и статистических задачах."}}, {"@type": "Question", "name": "Можно ли начать в 13–14 лет?", "acceptedAnswer": {"@type": "Answer", "text": "Да. Начать можно с Excel или Google Таблиц и простых задач на поиск закономерностей в данных, а SQL и Python добавить чуть позже, когда станет интересно копать глубже."}}]}</script>
+<style>
+  body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;color:#1a202c;line-height:1.75}
+  h1{font-size:2rem;margin-bottom:8px;line-height:1.3}
+  h2{font-size:1.35rem;margin:44px 0 12px;padding-bottom:6px;border-bottom:2px solid #6C63FF;color:#6C63FF}
+  h3{font-size:1.05rem;margin:24px 0 8px;color:#2d3748}
+  .subtitle{color:#718096;margin-bottom:36px;font-size:1.05rem}
+  .back{display:inline-block;margin-bottom:24px;color:#6C63FF;text-decoration:none;font-size:.95rem}
+  .back:hover{text-decoration:underline}
+  .cta{background:#6C63FF;color:white;display:inline-block;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700;margin:16px 0;font-size:1rem}
+  .cta:hover{background:#5a52d5}
+  .cta-block{background:#f0efff;border-radius:12px;padding:24px;margin:40px 0;text-align:center}
+  .cta-block p{margin:0 0 16px;font-size:1.05rem}
+  .tip{background:#f0fff4;border-left:4px solid #48bb78;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .warn{background:#fffbeb;border-left:4px solid #f6e05e;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .roadmap{counter-reset:step}
+  .step{counter-increment:step;background:#f7f8fc;border-left:4px solid #6C63FF;padding:16px 20px 16px 56px;border-radius:0 8px 8px 0;margin:16px 0;position:relative}
+  .step::before{content:counter(step);position:absolute;left:16px;top:16px;background:#6C63FF;color:white;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+  table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}
+  th{background:#6C63FF;color:white;padding:10px 12px;text-align:left}
+  td{padding:9px 12px;border-bottom:1px solid #e2e8f0}
+  tr:nth-child(even) td{background:#f7f8fc}
+  ul,ol{padding-left:24px}
+  li{margin:8px 0}
+  code{background:#f0efff;padding:2px 6px;border-radius:4px;font-size:.9em;color:#6C63FF}
+  footer{margin-top:56px;padding-top:16px;border-top:1px solid #e2e8f0;color:#a0aec0;font-size:.8rem}
+</style>
+</head>
+<body>
+<a class="back" href="https://ivannahodka.github.io/career-test/">← Бесплатный тест на профессию</a>
+
+<h1>Как стать аналитиком данных (Data Analyst): гайд для подростков</h1>
+<p class="subtitle">Аналитик данных превращает сухие цифры в понятные выводы, на основе которых компании принимают решения. Если тебе нравится искать закономерности и отвечать на вопрос "а почему так вышло?" — читай дальше.</p>
+
+<p>Data Analyst — специалист, который собирает данные, приводит их в порядок и ищет в них закономерности: что продаётся лучше, почему упали продажи в апреле, какие пользователи чаще уходят с сайта. Data Scientist — более "продвинутая" версия этой профессии: он не просто объясняет прошлое, а строит модели, которые предсказывают будущее. Обе профессии работают с данными, но на разной глубине.</p>
+
+<div class="cta-block">
+  <p>Не уверен, подходит ли тебе IT? Пройди бесплатный тест — 10 минут</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти тест →</a>
+</div>
+
+<h2>Чем занимается аналитик данных</h2>
+<p>Если backend — это кухня ресторана, а DevOps — логистика сети, то Data Analyst — это тот, кто изучает чеки, отзывы и продажи по всем точкам сети и говорит руководству, что происходит:</p>
+<ul>
+  <li><strong>Собирает данные</strong> — из баз данных, таблиц, форм, аналитики сайта.</li>
+  <li><strong>Чистит и проверяет их</strong> — убирает ошибки, дубли и пропуски, чтобы выводы были достоверными.</li>
+  <li><strong>Ищет закономерности</strong> — с помощью SQL-запросов, таблиц и статистики.</li>
+  <li><strong>Показывает результат</strong> — в виде графиков, дашбордов и коротких понятных выводов для тех, кто принимает решения.</li>
+</ul>
+<p>Аналитик данных редко пишет код продукта — его инструменты это запросы к базам данных, таблицы и инструменты визуализации, а не разработка приложений.</p>
+
+<h2>Что нужно выучить</h2>
+
+<h3>1. Excel / Google Таблицы</h3>
+<p>Это стартовая точка почти для всех аналитиков: формулы, сводные таблицы, простые графики. Многие первые задачи в реальной работе решаются именно в таблицах, без единой строки кода.</p>
+
+<h3>2. Направления в работе с данными</h3>
+<p>Дальше специализация обычно идёт в нескольких направлениях:</p>
+<table>
+  <tr><th>Направление</th><th>Чем занимаешься</th><th>Инструменты</th></tr>
+  <tr><td><strong>SQL</strong></td><td>Запросы к базам данных, выгрузка нужных цифр</td><td>PostgreSQL, MySQL</td></tr>
+  <tr><td><strong>Python / R</strong></td><td>Анализ данных и автоматизация отчётов</td><td>Pandas, NumPy, Jupyter</td></tr>
+  <tr><td><strong>Визуализация / BI</strong></td><td>Дашборды и отчёты для руководства</td><td>Power BI, Tableau, Looker</td></tr>
+  <tr><td><strong>Статистика и ML (Data Scientist)</strong></td><td>Предсказательные модели и прогнозы</td><td>scikit-learn, TensorFlow</td></tr>
+</table>
+<div class="tip"><strong>Рекомендация:</strong> начни с Excel и SQL, затем добавляй Python. Этого достаточно, чтобы устроиться на первую позицию Junior Data Analyst.</div>
+
+<h3>3. SQL</h3>
+<p>SQL — язык запросов к базам данных. Именно так аналитик достаёт нужные цифры: "сколько заказов было в июле", "какие товары чаще всего покупают вместе". Это один из самых востребованных навыков в профессии.</p>
+
+<h3>4. Статистика</h3>
+<p>Базовая статистика нужна, чтобы не делать неверных выводов из данных: понимать среднее и медиану, видеть разницу между корреляцией и причинно-следственной связью, оценивать, насколько результату можно доверять.</p>
+
+<h2>Сколько времени нужно</h2>
+<table>
+  <tr><th>Этап</th><th>Время</th><th>Результат</th></tr>
+  <tr><td>Excel/Таблицы + основы SQL</td><td>1–2 месяца</td><td>Считаешь и выгружаешь данные для простых отчётов</td></tr>
+  <tr><td>Python + Pandas</td><td>2–3 месяца</td><td>Автоматизируешь анализ и строишь графики</td></tr>
+  <tr><td>Статистика + визуализация</td><td>1–2 месяца</td><td>Делаешь выводы, которым можно доверять</td></tr>
+  <tr><td>Junior-уровень</td><td>6–12 месяцев суммарно</td><td>Готов к первой работе или стажировке</td></tr>
+</table>
+<p>Data Analyst часто называют одной из самых доступных точек входа в IT — можно начать без глубокого программирования, постепенно углубляясь в код и статистику.</p>
+
+<h2>С чего начать прямо сейчас</h2>
+<div class="roadmap">
+  <div class="step"><strong>Освой SQL</strong> — <a href="https://www.codecademy.com/learn/learn-sql" target="_blank">Codecademy: Learn SQL</a> — бесплатный курс с практикой прямо в браузере.</div>
+  <div class="step"><strong>Изучи Python для данных</strong> — <a href="https://www.kaggle.com/learn" target="_blank">Kaggle Learn</a> — бесплатные мини-курсы по Python, Pandas и визуализации данных.</div>
+  <div class="step"><strong>Разберись со статистикой</strong> — <a href="https://www.khanacademy.org/math/statistics-probability" target="_blank">Khan Academy: Statistics and Probability</a> — бесплатные видео и задачи.</div>
+  <div class="step"><strong>Сделай первый проект с реальными данными</strong> — <a href="https://www.freecodecamp.org/learn/data-analysis-with-python/" target="_blank">freeCodeCamp: Data Analysis with Python</a> — бесплатный сертификационный курс.</div>
+  <div class="step"><strong>Посмотри полную карту</strong> — <a href="https://roadmap.sh/data-analyst" target="_blank">roadmap.sh/data-analyst</a> — что учить дальше и в каком порядке.</div>
+</div>
+
+<h2>Бесплатные ресурсы</h2>
+<ul>
+  <li><a href="https://roadmap.sh/data-analyst" target="_blank">roadmap.sh/data-analyst</a> — полная карта навыков аналитика данных</li>
+  <li><a href="https://www.codecademy.com/learn/learn-sql" target="_blank">Codecademy: Learn SQL</a> — бесплатный курс по языку запросов к базам данных</li>
+  <li><a href="https://www.kaggle.com/learn" target="_blank">Kaggle Learn</a> — бесплатные мини-курсы по Python, Pandas и визуализации</li>
+  <li><a href="https://www.khanacademy.org/math/statistics-probability" target="_blank">Khan Academy: Statistics and Probability</a> — бесплатный курс по статистике</li>
+  <li><a href="https://www.freecodecamp.org/learn/data-analysis-with-python/" target="_blank">freeCodeCamp: Data Analysis with Python</a> — бесплатная сертификация с проектами</li>
+</ul>
+
+<div class="warn">
+  <strong>Не пытайся выучить SQL, Python, статистику и BI-инструменты одновременно.</strong> Начни с Excel и SQL — этого достаточно для первых задач, а Python и статистику добавляй постепенно.
+</div>
+
+<h2>Сколько зарабатывают</h2>
+<p>Спрос на аналитиков данных растёт вместе с тем, как компании всё больше полагаются на цифры при принятии решений:</p>
+<ul>
+  <li><strong>Junior Data Analyst</strong> — начальный уровень, обычно достаточно уверенного Excel, SQL и базовой визуализации.</li>
+  <li><strong>Middle</strong> — комфортный доход, достигается с опытом Python, статистики и работы с реальными бизнес-задачами.</li>
+  <li><strong>Senior / Data Scientist</strong> — один из самых высокооплачиваемых треков в IT, особенно при владении машинным обучением.</li>
+</ul>
+<p>Аналитики данных востребованы не только в IT-компаниях, но и в банках, ритейле, медицине и почти любом бизнесе, где есть цифры для анализа.</p>
+
+<h2>Data Analyst подходит тебе, если...</h2>
+<ul>
+  <li>Тебе нравится работать с числами и находить в них закономерности</li>
+  <li>Тебе интереснее понять "почему так вышло", а не только "как это сделать"</li>
+  <li>Тебе нравится превращать сложные цифры в понятные графики и простые выводы</li>
+  <li>Ты готов быть немного детективом, немного математиком и немного рассказчиком одновременно</li>
+</ul>
+<p>Скорее не твоё, если тебе скучно долго копаться в таблицах и хочется сразу видеть готовый визуальный продукт — тогда присмотрись к frontend-разработке или дизайну.</p>
+
+<div class="cta-block">
+  <p>Пройди тест — узнай, подходит ли тебе аналитика данных или лучше другое направление в IT</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти бесплатный тест →</a>
+</div>
+
+<h2>Частые вопросы</h2>
+<h3>Нужно ли знать математику на уровне вуза?</h3>
+<p>Для старта в Data Analyst достаточно школьной алгебры и базовой статистики. Более глубокая математика — линейная алгебра, теория вероятностей — нужна дальше, если пойдёшь в сторону Data Science и машинного обучения.</p>
+
+<h3>В чём разница между Data Analyst и Data Scientist?</h3>
+<p>Data Analyst объясняет, что произошло и почему, используя SQL, Excel и BI-инструменты вроде Power BI. Data Scientist предсказывает, что произойдёт дальше, применяя Python, статистику и машинное обучение. Многие начинают аналитиком и постепенно переходят в data science.</p>
+
+<h3>С какого языка программирования начинать — Python или R?</h3>
+<p>Лучше начать с Python — он более универсален, для него больше бесплатных курсов, библиотек и вакансий. R используется реже и в основном в узких научных и статистических задачах.</p>
+
+<h3>Можно ли начать в 13–14 лет?</h3>
+<p>Да. Начать можно с Excel или Google Таблиц и простых задач на поиск закономерностей в данных, а SQL и Python добавить чуть позже, когда станет интересно копать глубже.</p>
+
+<h2>Похожие статьи</h2>
+<ul>
+  <li><a href="frontend-developer-ru.html">💻 Как стать frontend-разработчиком</a></li>
+  <li><a href="backend-developer-ru.html">⚙️ Как стать backend-разработчиком</a></li>
+  <li><a href="qa-engineer-ru.html">🐞 Как стать QA-инженером</a></li>
+  <li><a href="devops-engineer-ru.html">🛠️ Как стать DevOps-инженером</a></li>
+</ul>
+
+<footer>
+  <p>© Career Test · <a href="https://ivannahodka.github.io/career-test/">Тест на профессию</a> · <a href="../glossary-static.html">Глоссарий</a> · <a href="data-analyst-en.html">English</a></p>
+</footer>
+</body>
+</html>
