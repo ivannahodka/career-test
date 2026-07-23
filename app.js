@@ -326,6 +326,17 @@ function buildHome() {
       ar: { label:'🛠️ كيف تصبح مهندس DevOps', href:'articles/devops-engineer-en.html' },
       he: { label:'🛠️ איך להפוך למהנדס DevOps', href:'articles/devops-engineer-en.html' },
     },
+    {
+      ru: { label:'📊 Как стать аналитиком данных', href:'articles/data-analyst-ru.html' },
+      en: { label:'📊 How to become a Data Analyst', href:'articles/data-analyst-en.html' },
+      de: { label:'📊 Wie wird man Data Analyst?', href:'articles/data-analyst-en.html' },
+      fr: { label:'📊 Comment devenir Data Analyst', href:'articles/data-analyst-en.html' },
+      es: { label:'📊 Cómo convertirse en Data Analyst', href:'articles/data-analyst-en.html' },
+      pt: { label:'📊 Como se tornar Data Analyst', href:'articles/data-analyst-en.html' },
+      zh: { label:'📊 如何成为数据分析师', href:'articles/data-analyst-en.html' },
+      ar: { label:'📊 كيف تصبح محلل بيانات', href:'articles/data-analyst-en.html' },
+      he: { label:'📊 איך להפוך לאנליסט נתונים', href:'articles/data-analyst-en.html' },
+    },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
