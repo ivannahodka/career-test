@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Как стать специалистом по кибербезопасности: гайд для подростков</title>
+<meta name="description" content="Как стать специалистом по кибербезопасности с нуля в 13–16 лет: этичный хакинг, защита систем, бесплатные площадки для практики, сколько зарабатывают. Простой гайд без воды.">
+<link rel="canonical" href="https://ivannahodka.github.io/career-test/articles/cybersecurity-ru.html">
+<link rel="alternate" hreflang="ru" href="https://ivannahodka.github.io/career-test/articles/cybersecurity-ru.html">
+<link rel="alternate" hreflang="en" href="https://ivannahodka.github.io/career-test/articles/cybersecurity-en.html">
+<link rel="alternate" hreflang="x-default" href="https://ivannahodka.github.io/career-test/articles/cybersecurity-ru.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ivannahodka.github.io/career-test/articles/cybersecurity-ru.html">
+<meta property="og:title" content="Как стать специалистом по кибербезопасности: гайд для подростков">
+<meta property="og:description" content="Как стать специалистом по кибербезопасности с нуля в 13–16 лет: этичный хакинг, защита систем, бесплатные площадки для практики, сколько зарабатывают. Простой гайд без воды.">
+<meta property="og:locale" content="ru">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Как стать специалистом по кибербезопасности: гайд для подростков">
+<meta name="twitter:description" content="Как стать специалистом по кибербезопасности с нуля в 13–16 лет: этичный хакинг, защита систем, бесплатные площадки для практики, сколько зарабатывают. Простой гайд без воды.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Как стать специалистом по кибербезопасности: гайд для подростков","description":"Как стать специалистом по кибербезопасности с нуля в 13–16 лет: этичный хакинг, защита систем, бесплатные площадки для практики, сколько зарабатывают. Простой гайд без воды.","url":"https://ivannahodka.github.io/career-test/articles/cybersecurity-ru.html","inLanguage":"ru","author":{"@type":"Organization","name":"Career Test"},"publisher":{"@type":"Organization","name":"Career Test","url":"https://ivannahodka.github.io/career-test/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Это законно — учиться взламывать системы?", "acceptedAnswer": {"@type": "Answer", "text": "Да, если ты делаешь это на специальных учебных площадках (TryHackMe, Web Security Academy) или с письменного разрешения владельца системы. Взлом чужих систем без разрешения — уголовно наказуемое деяние в любой стране."}}, {"@type": "Question", "name": "В чём разница между red team и blue team?", "acceptedAnswer": {"@type": "Answer", "text": "Red team (наступательная безопасность) ищет уязвимости и имитирует атаки, чтобы найти слабые места раньше злоумышленников. Blue team (защитная безопасность) следит за системами, обнаруживает атаки и реагирует на них. Многие специалисты со временем пробуют оба направления."}}, {"@type": "Question", "name": "Нужно ли уметь программировать?", "acceptedAnswer": {"@type": "Answer", "text": "На старте не обязательно, но базовое понимание кода (Python, Bash) сильно помогает — многие инструменты и скрипты в безопасности написаны на этих языках. Программирование можно подтягивать параллельно с изучением сетей и Linux."}}, {"@type": "Question", "name": "Можно ли начать в 13–14 лет?", "acceptedAnswer": {"@type": "Answer", "text": "Да. Можно начать с основ работы с компьютером, Linux и сетей, а первые учебные площадки вроде TryHackMe рассчитаны именно на новичков без опыта."}}]}</script>
+<style>
+  body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;color:#1a202c;line-height:1.75}
+  h1{font-size:2rem;margin-bottom:8px;line-height:1.3}
+  h2{font-size:1.35rem;margin:44px 0 12px;padding-bottom:6px;border-bottom:2px solid #6C63FF;color:#6C63FF}
+  h3{font-size:1.05rem;margin:24px 0 8px;color:#2d3748}
+  .subtitle{color:#718096;margin-bottom:36px;font-size:1.05rem}
+  .back{display:inline-block;margin-bottom:24px;color:#6C63FF;text-decoration:none;font-size:.95rem}
+  .back:hover{text-decoration:underline}
+  .cta{background:#6C63FF;color:white;display:inline-block;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700;margin:16px 0;font-size:1rem}
+  .cta:hover{background:#5a52d5}
+  .cta-block{background:#f0efff;border-radius:12px;padding:24px;margin:40px 0;text-align:center}
+  .cta-block p{margin:0 0 16px;font-size:1.05rem}
+  .tip{background:#f0fff4;border-left:4px solid #48bb78;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .warn{background:#fffbeb;border-left:4px solid #f6e05e;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .roadmap{counter-reset:step}
+  .step{counter-increment:step;background:#f7f8fc;border-left:4px solid #6C63FF;padding:16px 20px 16px 56px;border-radius:0 8px 8px 0;margin:16px 0;position:relative}
+  .step::before{content:counter(step);position:absolute;left:16px;top:16px;background:#6C63FF;color:white;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+  table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}
+  th{background:#6C63FF;color:white;padding:10px 12px;text-align:left}
+  td{padding:9px 12px;border-bottom:1px solid #e2e8f0}
+  tr:nth-child(even) td{background:#f7f8fc}
+  ul,ol{padding-left:24px}
+  li{margin:8px 0}
+  code{background:#f0efff;padding:2px 6px;border-radius:4px;font-size:.9em;color:#6C63FF}
+  footer{margin-top:56px;padding-top:16px;border-top:1px solid #e2e8f0;color:#a0aec0;font-size:.8rem}
+</style>
+</head>
+<body>
+<a class="back" href="https://ivannahodka.github.io/career-test/">← Бесплатный тест на профессию</a>
+
+<h1>Как стать специалистом по кибербезопасности: гайд для подростков</h1>
+<p class="subtitle">Специалист по кибербезопасности защищает системы, данные и людей от хакеров и атак. Если тебе нравится разбираться, как что-то можно взломать — и как это предотвратить, — читай дальше.</p>
+
+<p>Кибербезопасность — направление, где одни специалисты ищут уязвимости в системах, пока это не сделали злоумышленники, а другие круглосуточно следят за инфраструктурой и отражают реальные атаки. Это одна из немногих областей IT, где ты буквально играешь в кошки-мышки с настоящими хакерами — только на легальной стороне.</p>
+
+<div class="cta-block">
+  <p>Не уверен, подходит ли тебе IT? Пройди бесплатный тест — 10 минут</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти тест →</a>
+</div>
+
+<h2>Чем занимается специалист по кибербезопасности</h2>
+<p>Если DevOps — это логистика сети ресторанов, а Data Analyst — тот, кто изучает чеки и продажи, то специалист по безопасности — это охрана и слесарь всей сети одновременно:</p>
+<ul>
+  <li><strong>Проверяет замки заранее</strong> — ищет слабые места в дверях и сигнализации до того, как туда влезет вор (пентест, поиск уязвимостей).</li>
+  <li><strong>Следит за камерами</strong> — круглосуточно мониторит, не происходит ли что-то подозрительное (мониторинг атак, SOC).</li>
+  <li><strong>Реагирует на проникновение</strong> — если кто-то всё же пробрался, быстро разбирается, как именно, и закрывает дыру.</li>
+</ul>
+<p>Разработчик пишет код, который делает продукт. Специалист по безопасности проверяет, что этот код и инфраструктура вокруг него не оставляют лазеек для атаки.</p>
+
+<h2>Что нужно выучить</h2>
+
+<h3>1. Компьютерные сети и Linux</h3>
+<p>Прежде чем что-то взламывать или защищать, нужно понимать, как вообще устроены сети и серверы: TCP/IP, DNS, HTTP, работа в командной строке Linux. Это фундамент для всего остального.</p>
+
+<h3>2. Направления в кибербезопасности</h3>
+<p>Дальше специализация обычно идёт в нескольких направлениях:</p>
+<table>
+  <tr><th>Направление</th><th>Чем занимаешься</th><th>Инструменты</th></tr>
+  <tr><td><strong>Offensive security (пентест)</strong></td><td>Легально ищешь уязвимости, имитируешь атаки</td><td>Burp Suite, Kali Linux, Metasploit</td></tr>
+  <tr><td><strong>Defensive security (blue team)</strong></td><td>Мониторишь системы, реагируешь на атаки</td><td>SIEM-системы, IDS/IPS</td></tr>
+  <tr><td><strong>AppSec</strong></td><td>Встраиваешь защиту в разработку с самого начала</td><td>Код-ревью, статический анализ кода</td></tr>
+  <tr><td><strong>GRC / комплаенс</strong></td><td>Разрабатываешь политики безопасности, проводишь аудит</td><td>Стандарты вроде ISO 27001</td></tr>
+</table>
+<div class="tip"><strong>Рекомендация:</strong> начни с сетей, Linux и учебных площадок вроде TryHackMe — это даёт понимание обеих сторон, offensive и defensive, прежде чем выбирать узкую специализацию.</div>
+
+<h3>3. Уязвимости веб-приложений (OWASP Top 10)</h3>
+<p>Большая часть реальных атак использует одни и те же типовые ошибки: SQL-инъекции, XSS, неправильные настройки доступа. OWASP Top 10 — это список самых частых уязвимостей веб-приложений, с которого стартуют почти все новички в offensive security.</p>
+
+<h3>4. Практика на реальных (но легальных) целях</h3>
+<p>Теорию нужно сразу закреплять практикой — на специальных платформах с намеренно уязвимыми системами, где можно легально "ломать" и учиться, не нарушая закон.</p>
+
+<h2>Сколько времени нужно</h2>
+<table>
+  <tr><th>Этап</th><th>Время</th><th>Результат</th></tr>
+  <tr><td>Сети + Linux</td><td>2–3 месяца</td><td>Понимаешь, как устроена инфраструктура</td></tr>
+  <tr><td>Основы веб-уязвимостей (OWASP Top 10)</td><td>2–3 месяца</td><td>Находишь типовые уязвимости на учебных стендах</td></tr>
+  <tr><td>Практика на TryHackMe / Web Security Academy</td><td>2–3 месяца</td><td>Готов пробовать реальные лабораторные задания и CTF</td></tr>
+  <tr><td>Junior-уровень</td><td>8–14 месяцев суммарно</td><td>Готов к первой работе или стажировке</td></tr>
+</table>
+<p>Многие в кибербезопасности начинают с сертификации CompTIA Security+ — она даёт структурированную базу знаний и ценится работодателями даже без опыта.</p>
+
+<h2>С чего начать прямо сейчас</h2>
+<div class="roadmap">
+  <div class="step"><strong>Разберись с сетями и Linux</strong> — базовое понимание TCP/IP и командной строки нужно для всего, что дальше.</div>
+  <div class="step"><strong>Пройди первые лабораторные</strong> — <a href="https://tryhackme.com/" target="_blank">TryHackMe</a> — бесплатные интерактивные задания для новичков прямо в браузере.</div>
+  <div class="step"><strong>Изучи веб-уязвимости на практике</strong> — <a href="https://portswigger.net/web-security" target="_blank">PortSwigger Web Security Academy</a> — полностью бесплатное обучение с лабораториями от создателей Burp Suite.</div>
+  <div class="step"><strong>Выучи OWASP Top 10</strong> — <a href="https://owasp.org/www-project-top-ten/" target="_blank">OWASP Top 10</a> — список самых частых уязвимостей веб-приложений.</div>
+  <div class="step"><strong>Посмотри бесплатный курс к сертификации</strong> — <a href="https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/" target="_blank">Professor Messer: Security+ (SY0-701)</a> — бесплатные видео по программе CompTIA Security+.</div>
+  <div class="step"><strong>Посмотри полную карту</strong> — <a href="https://roadmap.sh/cyber-security" target="_blank">roadmap.sh/cyber-security</a> — что учить дальше и в каком порядке.</div>
+</div>
+
+<h2>Бесплатные ресурсы</h2>
+<ul>
+  <li><a href="https://roadmap.sh/cyber-security" target="_blank">roadmap.sh/cyber-security</a> — полная карта навыков специалиста по безопасности</li>
+  <li><a href="https://tryhackme.com/" target="_blank">TryHackMe</a> — бесплатные интерактивные лаборатории для начинающих</li>
+  <li><a href="https://portswigger.net/web-security" target="_blank">PortSwigger Web Security Academy</a> — бесплатное обучение веб-безопасности с практикой</li>
+  <li><a href="https://owasp.org/www-project-top-ten/" target="_blank">OWASP Top 10</a> — список самых частых уязвимостей веб-приложений</li>
+  <li><a href="https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/" target="_blank">Professor Messer: Security+ (SY0-701)</a> — бесплатный видеокурс по подготовке к сертификации</li>
+</ul>
+
+<div class="warn">
+  <strong>Никогда не пробуй "взламывать" реальные сайты и сервисы без разрешения</strong> — даже из любопытства. Вся практика должна проходить на специальных учебных площадках вроде TryHackMe или Web Security Academy, где это разрешено и безопасно.
+</div>
+
+<h2>Сколько зарабатывают</h2>
+<p>Спрос на специалистов по кибербезопасности стабильно растёт — количество атак увеличивается быстрее, чем число подготовленных защитников:</p>
+<ul>
+  <li><strong>Junior</strong> — начальный уровень, обычно достаточно основ сетей, Linux и сертификации вроде Security+.</li>
+  <li><strong>Middle</strong> — комфортный доход, достигается с опытом реальных инцидентов и специализацией (пентест, SOC, AppSec).</li>
+  <li><strong>Senior / Пентестер / Специалист по реагированию на инциденты</strong> — один из самых высокооплачиваемых треков в IT.</li>
+</ul>
+<p>Специалисты по безопасности нужны почти в любой отрасли — от банков и медицины до игровых студий и государственных организаций.</p>
+
+<h2>Кибербезопасность подходит тебе, если...</h2>
+<ul>
+  <li>Тебе нравится разбираться, как что-то устроено, чтобы понять, как это можно сломать</li>
+  <li>Ты любишь головоломки и задачи, где нужно думать как злоумышленник, чтобы его остановить</li>
+  <li>Тебе важно быть внимательным к деталям — одна пропущенная мелочь может стать дырой в безопасности</li>
+  <li>Ты готов постоянно учиться — методы атак меняются каждый год</li>
+</ul>
+<p>Скорее не твоё, если тебе некомфортно долго разбираться в чужом коде и системах в поисках едва заметных ошибок — тогда, возможно, ближе будет frontend или дизайн, где результат виден сразу.</p>
+
+<div class="cta-block">
+  <p>Пройди тест — узнай, подходит ли тебе кибербезопасность или лучше другое направление в IT</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти бесплатный тест →</a>
+</div>
+
+<h2>Частые вопросы</h2>
+<h3>Это законно — учиться взламывать системы?</h3>
+<p>Да, если ты делаешь это на специальных учебных площадках (TryHackMe, Web Security Academy) или с письменного разрешения владельца системы. Взлом чужих систем без разрешения — уголовно наказуемое деяние в любой стране.</p>
+
+<h3>В чём разница между red team и blue team?</h3>
+<p>Red team (наступательная безопасность) ищет уязвимости и имитирует атаки, чтобы найти слабые места раньше злоумышленников. Blue team (защитная безопасность) следит за системами, обнаруживает атаки и реагирует на них. Многие специалисты со временем пробуют оба направления.</p>
+
+<h3>Нужно ли уметь программировать?</h3>
+<p>На старте не обязательно, но базовое понимание кода (Python, Bash) сильно помогает — многие инструменты и скрипты в безопасности написаны на этих языках. Программирование можно подтягивать параллельно с изучением сетей и Linux.</p>
+
+<h3>Можно ли начать в 13–14 лет?</h3>
+<p>Да. Можно начать с основ работы с компьютером, Linux и сетей, а первые учебные площадки вроде TryHackMe рассчитаны именно на новичков без опыта.</p>
+
+<h2>Похожие статьи</h2>
+<ul>
+  <li><a href="frontend-developer-ru.html">💻 Как стать frontend-разработчиком</a></li>
+  <li><a href="backend-developer-ru.html">⚙️ Как стать backend-разработчиком</a></li>
+  <li><a href="qa-engineer-ru.html">🐞 Как стать QA-инженером</a></li>
+  <li><a href="devops-engineer-ru.html">🛠️ Как стать DevOps-инженером</a></li>
+  <li><a href="data-analyst-ru.html">📊 Как стать аналитиком данных</a></li>
+</ul>
+
+<footer>
+  <p>© Career Test · <a href="https://ivannahodka.github.io/career-test/">Тест на профессию</a> · <a href="../glossary-static.html">Глоссарий</a> · <a href="cybersecurity-en.html">English</a></p>
+</footer>
+</body>
+</html>
