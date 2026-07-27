@@ -337,6 +337,17 @@ function buildHome() {
       ar: { label:'📊 كيف تصبح محلل بيانات', href:'articles/data-analyst-en.html' },
       he: { label:'📊 איך להפוך לאנליסט נתונים', href:'articles/data-analyst-en.html' },
     },
+    {
+      ru: { label:'🛡️ Как стать специалистом по кибербезопасности', href:'articles/cybersecurity-ru.html' },
+      en: { label:'🛡️ How to become a Cybersecurity Specialist', href:'articles/cybersecurity-en.html' },
+      de: { label:'🛡️ Wie wird man Cybersecurity-Spezialist?', href:'articles/cybersecurity-en.html' },
+      fr: { label:'🛡️ Comment devenir spécialiste en cybersécurité', href:'articles/cybersecurity-en.html' },
+      es: { label:'🛡️ Cómo convertirse en especialista en ciberseguridad', href:'articles/cybersecurity-en.html' },
+      pt: { label:'🛡️ Como se tornar especialista em cibersegurança', href:'articles/cybersecurity-en.html' },
+      zh: { label:'🛡️ 如何成为网络安全专家', href:'articles/cybersecurity-en.html' },
+      ar: { label:'🛡️ كيف تصبح متخصص أمن سيبراني', href:'articles/cybersecurity-en.html' },
+      he: { label:'🛡️ איך להפוך למומחה סייבר', href:'articles/cybersecurity-en.html' },
+    },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
