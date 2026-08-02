@@ -348,6 +348,17 @@ function buildHome() {
       ar: { label:'🛡️ كيف تصبح متخصص أمن سيبراني', href:'articles/cybersecurity-en.html' },
       he: { label:'🛡️ איך להפוך למומחה סייבר', href:'articles/cybersecurity-en.html' },
     },
+    {
+      ru: { label:'🎮 Как стать разработчиком игр', href:'articles/game-developer-ru.html' },
+      en: { label:'🎮 How to become a Game Developer', href:'articles/game-developer-en.html' },
+      de: { label:'🎮 Wie wird man Game Developer?', href:'articles/game-developer-en.html' },
+      fr: { label:'🎮 Comment devenir développeur de jeux', href:'articles/game-developer-en.html' },
+      es: { label:'🎮 Cómo convertirse en desarrollador de videojuegos', href:'articles/game-developer-en.html' },
+      pt: { label:'🎮 Como se tornar desenvolvedor de jogos', href:'articles/game-developer-en.html' },
+      zh: { label:'🎮 如何成为游戏开发者', href:'articles/game-developer-en.html' },
+      ar: { label:'🎮 كيف تصبح مطور ألعاب', href:'articles/game-developer-en.html' },
+      he: { label:'🎮 איך להפוך למפתח משחקים', href:'articles/game-developer-en.html' },
+    },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
