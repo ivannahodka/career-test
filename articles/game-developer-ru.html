@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Как стать разработчиком игр (Game Developer): гайд для подростков</title>
+<meta name="description" content="Как стать разработчиком игр с нуля в 13–16 лет: выбор движка (Unity, Godot, Unreal), бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<link rel="canonical" href="https://ivannahodka.github.io/career-test/articles/game-developer-ru.html">
+<link rel="alternate" hreflang="ru" href="https://ivannahodka.github.io/career-test/articles/game-developer-ru.html">
+<link rel="alternate" hreflang="en" href="https://ivannahodka.github.io/career-test/articles/game-developer-en.html">
+<link rel="alternate" hreflang="x-default" href="https://ivannahodka.github.io/career-test/articles/game-developer-ru.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ivannahodka.github.io/career-test/articles/game-developer-ru.html">
+<meta property="og:title" content="Как стать разработчиком игр (Game Developer): гайд для подростков">
+<meta property="og:description" content="Как стать разработчиком игр с нуля в 13–16 лет: выбор движка (Unity, Godot, Unreal), бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<meta property="og:locale" content="ru">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Как стать разработчиком игр (Game Developer): гайд для подростков">
+<meta name="twitter:description" content="Как стать разработчиком игр с нуля в 13–16 лет: выбор движка (Unity, Godot, Unreal), бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Как стать разработчиком игр (Game Developer): гайд для подростков","description":"Как стать разработчиком игр с нуля в 13–16 лет: выбор движка (Unity, Godot, Unreal), бесплатные курсы, сколько зарабатывают. Простой гайд без воды.","url":"https://ivannahodka.github.io/career-test/articles/game-developer-ru.html","inLanguage":"ru","author":{"@type":"Organization","name":"Career Test"},"publisher":{"@type":"Organization","name":"Career Test","url":"https://ivannahodka.github.io/career-test/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Какой движок выбрать первым — Unity или Unreal?", "acceptedAnswer": {"@type": "Answer", "text": "Для старта проще Unity (язык C#, много бесплатных уроков, подходит и для 2D, и для мобильных игр) или Godot (полностью бесплатный и открытый, лёгкий для новичков). Unreal мощнее для реалистичной 3D-графики, но порог входа выше — обычно к нему переходят после первого опыта."}}, {"@type": "Question", "name": "Нужно ли уметь рисовать или делать 3D-модели?", "acceptedAnswer": {"@type": "Answer", "text": "Не обязательно. Многие разработчики игр фокусируются на программировании и логике, а графику берут из бесплатных наборов ассетов или работают в паре с художником. Но базовое понимание композиции и цвета помогает в любом случае."}}, {"@type": "Question", "name": "Можно ли зарабатывать, выпуская инди-игры?", "acceptedAnswer": {"@type": "Answer", "text": "Можно, но это сложно и непредсказуемо — большинство успешных инди-разработчиков выпустили несколько игр, прежде чем одна из них выстрелила. На старте разумнее совмещать разработку своих игр с обучением или работой по найму в игровой студии."}}, {"@type": "Question", "name": "Можно ли начать в 13–14 лет?", "acceptedAnswer": {"@type": "Answer", "text": "Да, и это одно из самых естественных направлений для старта в этом возрасте — многие разработчики игр начинали именно с простых уроков в Unity или Godot, а до этого пробовали Scratch."}}]}</script>
+<style>
+  body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;color:#1a202c;line-height:1.75}
+  h1{font-size:2rem;margin-bottom:8px;line-height:1.3}
+  h2{font-size:1.35rem;margin:44px 0 12px;padding-bottom:6px;border-bottom:2px solid #6C63FF;color:#6C63FF}
+  h3{font-size:1.05rem;margin:24px 0 8px;color:#2d3748}
+  .subtitle{color:#718096;margin-bottom:36px;font-size:1.05rem}
+  .back{display:inline-block;margin-bottom:24px;color:#6C63FF;text-decoration:none;font-size:.95rem}
+  .back:hover{text-decoration:underline}
+  .cta{background:#6C63FF;color:white;display:inline-block;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700;margin:16px 0;font-size:1rem}
+  .cta:hover{background:#5a52d5}
+  .cta-block{background:#f0efff;border-radius:12px;padding:24px;margin:40px 0;text-align:center}
+  .cta-block p{margin:0 0 16px;font-size:1.05rem}
+  .tip{background:#f0fff4;border-left:4px solid #48bb78;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .warn{background:#fffbeb;border-left:4px solid #f6e05e;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .roadmap{counter-reset:step}
+  .step{counter-increment:step;background:#f7f8fc;border-left:4px solid #6C63FF;padding:16px 20px 16px 56px;border-radius:0 8px 8px 0;margin:16px 0;position:relative}
+  .step::before{content:counter(step);position:absolute;left:16px;top:16px;background:#6C63FF;color:white;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+  table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}
+  th{background:#6C63FF;color:white;padding:10px 12px;text-align:left}
+  td{padding:9px 12px;border-bottom:1px solid #e2e8f0}
+  tr:nth-child(even) td{background:#f7f8fc}
+  ul,ol{padding-left:24px}
+  li{margin:8px 0}
+  code{background:#f0efff;padding:2px 6px;border-radius:4px;font-size:.9em;color:#6C63FF}
+  footer{margin-top:56px;padding-top:16px;border-top:1px solid #e2e8f0;color:#a0aec0;font-size:.8rem}
+</style>
+</head>
+<body>
+<a class="back" href="https://ivannahodka.github.io/career-test/">← Бесплатный тест на профессию</a>
+
+<h1>Как стать разработчиком игр (Game Developer): гайд для подростков</h1>
+<p class="subtitle">Разработчик игр придумывает и программирует то, во что потом играют миллионы людей. Если тебе нравится не только играть в игры, но и разбираться, как они устроены изнутри, — читай дальше.</p>
+
+<p>Game Developer — это разработчик, который создаёт видеоигры: пишет код игровой логики, настраивает физику и анимацию, работает с движком вроде Unity, Godot или Unreal Engine. В отличие от обычной разработки, здесь важен не только рабочий код, но и то, насколько игре весело — этот баланс между инженерией и творчеством и делает профессию особенной.</p>
+
+<div class="cta-block">
+  <p>Не уверен, подходит ли тебе IT? Пройди бесплатный тест — 10 минут</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти тест →</a>
+</div>
+
+<h2>Чем занимается разработчик игр</h2>
+<p>Если backend — это кухня ресторана, а фронтенд — зал, то разработчик игр — это тот, кто проектирует целый аттракцион в парке развлечений:</p>
+<ul>
+  <li><strong>Программирует механики</strong> — как персонаж прыгает, как работает бой, как считаются очки.</li>
+  <li><strong>Настраивает физику и столкновения</strong> — чтобы мяч отскакивал правильно, а персонаж не проваливался сквозь пол.</li>
+  <li><strong>Работает с графикой, анимацией и звуком</strong> — вместе с художниками и звукорежиссёрами или самостоятельно, если это соло-проект.</li>
+  <li><strong>Постоянно тестирует и переделывает</strong> — то, что работает технически правильно, не всегда получается "весёлым" с первого раза.</li>
+</ul>
+<p>Разработчик игр редко просто пишет код по готовому техническому заданию — часто приходится самому придумывать, как механика должна ощущаться на практике, и много раз её переделывать.</p>
+
+<h2>Что нужно выучить</h2>
+
+<h3>1. Выбор игрового движка</h3>
+<p>Почти вся современная разработка игр строится вокруг готового движка — программы, которая берёт на себя графику, физику и звук, оставляя тебе игровую логику.</p>
+<table>
+  <tr><th>Движок</th><th>Язык</th><th>Для чего подходит</th></tr>
+  <tr><td><strong>Unity</strong></td><td>C#</td><td>2D и 3D игры, мобильные игры, самый популярный выбор для старта</td></tr>
+  <tr><td><strong>Godot</strong></td><td>GDScript / C#</td><td>Полностью бесплатный и открытый, лёгкий для новичков</td></tr>
+  <tr><td><strong>Unreal Engine</strong></td><td>C++ / Blueprints</td><td>Реалистичная 3D-графика, более высокий порог входа</td></tr>
+</table>
+<div class="tip"><strong>Рекомендация:</strong> выбери один движок — Unity или Godot — и не распыляйся на несколько сразу. Основы программирования и игровой логики легко переносятся между движками, когда понадобится.</div>
+
+<h3>2. Основы программирования и игровой логики</h3>
+<p>Помимо синтаксиса языка нужно понимать вещи, специфичные именно для игр: игровой цикл (game loop), обработку ввода с клавиатуры или геймпада, столкновения объектов, векторы и базовую математику для движения.</p>
+
+<h3>3. Небольшие законченные проекты</h3>
+<p>Лучший способ учиться — повторять классику: клон Pong, Flappy Bird, Breakout. Это даёт быстрый результат и учит доводить проект до конца, что в геймдеве не менее важно, чем знание кода.</p>
+
+<h2>Сколько времени нужно</h2>
+<table>
+  <tr><th>Этап</th><th>Время</th><th>Результат</th></tr>
+  <tr><td>Основы движка и первая простая игра</td><td>1–2 месяца</td><td>Собираешь клон Pong или Flappy Bird</td></tr>
+  <tr><td>Игровая логика посложнее</td><td>2–4 месяца</td><td>Делаешь платформер или простую 2D-игру с несколькими уровнями</td></tr>
+  <tr><td>Публикация первой игры</td><td>1–2 месяца</td><td>Выкладываешь готовый проект на itch.io и получаешь первый отклик игроков</td></tr>
+  <tr><td>Junior-уровень</td><td>8–14 месяцев суммарно</td><td>Готов к стажировке в игровой студии или соло-проектам</td></tr>
+</table>
+<p>Разработка игр — одна из немногих областей IT, где готовый проект (пусть и маленький) можно показать буквально с первых месяцев обучения.</p>
+
+<h2>С чего начать прямо сейчас</h2>
+<div class="roadmap">
+  <div class="step"><strong>Пройди вводные уроки Unity</strong> — <a href="https://learn.unity.com/" target="_blank">Unity Learn</a> — бесплатные курсы и обучающие "пути" (pathways) от создателей движка.</div>
+  <div class="step"><strong>Или начни с Godot</strong> — <a href="https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html" target="_blank">Godot: Step by step</a> — бесплатный и открытый движок с пошаговым официальным гайдом.</div>
+  <div class="step"><strong>Пройди структурированный курс с нуля</strong> — <a href="https://cs50.harvard.edu/games/2018/" target="_blank">CS50's Introduction to Game Development</a> — бесплатный курс Гарварда: делаешь клоны Pong, Flappy Bird, Super Mario Bros. и других игр.</div>
+  <div class="step"><strong>Посмотри в сторону 3D и Unreal Engine</strong> — <a href="https://dev.epicgames.com/community/unreal-engine/learning" target="_blank">Unreal Engine Learning</a> — бесплатные официальные туториалы, когда захочешь более реалистичную графику.</div>
+  <div class="step"><strong>Посмотри полную карту</strong> — <a href="https://roadmap.sh/game-developer" target="_blank">roadmap.sh/game-developer</a> — что учить дальше и в каком порядке.</div>
+</div>
+
+<h2>Бесплатные ресурсы</h2>
+<ul>
+  <li><a href="https://roadmap.sh/game-developer" target="_blank">roadmap.sh/game-developer</a> — полная карта навыков разработчика игр</li>
+  <li><a href="https://learn.unity.com/" target="_blank">Unity Learn</a> — бесплатные курсы и обучающие пути по Unity</li>
+  <li><a href="https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html" target="_blank">Godot: Step by step</a> — официальный гайд по бесплатному движку Godot</li>
+  <li><a href="https://cs50.harvard.edu/games/2018/" target="_blank">CS50's Introduction to Game Development</a> — бесплатный курс Гарварда с проектами</li>
+  <li><a href="https://dev.epicgames.com/community/unreal-engine/learning" target="_blank">Unreal Engine Learning</a> — бесплатные туториалы по Unreal Engine</li>
+</ul>
+
+<div class="warn">
+  <strong>Не пытайся учить Unity, Godot и Unreal одновременно.</strong> Выбери один движок, доведи на нём хотя бы одну игру до конца — и только потом, если понадобится, пробуй другой.
+</div>
+
+<h2>Сколько зарабатывают</h2>
+<p>Игровая индустрия сильно отличается от обычной разработки ПО — тут больше конкуренции за вакансии, потому что много людей мечтают делать игры:</p>
+<ul>
+  <li><strong>Junior</strong> — начальный уровень в студии, часто ниже, чем в обычной enterprise-разработке, зато с игровым портфолио проще пройти собеседование.</li>
+  <li><strong>Middle</strong> — комфортный доход при специализации (геймплей-программист, инженер движка, инженер по физике).</li>
+  <li><strong>Senior / Инженер движка в крупной студии</strong> — доход сопоставим с топовыми позициями в обычной разработке.</li>
+</ul>
+<p>Отдельный путь — инди-разработка: доход менее предсказуем, но при удачном проекте можно зарабатывать больше, чем в найме.</p>
+
+<h2>Game Developer подходит тебе, если...</h2>
+<ul>
+  <li>Тебе одинаково интересны и код, и творческая часть — левел-дизайн, механики, "ощущение" игры</li>
+  <li>Ты готов много раз переделывать одно и то же, пока не станет действительно весело</li>
+  <li>Тебе нравится собирать законченные небольшие проекты, а не только писать отдельные куски кода</li>
+  <li>Ты терпелив к долгой отладке — баги в играх бывают особенно капризными</li>
+</ul>
+<p>Скорее не твоё, если тебе важна предсказуемая структура и чёткое техзадание с самого начала — в геймдеве часто приходится самому решать, что "весело", а что нет, путём проб и ошибок.</p>
+
+<div class="cta-block">
+  <p>Пройди тест — узнай, подходит ли тебе разработка игр или лучше другое направление в IT</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти бесплатный тест →</a>
+</div>
+
+<h2>Частые вопросы</h2>
+<h3>Какой движок выбрать первым — Unity или Unreal?</h3>
+<p>Для старта проще Unity (язык C#, много бесплатных уроков, подходит и для 2D, и для мобильных игр) или Godot (полностью бесплатный и открытый, лёгкий для новичков). Unreal мощнее для реалистичной 3D-графики, но порог входа выше — обычно к нему переходят после первого опыта.</p>
+
+<h3>Нужно ли уметь рисовать или делать 3D-модели?</h3>
+<p>Не обязательно. Многие разработчики игр фокусируются на программировании и логике, а графику берут из бесплатных наборов ассетов или работают в паре с художником. Но базовое понимание композиции и цвета помогает в любом случае.</p>
+
+<h3>Можно ли зарабатывать, выпуская инди-игры?</h3>
+<p>Можно, но это сложно и непредсказуемо — большинство успешных инди-разработчиков выпустили несколько игр, прежде чем одна из них выстрелила. На старте разумнее совмещать разработку своих игр с обучением или работой по найму в игровой студии.</p>
+
+<h3>Можно ли начать в 13–14 лет?</h3>
+<p>Да, и это одно из самых естественных направлений для старта в этом возрасте — многие разработчики игр начинали именно с простых уроков в Unity или Godot, а до этого пробовали Scratch.</p>
+
+<h2>Похожие статьи</h2>
+<ul>
+  <li><a href="frontend-developer-ru.html">💻 Как стать frontend-разработчиком</a></li>
+  <li><a href="backend-developer-ru.html">⚙️ Как стать backend-разработчиком</a></li>
+  <li><a href="qa-engineer-ru.html">🐞 Как стать QA-инженером</a></li>
+  <li><a href="devops-engineer-ru.html">🛠️ Как стать DevOps-инженером</a></li>
+  <li><a href="data-analyst-ru.html">📊 Как стать аналитиком данных</a></li>
+  <li><a href="cybersecurity-ru.html">🛡️ Как стать специалистом по кибербезопасности</a></li>
+</ul>
+
+<footer>
+  <p>© Career Test · <a href="https://ivannahodka.github.io/career-test/">Тест на профессию</a> · <a href="../glossary-static.html">Глоссарий</a> · <a href="game-developer-en.html">English</a></p>
+</footer>
+</body>
+</html>
