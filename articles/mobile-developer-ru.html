@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Как стать мобильным разработчиком: гайд для подростков</title>
+<meta name="description" content="Как стать мобильным разработчиком с нуля в 13–16 лет: iOS, Android или Flutter, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<link rel="canonical" href="https://ivannahodka.github.io/career-test/articles/mobile-developer-ru.html">
+<link rel="alternate" hreflang="ru" href="https://ivannahodka.github.io/career-test/articles/mobile-developer-ru.html">
+<link rel="alternate" hreflang="en" href="https://ivannahodka.github.io/career-test/articles/mobile-developer-en.html">
+<link rel="alternate" hreflang="x-default" href="https://ivannahodka.github.io/career-test/articles/mobile-developer-ru.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ivannahodka.github.io/career-test/articles/mobile-developer-ru.html">
+<meta property="og:title" content="Как стать мобильным разработчиком: гайд для подростков">
+<meta property="og:description" content="Как стать мобильным разработчиком с нуля в 13–16 лет: iOS, Android или Flutter, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<meta property="og:locale" content="ru">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Как стать мобильным разработчиком: гайд для подростков">
+<meta name="twitter:description" content="Как стать мобильным разработчиком с нуля в 13–16 лет: iOS, Android или Flutter, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Как стать мобильным разработчиком: гайд для подростков","description":"Как стать мобильным разработчиком с нуля в 13–16 лет: iOS, Android или Flutter, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.","url":"https://ivannahodka.github.io/career-test/articles/mobile-developer-ru.html","inLanguage":"ru","author":{"@type":"Organization","name":"Career Test"},"publisher":{"@type":"Organization","name":"Career Test","url":"https://ivannahodka.github.io/career-test/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Какую платформу выбрать первой — iOS или Android?", "acceptedAnswer": {"@type": "Answer", "text": "Android часто проще для старта: бесплатные инструменты, не нужен Mac, язык Kotlin достаточно понятный. iOS требует Mac и платного аккаунта разработчика для публикации ($99/год), но у Apple отличные бесплатные учебные материалы. Если не можешь выбрать — начни с Flutter, он охватывает обе платформы сразу."}}, {"@type": "Question", "name": "Нужен ли Mac для разработки под iOS?", "acceptedAnswer": {"@type": "Answer", "text": "Да, для сборки и публикации iOS-приложений обязательно нужен компьютер Mac (или облачный доступ к нему). Для Android разработка возможна на любой операционной системе — Windows, macOS или Linux."}}, {"@type": "Question", "name": "Что учить, если не можешь решить между iOS и Android?", "acceptedAnswer": {"@type": "Answer", "text": "Flutter на языке Dart — кросс-платформенный инструмент, который позволяет писать один код для iOS и Android одновременно. Хорошая отправная точка, если пока не готов выбирать одну экосистему навсегда."}}, {"@type": "Question", "name": "Можно ли начать в 13–14 лет?", "acceptedAnswer": {"@type": "Answer", "text": "Да. Разработку под Android или на Flutter можно начинать без специального оборудования — официальные бесплатные курсы Google и Flutter рассчитаны в том числе на новичков без опыта."}}]}</script>
+<style>
+  body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;color:#1a202c;line-height:1.75}
+  h1{font-size:2rem;margin-bottom:8px;line-height:1.3}
+  h2{font-size:1.35rem;margin:44px 0 12px;padding-bottom:6px;border-bottom:2px solid #6C63FF;color:#6C63FF}
+  h3{font-size:1.05rem;margin:24px 0 8px;color:#2d3748}
+  .subtitle{color:#718096;margin-bottom:36px;font-size:1.05rem}
+  .back{display:inline-block;margin-bottom:24px;color:#6C63FF;text-decoration:none;font-size:.95rem}
+  .back:hover{text-decoration:underline}
+  .cta{background:#6C63FF;color:white;display:inline-block;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700;margin:16px 0;font-size:1rem}
+  .cta:hover{background:#5a52d5}
+  .cta-block{background:#f0efff;border-radius:12px;padding:24px;margin:40px 0;text-align:center}
+  .cta-block p{margin:0 0 16px;font-size:1.05rem}
+  .tip{background:#f0fff4;border-left:4px solid #48bb78;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .warn{background:#fffbeb;border-left:4px solid #f6e05e;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .roadmap{counter-reset:step}
+  .step{counter-increment:step;background:#f7f8fc;border-left:4px solid #6C63FF;padding:16px 20px 16px 56px;border-radius:0 8px 8px 0;margin:16px 0;position:relative}
+  .step::before{content:counter(step);position:absolute;left:16px;top:16px;background:#6C63FF;color:white;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+  table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}
+  th{background:#6C63FF;color:white;padding:10px 12px;text-align:left}
+  td{padding:9px 12px;border-bottom:1px solid #e2e8f0}
+  tr:nth-child(even) td{background:#f7f8fc}
+  ul,ol{padding-left:24px}
+  li{margin:8px 0}
+  code{background:#f0efff;padding:2px 6px;border-radius:4px;font-size:.9em;color:#6C63FF}
+  footer{margin-top:56px;padding-top:16px;border-top:1px solid #e2e8f0;color:#a0aec0;font-size:.8rem}
+</style>
+</head>
+<body>
+<a class="back" href="https://ivannahodka.github.io/career-test/">← Бесплатный тест на профессию</a>
+
+<h1>Как стать мобильным разработчиком: гайд для подростков</h1>
+<p class="subtitle">Мобильный разработчик создаёт приложения, которые люди носят в кармане и открывают по десять раз в день. Если тебе интересно, как устроены приложения на твоём телефоне, — читай дальше.</p>
+
+<p>Mobile Developer — специалист, который создаёт приложения для смартфонов: под iOS (Apple), Android (Google) или сразу под обе платформы с помощью кросс-платформенных инструментов вроде Flutter. В отличие от сайта, мобильное приложение всегда под рукой у пользователя — с уведомлениями, доступом к камере, GPS и работой даже без интернета.</p>
+
+<div class="cta-block">
+  <p>Не уверен, подходит ли тебе IT? Пройди бесплатный тест — 10 минут</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти тест →</a>
+</div>
+
+<h2>Чем занимается мобильный разработчик</h2>
+<p>Если backend — кухня ресторана, а frontend сайта — обычный зал, то мобильное приложение — это тот же ресторан, но упакованный в карманный формат, который клиент носит с собой повсюду:</p>
+<ul>
+  <li><strong>Собирает интерфейс приложения</strong> — экраны, кнопки, переходы между ними.</li>
+  <li><strong>Работает с возможностями телефона</strong> — камерой, GPS, push-уведомлениями, датчиками.</li>
+  <li><strong>Заботится о производительности</strong> — приложение должно быстро открываться и не разряжать батарею.</li>
+  <li><strong>Публикует приложение</strong> — в App Store (Apple) или Google Play (Android), проходя проверку магазина.</li>
+</ul>
+<p>В отличие от веб-разработки, мобильная разработка сильнее завязана на правила конкретной платформы: у Apple и Google свои требования к дизайну, публикации и работе с данными пользователей.</p>
+
+<h2>Что нужно выучить</h2>
+
+<h3>1. Выбор платформы</h3>
+<p>Первое решение — под что писать: одну платформу нативно или сразу обе через общий код.</p>
+<table>
+  <tr><th>Платформа</th><th>Язык</th><th>Особенности</th></tr>
+  <tr><td><strong>Android</strong></td><td>Kotlin</td><td>Бесплатные инструменты, разработка на любой ОС</td></tr>
+  <tr><td><strong>iOS</strong></td><td>Swift</td><td>Нужен компьютер Mac, платный аккаунт разработчика для публикации</td></tr>
+  <tr><td><strong>Кросс-платформенная (Flutter)</strong></td><td>Dart</td><td>Один код сразу для iOS и Android</td></tr>
+</table>
+<div class="tip"><strong>Рекомендация:</strong> если не можешь решить, начни с Flutter — сразу получишь приложение для обеих платформ на одном языке.</div>
+
+<h3>2. Основы языка и декларативного UI</h3>
+<p>Современные мобильные интерфейсы (Jetpack Compose для Android, SwiftUI для iOS, виджеты Flutter) строятся декларативно: ты описываешь, как должен выглядеть экран при том или ином состоянии данных, а фреймворк сам перерисовывает интерфейс при изменениях.</p>
+
+<h3>3. Работа с сетью и хранением данных</h3>
+<p>Почти любое настоящее приложение получает данные из интернета и что-то сохраняет локально — это следующий слой навыков после первых статичных экранов.</p>
+
+<h2>Сколько времени нужно</h2>
+<table>
+  <tr><th>Этап</th><th>Время</th><th>Результат</th></tr>
+  <tr><td>Основы языка и первый экран</td><td>1–2 месяца</td><td>Собираешь простое приложение с одним экраном</td></tr>
+  <tr><td>Несколько экранов и навигация</td><td>2–3 месяца</td><td>Приложение с переходами между экранами и вводом данных</td></tr>
+  <tr><td>Работа с интернетом и базой данных</td><td>2–3 месяца</td><td>Приложение реально сохраняет и загружает данные</td></tr>
+  <tr><td>Junior-уровень</td><td>8–14 месяцев суммарно</td><td>Готов к стажировке или первой работе</td></tr>
+</table>
+
+<h2>С чего начать прямо сейчас</h2>
+<div class="roadmap">
+  <div class="step"><strong>Пройди бесплатный курс от Google</strong> — <a href="https://developer.android.com/courses/android-basics-compose/course" target="_blank">Android Basics with Compose</a> — официальный курс по Kotlin и Jetpack Compose с нуля.</div>
+  <div class="step"><strong>Или начни с iOS</strong> — <a href="https://developer.apple.com/tutorials/swiftui" target="_blank">Apple: Introducing SwiftUI</a> — официальные бесплатные туториалы Apple (нужен Mac).</div>
+  <div class="step"><strong>Или выбери кросс-платформенный путь</strong> — <a href="https://docs.flutter.dev/get-started/codelab" target="_blank">Flutter learning pathway</a> — официальный бесплатный путь для изучения Dart и Flutter с нуля.</div>
+  <div class="step"><strong>Посмотри полную карту Android-разработчика</strong> — <a href="https://roadmap.sh/android" target="_blank">roadmap.sh/android</a> — что учить дальше и в каком порядке.</div>
+</div>
+
+<h2>Бесплатные ресурсы</h2>
+<ul>
+  <li><a href="https://roadmap.sh/android" target="_blank">roadmap.sh/android</a> — полная карта навыков Android-разработчика</li>
+  <li><a href="https://developer.android.com/courses/android-basics-compose/course" target="_blank">Android Basics with Compose</a> — официальный бесплатный курс от Google</li>
+  <li><a href="https://developer.apple.com/tutorials/swiftui" target="_blank">Apple: Introducing SwiftUI</a> — официальные бесплатные туториалы для iOS</li>
+  <li><a href="https://docs.flutter.dev/get-started/codelab" target="_blank">Flutter learning pathway</a> — официальный бесплатный путь по Dart и Flutter</li>
+</ul>
+
+<div class="warn">
+  <strong>Не пытайся учить Swift, Kotlin и Flutter одновременно.</strong> Выбери одно направление — нативный Android, нативный iOS или кросс-платформенный Flutter — и доведи на нём первое приложение до конца.
+</div>
+
+<h2>Сколько зарабатывают</h2>
+<p>Мобильные разработчики стабильно востребованы — почти у каждой компании с приложением есть отдельная команда под iOS и/или Android:</p>
+<ul>
+  <li><strong>Junior</strong> — начальный уровень, обычно достаточно уверенных основ одной платформы и пары собственных проектов.</li>
+  <li><strong>Middle</strong> — комфортный доход при опыте работы с реальными продуктами, публикацией в сторы и оптимизацией.</li>
+  <li><strong>Senior / iOS-Android Lead</strong> — один из стабильно высокооплачиваемых треков в IT.</li>
+</ul>
+<p>Кросс-платформенные разработчики (Flutter, React Native) особенно ценятся в небольших командах, где нет ресурсов держать отдельно iOS- и Android-специалистов.</p>
+
+<h2>Мобильная разработка подходит тебе, если...</h2>
+<ul>
+  <li>Ты постоянно пользуешься телефоном и замечаешь, что в приложениях можно было бы сделать удобнее</li>
+  <li>Тебе нравится собирать интерфейс так, чтобы он выглядел аккуратно и отзывался мгновенно на нажатие</li>
+  <li>Тебе не претит работать по строгим правилам платформы — у Apple и Google жёсткие требования к публикации</li>
+  <li>Тебе приятно осознавать, что твоё приложение будет буквально у кого-то в кармане каждый день</li>
+</ul>
+<p>Скорее не твоё, если тебя раздражают ограничения и долгие процессы проверки приложений в сторах — тогда веб-разработка даёт больше свободы и мгновенный деплой.</p>
+
+<div class="cta-block">
+  <p>Пройди тест — узнай, подходит ли тебе мобильная разработка или лучше другое направление в IT</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти бесплатный тест →</a>
+</div>
+
+<h2>Частые вопросы</h2>
+<h3>Какую платформу выбрать первой — iOS или Android?</h3>
+<p>Android часто проще для старта: бесплатные инструменты, не нужен Mac, язык Kotlin достаточно понятный. iOS требует Mac и платного аккаунта разработчика для публикации ($99/год), но у Apple отличные бесплатные учебные материалы. Если не можешь выбрать — начни с Flutter, он охватывает обе платформы сразу.</p>
+
+<h3>Нужен ли Mac для разработки под iOS?</h3>
+<p>Да, для сборки и публикации iOS-приложений обязательно нужен компьютер Mac (или облачный доступ к нему). Для Android разработка возможна на любой операционной системе — Windows, macOS или Linux.</p>
+
+<h3>Что учить, если не можешь решить между iOS и Android?</h3>
+<p>Flutter на языке Dart — кросс-платформенный инструмент, который позволяет писать один код для iOS и Android одновременно. Хорошая отправная точка, если пока не готов выбирать одну экосистему навсегда.</p>
+
+<h3>Можно ли начать в 13–14 лет?</h3>
+<p>Да. Разработку под Android или на Flutter можно начинать без специального оборудования — официальные бесплатные курсы Google и Flutter рассчитаны в том числе на новичков без опыта.</p>
+
+<h2>Похожие статьи</h2>
+<ul>
+  <li><a href="frontend-developer-ru.html">💻 Как стать frontend-разработчиком</a></li>
+  <li><a href="backend-developer-ru.html">⚙️ Как стать backend-разработчиком</a></li>
+  <li><a href="qa-engineer-ru.html">🐞 Как стать QA-инженером</a></li>
+  <li><a href="devops-engineer-ru.html">🛠️ Как стать DevOps-инженером</a></li>
+  <li><a href="data-analyst-ru.html">📊 Как стать аналитиком данных</a></li>
+  <li><a href="cybersecurity-ru.html">🛡️ Как стать специалистом по кибербезопасности</a></li>
+  <li><a href="game-developer-ru.html">🎮 Как стать разработчиком игр</a></li>
+</ul>
+
+<footer>
+  <p>© Career Test · <a href="https://ivannahodka.github.io/career-test/">Тест на профессию</a> · <a href="../glossary-static.html">Глоссарий</a> · <a href="mobile-developer-en.html">English</a></p>
+</footer>
+</body>
+</html>
