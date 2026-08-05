@@ -359,6 +359,17 @@ function buildHome() {
       ar: { label:'🎮 كيف تصبح مطور ألعاب', href:'articles/game-developer-en.html' },
       he: { label:'🎮 איך להפוך למפתח משחקים', href:'articles/game-developer-en.html' },
     },
+    {
+      ru: { label:'📱 Как стать мобильным разработчиком', href:'articles/mobile-developer-ru.html' },
+      en: { label:'📱 How to become a Mobile Developer', href:'articles/mobile-developer-en.html' },
+      de: { label:'📱 Wie wird man App-Entwickler?', href:'articles/mobile-developer-en.html' },
+      fr: { label:'📱 Comment devenir développeur mobile', href:'articles/mobile-developer-en.html' },
+      es: { label:'📱 Cómo convertirse en desarrollador móvil', href:'articles/mobile-developer-en.html' },
+      pt: { label:'📱 Como se tornar desenvolvedor mobile', href:'articles/mobile-developer-en.html' },
+      zh: { label:'📱 如何成为移动开发者', href:'articles/mobile-developer-en.html' },
+      ar: { label:'📱 كيف تصبح مطور تطبيقات موبايل', href:'articles/mobile-developer-en.html' },
+      he: { label:'📱 איך להפוך למפתח מובייל', href:'articles/mobile-developer-en.html' },
+    },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
