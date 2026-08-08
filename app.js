@@ -370,6 +370,17 @@ function buildHome() {
       ar: { label:'📱 كيف تصبح مطور تطبيقات موبايل', href:'articles/mobile-developer-en.html' },
       he: { label:'📱 איך להפוך למפתח מובייל', href:'articles/mobile-developer-en.html' },
     },
+    {
+      ru: { label:'🎨 Как стать UX/UI дизайнером', href:'articles/ux-ui-designer-ru.html' },
+      en: { label:'🎨 How to become a UX/UI Designer', href:'articles/ux-ui-designer-en.html' },
+      de: { label:'🎨 Wie wird man UX/UI-Designer?', href:'articles/ux-ui-designer-en.html' },
+      fr: { label:'🎨 Comment devenir designer UX/UI', href:'articles/ux-ui-designer-en.html' },
+      es: { label:'🎨 Cómo convertirse en diseñador UX/UI', href:'articles/ux-ui-designer-en.html' },
+      pt: { label:'🎨 Como se tornar designer UX/UI', href:'articles/ux-ui-designer-en.html' },
+      zh: { label:'🎨 如何成为UX/UI设计师', href:'articles/ux-ui-designer-en.html' },
+      ar: { label:'🎨 كيف تصبح مصمم UX/UI', href:'articles/ux-ui-designer-en.html' },
+      he: { label:'🎨 איך להפוך למעצב UX/UI', href:'articles/ux-ui-designer-en.html' },
+    },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
