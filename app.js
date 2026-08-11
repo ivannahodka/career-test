@@ -381,6 +381,17 @@ function buildHome() {
       ar: { label:'🎨 كيف تصبح مصمم UX/UI', href:'articles/ux-ui-designer-en.html' },
       he: { label:'🎨 איך להפוך למעצב UX/UI', href:'articles/ux-ui-designer-en.html' },
     },
+    {
+      ru: { label:'🖥️ Как стать системным администратором', href:'articles/system-administrator-ru.html' },
+      en: { label:'🖥️ How to become a System Administrator', href:'articles/system-administrator-en.html' },
+      de: { label:'🖥️ Wie wird man Systemadministrator?', href:'articles/system-administrator-en.html' },
+      fr: { label:'🖥️ Comment devenir administrateur système', href:'articles/system-administrator-en.html' },
+      es: { label:'🖥️ Cómo convertirse en administrador de sistemas', href:'articles/system-administrator-en.html' },
+      pt: { label:'🖥️ Como se tornar administrador de sistemas', href:'articles/system-administrator-en.html' },
+      zh: { label:'🖥️ 如何成为系统管理员', href:'articles/system-administrator-en.html' },
+      ar: { label:'🖥️ كيف تصبح مسؤول نظم', href:'articles/system-administrator-en.html' },
+      he: { label:'🖥️ איך להפוך למנהל מערכות', href:'articles/system-administrator-en.html' },
+    },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
