@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Как стать системным администратором: гайд для подростков</title>
+<meta name="description" content="Как стать системным администратором с нуля в 13–16 лет: Linux, сети, серверы, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<link rel="canonical" href="https://ivannahodka.github.io/career-test/articles/system-administrator-ru.html">
+<link rel="alternate" hreflang="ru" href="https://ivannahodka.github.io/career-test/articles/system-administrator-ru.html">
+<link rel="alternate" hreflang="en" href="https://ivannahodka.github.io/career-test/articles/system-administrator-en.html">
+<link rel="alternate" hreflang="x-default" href="https://ivannahodka.github.io/career-test/articles/system-administrator-ru.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ivannahodka.github.io/career-test/articles/system-administrator-ru.html">
+<meta property="og:title" content="Как стать системным администратором: гайд для подростков">
+<meta property="og:description" content="Как стать системным администратором с нуля в 13–16 лет: Linux, сети, серверы, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<meta property="og:locale" content="ru">
+<meta property="og:image" content="https://ivannahodka.github.io/career-test/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Как стать системным администратором: гайд для подростков">
+<meta name="twitter:description" content="Как стать системным администратором с нуля в 13–16 лет: Linux, сети, серверы, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<meta name="twitter:image" content="https://ivannahodka.github.io/career-test/og-image.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Как стать системным администратором: гайд для подростков","description":"Как стать системным администратором с нуля в 13–16 лет: Linux, сети, серверы, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.","url":"https://ivannahodka.github.io/career-test/articles/system-administrator-ru.html","inLanguage":"ru","author":{"@type":"Organization","name":"Career Test"},"publisher":{"@type":"Organization","name":"Career Test","url":"https://ivannahodka.github.io/career-test/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Чем системный администратор отличается от DevOps-инженера?", "acceptedAnswer": {"@type": "Answer", "text": "Сисадмин обычно отвечает за инфраструктуру компании в целом — серверы, сети, рабочие места сотрудников, резервные копии. DevOps-инженер сфокусирован на инфраструктуре конкретного программного продукта — автоматизации выкладки кода, CI/CD, облачных серверах. На практике сисадмин часто становится DevOps-инженером, когда начинает работать с одним конкретным продуктом, а не с целой офисной инфраструктурой."}}, {"@type": "Question", "name": "Нужно ли знать программирование?", "acceptedAnswer": {"@type": "Answer", "text": "Полноценное программирование — нет. Но без базовых навыков скриптинга (Bash, позже — Python) сисадмину будет сложно: рутинные задачи, которые повторяются каждый день, обычно автоматизируют небольшими скриптами."}}, {"@type": "Question", "name": "Какую операционную систему учить первой?", "acceptedAnswer": {"@type": "Answer", "text": "Linux. Подавляющее большинство серверов в интернете работают на Linux, и почти вся работа сисадмина в вебе и облаке строится вокруг командной строки Linux. Windows Server изучают отдельно, если работа связана с корпоративной инфраструктурой на Windows."}}, {"@type": "Question", "name": "Можно ли начать в 13–14 лет?", "acceptedAnswer": {"@type": "Answer", "text": "Да. Установить Linux на старый компьютер или в виртуальную машину и начать осваивать командную строку можно бесплатно и без специального оборудования — например, через бесплатные тренажёры вроде OverTheWire."}}]}</script>
+<style>
+  body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;color:#1a202c;line-height:1.75}
+  h1{font-size:2rem;margin-bottom:8px;line-height:1.3}
+  h2{font-size:1.35rem;margin:44px 0 12px;padding-bottom:6px;border-bottom:2px solid #6C63FF;color:#6C63FF}
+  h3{font-size:1.05rem;margin:24px 0 8px;color:#2d3748}
+  .subtitle{color:#718096;margin-bottom:36px;font-size:1.05rem}
+  .back{display:inline-block;margin-bottom:24px;color:#6C63FF;text-decoration:none;font-size:.95rem}
+  .back:hover{text-decoration:underline}
+  .cta{background:#6C63FF;color:white;display:inline-block;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700;margin:16px 0;font-size:1rem}
+  .cta:hover{background:#5a52d5}
+  .cta-block{background:#f0efff;border-radius:12px;padding:24px;margin:40px 0;text-align:center}
+  .cta-block p{margin:0 0 16px;font-size:1.05rem}
+  .tip{background:#f0fff4;border-left:4px solid #48bb78;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .warn{background:#fffbeb;border-left:4px solid #f6e05e;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .roadmap{counter-reset:step}
+  .step{counter-increment:step;background:#f7f8fc;border-left:4px solid #6C63FF;padding:16px 20px 16px 56px;border-radius:0 8px 8px 0;margin:16px 0;position:relative}
+  .step::before{content:counter(step);position:absolute;left:16px;top:16px;background:#6C63FF;color:white;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+  table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}
+  th{background:#6C63FF;color:white;padding:10px 12px;text-align:left}
+  td{padding:9px 12px;border-bottom:1px solid #e2e8f0}
+  tr:nth-child(even) td{background:#f7f8fc}
+  ul,ol{padding-left:24px}
+  li{margin:8px 0}
+  code{background:#f0efff;padding:2px 6px;border-radius:4px;font-size:.9em;color:#6C63FF}
+  footer{margin-top:56px;padding-top:16px;border-top:1px solid #e2e8f0;color:#a0aec0;font-size:.8rem}
+</style>
+</head>
+<body>
+<a class="back" href="https://ivannahodka.github.io/career-test/">← Бесплатный тест на профессию</a>
+
+<h1>Как стать системным администратором: гайд для подростков</h1>
+<p class="subtitle">Системный администратор — тот, кто чинит интернет в офисе, пока никто не видит, и следит, чтобы серверы не падали посреди ночи. Если тебе интересно, как всё это устроено внутри, — читай дальше.</p>
+
+<p>System Administrator — специалист, который настраивает, обслуживает и защищает компьютерную инфраструктуру: серверы, сети, рабочие места сотрудников, резервное копирование данных. Если сайт компании работает без сбоев, а сотрудники могут спокойно печатать документы и заходить в почту — это заслуга сисадмина, даже если его работу почти никогда не замечают.</p>
+
+<div class="cta-block">
+  <p>Не уверен, подходит ли тебе IT? Пройди бесплатный тест — 10 минут</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти тест →</a>
+</div>
+
+<h2>Чем занимается системный администратор</h2>
+<p>Если backend и frontend — это кухня и зал ресторана, то системный администратор — это тот, кто следит за электричеством, водопроводом и замками во всём здании, чтобы ресторан вообще мог работать:</p>
+<ul>
+  <li><strong>Настраивает и поддерживает серверы</strong> — устанавливает операционные системы, обновления, следит, чтобы всё работало стабильно.</li>
+  <li><strong>Отвечает за сеть</strong> — интернет, локальную сеть офиса, доступы, VPN.</li>
+  <li><strong>Делает резервные копии</strong> — чтобы при сбое или атаке данные не потерялись безвозвратно.</li>
+  <li><strong>Реагирует на инциденты</strong> — сервер упал, у сотрудника не работает почта, диск закончился — сисадмин разбирается и чинит.</li>
+</ul>
+<p>В маленьких компаниях один сисадмин отвечает буквально за всё, что связано с техникой. В крупных — специализируется на чём-то одном: серверах, сетях или безопасности.</p>
+
+<h2>Что нужно выучить</h2>
+
+<h3>1. Основы Linux и командной строки</h3>
+<p>Подавляющее большинство серверов в мире работают на Linux. Умение свободно работать в терминале — читать логи, управлять процессами, настраивать права доступа — это то, без чего сисадмином стать невозможно.</p>
+
+<h3>2. Основы сетей</h3>
+<p>Как устроен интернет: IP-адреса, DNS, протоколы, порты, файрволы. Без понимания сетей невозможно диагностировать, почему сервис недоступен или почему два компьютера не могут друг друга «увидеть».</p>
+
+<h3>3. Автоматизация и скрипты</h3>
+<p>Хороший сисадмин не повторяет одну и ту же ручную операцию каждый день — он пишет небольшой скрипт на Bash или Python, который делает это автоматически.</p>
+
+<h2>Сколько времени нужно</h2>
+<table>
+  <tr><th>Этап</th><th>Время</th><th>Результат</th></tr>
+  <tr><td>Основы Linux и командной строки</td><td>2–3 месяца</td><td>Свободно работаешь в терминале, понимаешь файловую систему и права доступа</td></tr>
+  <tr><td>Основы сетей</td><td>2–3 месяца</td><td>Понимаешь, как устроены IP, DNS, порты, и можешь диагностировать простые проблемы</td></tr>
+  <tr><td>Практика на реальных задачах</td><td>3–4 месяца</td><td>Настраиваешь сервисы, пишешь простые скрипты автоматизации</td></tr>
+  <tr><td>Junior-уровень</td><td>9–14 месяцев суммарно</td><td>Готов к стажировке или первой работе</td></tr>
+</table>
+
+<h2>С чего начать прямо сейчас</h2>
+<div class="roadmap">
+  <div class="step"><strong>Пройди карту навыков Linux</strong> — <a href="https://roadmap.sh/linux" target="_blank">roadmap.sh/linux</a> — что учить и в каком порядке.</div>
+  <div class="step"><strong>Потренируйся в командной строке на реальных задачах</strong> — <a href="https://overthewire.org/wargames/bandit/" target="_blank">OverTheWire: Bandit</a> — бесплатный тренажёр-игра для новичков, обучающий базовым командам Linux через практику.</div>
+  <div class="step"><strong>Изучи основы сетей</strong> — <a href="https://www.netacad.com/courses/networking-basics" target="_blank">Cisco Networking Academy: Networking Basics</a> — бесплатный официальный курс по сетям с нуля.</div>
+  <div class="step"><strong>Углубись в тему сетей и оборудования</strong> — <a href="https://www.professormesser.com/network-plus/n10-009/n10-009-training-course/" target="_blank">Professor Messer: Network+ Course</a> — бесплатный полный видеокурс по сетям уровня CompTIA Network+.</div>
+</div>
+
+<h2>Бесплатные ресурсы</h2>
+<ul>
+  <li><a href="https://roadmap.sh/linux" target="_blank">roadmap.sh/linux</a> — карта навыков по Linux</li>
+  <li><a href="https://overthewire.org/wargames/bandit/" target="_blank">OverTheWire: Bandit</a> — бесплатная игра-тренажёр по командной строке Linux для новичков</li>
+  <li><a href="https://www.netacad.com/courses/networking-basics" target="_blank">Cisco Networking Academy: Networking Basics</a> — бесплатный официальный курс по основам сетей</li>
+  <li><a href="https://www.professormesser.com/network-plus/n10-009/n10-009-training-course/" target="_blank">Professor Messer: Network+ Course</a> — бесплатный полный видеокурс по сетям</li>
+</ul>
+
+<div class="warn">
+  <strong>Не пропускай сети, увлёкшись только Linux.</strong> Сисадмин без понимания сетей может настроить сервер, но не сможет объяснить, почему к нему никто не может подключиться. Учи Linux и сети параллельно.
+</div>
+
+<h2>Сколько зарабатывают</h2>
+<p>Системные администраторы нужны почти любой компании с собственной инфраструктурой — от небольшого офиса до дата-центра:</p>
+<ul>
+  <li><strong>Junior</strong> — начальный уровень, обычно достаточно уверенных основ Linux и сетей.</li>
+  <li><strong>Middle</strong> — комфортный доход при опыте поддержки реальной инфраструктуры и умении быстро решать инциденты.</li>
+  <li><strong>Senior / Infrastructure Lead</strong> — один из стабильно высокооплачиваемых треков, особенно с опытом крупных серверных инфраструктур.</li>
+</ul>
+<p>Сисадмины, которые дополнительно осваивают автоматизацию и облачные платформы, естественно переходят в DevOps — там доход обычно ещё выше.</p>
+
+<h2>Системное администрирование подходит тебе, если...</h2>
+<ul>
+  <li>Тебе нравится разбираться, почему что-то не работает, и находить решение самому</li>
+  <li>Тебя не пугает работать с командной строкой вместо привычных окошек и кнопок</li>
+  <li>Ты спокойно относишься к тому, что придётся быть на связи, если что-то ломается срочно</li>
+  <li>Тебе интереснее инфраструктура «под капотом», чем то, что видит обычный пользователь</li>
+</ul>
+<p>Скорее не твоё, если тебе важно видеть результат работы визуально и сразу — тогда присмотрись к frontend-разработке или дизайну.</p>
+
+<div class="cta-block">
+  <p>Пройди тест — узнай, подходит ли тебе системное администрирование или лучше другое направление в IT</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти бесплатный тест →</a>
+</div>
+
+<h2>Частые вопросы</h2>
+<h3>Чем системный администратор отличается от DevOps-инженера?</h3>
+<p>Сисадмин обычно отвечает за инфраструктуру компании в целом — серверы, сети, рабочие места сотрудников, резервные копии. DevOps-инженер сфокусирован на инфраструктуре конкретного программного продукта — автоматизации выкладки кода, CI/CD, облачных серверах. На практике сисадмин часто становится DevOps-инженером, когда начинает работать с одним конкретным продуктом, а не с целой офисной инфраструктурой.</p>
+
+<h3>Нужно ли знать программирование?</h3>
+<p>Полноценное программирование — нет. Но без базовых навыков скриптинга (Bash, позже — Python) сисадмину будет сложно: рутинные задачи, которые повторяются каждый день, обычно автоматизируют небольшими скриптами.</p>
+
+<h3>Какую операционную систему учить первой?</h3>
+<p>Linux. Подавляющее большинство серверов в интернете работают на Linux, и почти вся работа сисадмина в вебе и облаке строится вокруг командной строки Linux. Windows Server изучают отдельно, если работа связана с корпоративной инфраструктурой на Windows.</p>
+
+<h3>Можно ли начать в 13–14 лет?</h3>
+<p>Да. Установить Linux на старый компьютер или в виртуальную машину и начать осваивать командную строку можно бесплатно и без специального оборудования — например, через бесплатные тренажёры вроде OverTheWire.</p>
+
+<h2>Похожие статьи</h2>
+<ul>
+  <li><a href="devops-engineer-ru.html">🛠️ Как стать DevOps-инженером</a></li>
+  <li><a href="backend-developer-ru.html">⚙️ Как стать backend-разработчиком</a></li>
+  <li><a href="cybersecurity-ru.html">🛡️ Как стать специалистом по кибербезопасности</a></li>
+  <li><a href="qa-engineer-ru.html">🐞 Как стать QA-инженером</a></li>
+  <li><a href="data-analyst-ru.html">📊 Как стать аналитиком данных</a></li>
+  <li><a href="frontend-developer-ru.html">💻 Как стать frontend-разработчиком</a></li>
+  <li><a href="game-developer-ru.html">🎮 Как стать разработчиком игр</a></li>
+  <li><a href="mobile-developer-ru.html">📱 Как стать мобильным разработчиком</a></li>
+  <li><a href="ux-ui-designer-ru.html">🎨 Как стать UX/UI дизайнером</a></li>
+</ul>
+
+<footer>
+  <p>© Career Test · <a href="https://ivannahodka.github.io/career-test/">Тест на профессию</a> · <a href="../glossary-static.html">Глоссарий</a> · <a href="system-administrator-en.html">English</a></p>
+</footer>
+</body>
+</html>

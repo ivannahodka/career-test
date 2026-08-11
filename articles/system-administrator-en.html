@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Become a System Administrator: A Guide for Teens</title>
+<meta name="description" content="How to become a system administrator from scratch at 13-16: Linux, networking, servers, free courses, and how much they earn. A simple, no-fluff guide.">
+<link rel="canonical" href="https://ivannahodka.github.io/career-test/articles/system-administrator-en.html">
+<link rel="alternate" hreflang="ru" href="https://ivannahodka.github.io/career-test/articles/system-administrator-ru.html">
+<link rel="alternate" hreflang="en" href="https://ivannahodka.github.io/career-test/articles/system-administrator-en.html">
+<link rel="alternate" hreflang="x-default" href="https://ivannahodka.github.io/career-test/articles/system-administrator-ru.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ivannahodka.github.io/career-test/articles/system-administrator-en.html">
+<meta property="og:title" content="How to Become a System Administrator: A Guide for Teens">
+<meta property="og:description" content="How to become a system administrator from scratch at 13-16: Linux, networking, servers, free courses, and how much they earn. A simple, no-fluff guide.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://ivannahodka.github.io/career-test/og-image-en.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to Become a System Administrator: A Guide for Teens">
+<meta name="twitter:description" content="How to become a system administrator from scratch at 13-16: Linux, networking, servers, free courses, and how much they earn. A simple, no-fluff guide.">
+<meta name="twitter:image" content="https://ivannahodka.github.io/career-test/og-image-en.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"How to Become a System Administrator: A Guide for Teens","description":"How to become a system administrator from scratch at 13-16: Linux, networking, servers, free courses, and how much they earn. A simple, no-fluff guide.","url":"https://ivannahodka.github.io/career-test/articles/system-administrator-en.html","inLanguage":"en","author":{"@type":"Organization","name":"Career Test"},"publisher":{"@type":"Organization","name":"Career Test","url":"https://ivannahodka.github.io/career-test/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What's the difference between a system administrator and a DevOps engineer?", "acceptedAnswer": {"@type": "Answer", "text": "A sysadmin usually manages a company's infrastructure as a whole — servers, networks, employee workstations, backups. A DevOps engineer focuses on the infrastructure of one specific software product — automating code deployment, CI/CD, cloud servers. In practice, a sysadmin often grows into a DevOps engineer once they start focusing on one specific product instead of an entire office's infrastructure."}}, {"@type": "Question", "name": "Do I need to know programming?", "acceptedAnswer": {"@type": "Answer", "text": "Full programming — no. But without basic scripting skills (Bash, later Python), a sysadmin's job gets much harder: routine tasks that repeat every day are usually automated with small scripts."}}, {"@type": "Question", "name": "Which operating system should I learn first?", "acceptedAnswer": {"@type": "Answer", "text": "Linux. The vast majority of servers on the internet run Linux, and almost all sysadmin work on the web and in the cloud revolves around the Linux command line. Windows Server is studied separately if the job involves Windows-based corporate infrastructure."}}, {"@type": "Question", "name": "Can I start at 13-14 years old?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Installing Linux on an old computer or in a virtual machine and starting to learn the command line is free and requires no special equipment — for example, through free hands-on trainers like OverTheWire."}}]}</script>
+<style>
+  body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;color:#1a202c;line-height:1.75}
+  h1{font-size:2rem;margin-bottom:8px;line-height:1.3}
+  h2{font-size:1.35rem;margin:44px 0 12px;padding-bottom:6px;border-bottom:2px solid #6C63FF;color:#6C63FF}
+  h3{font-size:1.05rem;margin:24px 0 8px;color:#2d3748}
+  .subtitle{color:#718096;margin-bottom:36px;font-size:1.05rem}
+  .back{display:inline-block;margin-bottom:24px;color:#6C63FF;text-decoration:none;font-size:.95rem}
+  .back:hover{text-decoration:underline}
+  .cta{background:#6C63FF;color:white;display:inline-block;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700;margin:16px 0;font-size:1rem}
+  .cta:hover{background:#5a52d5}
+  .cta-block{background:#f0efff;border-radius:12px;padding:24px;margin:40px 0;text-align:center}
+  .cta-block p{margin:0 0 16px;font-size:1.05rem}
+  .tip{background:#f0fff4;border-left:4px solid #48bb78;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .warn{background:#fffbeb;border-left:4px solid #f6e05e;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .roadmap{counter-reset:step}
+  .step{counter-increment:step;background:#f7f8fc;border-left:4px solid #6C63FF;padding:16px 20px 16px 56px;border-radius:0 8px 8px 0;margin:16px 0;position:relative}
+  .step::before{content:counter(step);position:absolute;left:16px;top:16px;background:#6C63FF;color:white;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+  table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}
+  th{background:#6C63FF;color:white;padding:10px 12px;text-align:left}
+  td{padding:9px 12px;border-bottom:1px solid #e2e8f0}
+  tr:nth-child(even) td{background:#f7f8fc}
+  ul,ol{padding-left:24px}
+  li{margin:8px 0}
+  code{background:#f0efff;padding:2px 6px;border-radius:4px;font-size:.9em;color:#6C63FF}
+  footer{margin-top:56px;padding-top:16px;border-top:1px solid #e2e8f0;color:#a0aec0;font-size:.8rem}
+</style>
+</head>
+<body>
+<a class="back" href="https://ivannahodka.github.io/career-test/">← Free Career Aptitude Test</a>
+
+<h1>How to Become a System Administrator: A Guide for Teens</h1>
+<p class="subtitle">A system administrator is the person who fixes the office internet when nobody's looking, and makes sure servers don't crash in the middle of the night. If you're curious about how all of it works under the hood, keep reading.</p>
+
+<p>A System Administrator is a specialist who sets up, maintains, and secures computer infrastructure: servers, networks, employee workstations, and data backups. If a company's website runs without a hitch and employees can print documents and check email without worry, that's a sysadmin's work — even though it usually goes unnoticed.</p>
+
+<div class="cta-block">
+  <p>Not sure if IT is right for you? Take the free test — 10 minutes</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Take the test →</a>
+</div>
+
+<h2>What a System Administrator does</h2>
+<p>If backend and frontend are the kitchen and dining room of a restaurant, a system administrator is the person who keeps the electricity, plumbing, and locks working throughout the whole building so the restaurant can even open:</p>
+<ul>
+  <li><strong>Sets up and maintains servers</strong> — installs operating systems and updates, keeps everything running stably.</li>
+  <li><strong>Manages the network</strong> — internet access, the office's local network, permissions, VPNs.</li>
+  <li><strong>Makes backups</strong> — so data isn't lost for good after a failure or an attack.</li>
+  <li><strong>Responds to incidents</strong> — a server goes down, someone's email stops working, a disk fills up — the sysadmin investigates and fixes it.</li>
+</ul>
+<p>In small companies, one sysadmin is responsible for literally everything tech-related. In larger ones, they specialize in one area: servers, networking, or security.</p>
+
+<h2>What you need to learn</h2>
+
+<h3>1. Linux and command-line basics</h3>
+<p>The vast majority of servers in the world run Linux. Being comfortable in the terminal — reading logs, managing processes, setting permissions — is something you simply can't skip on the way to becoming a sysadmin.</p>
+
+<h3>2. Networking basics</h3>
+<p>How the internet actually works: IP addresses, DNS, protocols, ports, firewalls. Without understanding networking, you can't diagnose why a service is unreachable or why two computers can't "see" each other.</p>
+
+<h3>3. Automation and scripting</h3>
+<p>A good sysadmin doesn't repeat the same manual task every day — they write a small Bash or Python script that does it automatically instead.</p>
+
+<h2>How much time it takes</h2>
+<table>
+  <tr><th>Stage</th><th>Time</th><th>Result</th></tr>
+  <tr><td>Linux and command-line basics</td><td>2-3 months</td><td>Comfortable in the terminal, understand the filesystem and permissions</td></tr>
+  <tr><td>Networking basics</td><td>2-3 months</td><td>Understand IPs, DNS, ports, and can diagnose simple connectivity issues</td></tr>
+  <tr><td>Practice on real tasks</td><td>3-4 months</td><td>Configure services, write simple automation scripts</td></tr>
+  <tr><td>Junior level</td><td>9-14 months total</td><td>Ready for an internship or first job</td></tr>
+</table>
+
+<h2>Where to start right now</h2>
+<div class="roadmap">
+  <div class="step"><strong>Go through the Linux skills roadmap</strong> — <a href="https://roadmap.sh/linux" target="_blank">roadmap.sh/linux</a> — what to learn, and in what order.</div>
+  <div class="step"><strong>Practice the command line on real tasks</strong> — <a href="https://overthewire.org/wargames/bandit/" target="_blank">OverTheWire: Bandit</a> — a free hands-on game for beginners that teaches basic Linux commands through practice.</div>
+  <div class="step"><strong>Learn networking fundamentals</strong> — <a href="https://www.netacad.com/courses/networking-basics" target="_blank">Cisco Networking Academy: Networking Basics</a> — a free official course on networking from scratch.</div>
+  <div class="step"><strong>Go deeper into networking and hardware</strong> — <a href="https://www.professormesser.com/network-plus/n10-009/n10-009-training-course/" target="_blank">Professor Messer: Network+ Course</a> — a free, full video course at the CompTIA Network+ level.</div>
+</div>
+
+<h2>Free resources</h2>
+<ul>
+  <li><a href="https://roadmap.sh/linux" target="_blank">roadmap.sh/linux</a> — a Linux skills roadmap</li>
+  <li><a href="https://overthewire.org/wargames/bandit/" target="_blank">OverTheWire: Bandit</a> — a free hands-on Linux command-line game for beginners</li>
+  <li><a href="https://www.netacad.com/courses/networking-basics" target="_blank">Cisco Networking Academy: Networking Basics</a> — a free official course on networking fundamentals</li>
+  <li><a href="https://www.professormesser.com/network-plus/n10-009/n10-009-training-course/" target="_blank">Professor Messer: Network+ Course</a> — a free, full video course on networking</li>
+</ul>
+
+<div class="warn">
+  <strong>Don't skip networking just because Linux is more fun.</strong> A sysadmin who understands Linux but not networking can set up a server but won't be able to explain why nobody can connect to it. Learn Linux and networking side by side.
+</div>
+
+<h2>How much they earn</h2>
+<p>System administrators are needed by almost any company with its own infrastructure — from a small office to a full data center:</p>
+<ul>
+  <li><strong>Junior</strong> — entry level, usually solid Linux and networking basics are enough.</li>
+  <li><strong>Middle</strong> — comfortable pay once you have experience maintaining real infrastructure and resolving incidents quickly.</li>
+  <li><strong>Senior / Infrastructure Lead</strong> — one of the consistently well-paid tracks, especially with experience running large server infrastructures.</li>
+</ul>
+<p>Sysadmins who also pick up automation and cloud platforms naturally move into DevOps roles, where pay is typically even higher.</p>
+
+<h2>System administration is for you if...</h2>
+<ul>
+  <li>You enjoy figuring out why something isn't working and finding the fix yourself</li>
+  <li>You're not intimidated by working in the command line instead of familiar windows and buttons</li>
+  <li>You're okay with being on call when something breaks urgently</li>
+  <li>You're more interested in the infrastructure "under the hood" than in what a regular user sees</li>
+</ul>
+<p>Probably not for you if seeing visual, immediate results matters most to you — in that case, look into frontend development or design instead.</p>
+
+<div class="cta-block">
+  <p>Take the test — find out if system administration fits you, or if another IT path suits you better</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Take the free test →</a>
+</div>
+
+<h2>Frequently asked questions</h2>
+<h3>What's the difference between a system administrator and a DevOps engineer?</h3>
+<p>A sysadmin usually manages a company's infrastructure as a whole — servers, networks, employee workstations, backups. A DevOps engineer focuses on the infrastructure of one specific software product — automating code deployment, CI/CD, cloud servers. In practice, a sysadmin often grows into a DevOps engineer once they start focusing on one specific product instead of an entire office's infrastructure.</p>
+
+<h3>Do I need to know programming?</h3>
+<p>Full programming — no. But without basic scripting skills (Bash, later Python), a sysadmin's job gets much harder: routine tasks that repeat every day are usually automated with small scripts.</p>
+
+<h3>Which operating system should I learn first?</h3>
+<p>Linux. The vast majority of servers on the internet run Linux, and almost all sysadmin work on the web and in the cloud revolves around the Linux command line. Windows Server is studied separately if the job involves Windows-based corporate infrastructure.</p>
+
+<h3>Can I start at 13-14 years old?</h3>
+<p>Yes. Installing Linux on an old computer or in a virtual machine and starting to learn the command line is free and requires no special equipment — for example, through free hands-on trainers like OverTheWire.</p>
+
+<h2>Related articles</h2>
+<ul>
+  <li><a href="../how-to-choose-en.html">🧭 How to Choose a Career: 7-Step Guide</a></li>
+  <li><a href="devops-engineer-en.html">🛠️ How to become a DevOps engineer</a></li>
+  <li><a href="backend-developer-en.html">⚙️ How to become a backend developer</a></li>
+  <li><a href="cybersecurity-en.html">🛡️ How to become a Cybersecurity Specialist</a></li>
+  <li><a href="qa-engineer-en.html">🐞 How to become a QA engineer</a></li>
+  <li><a href="data-analyst-en.html">📊 How to become a Data Analyst</a></li>
+  <li><a href="frontend-developer-en.html">💻 How to become a frontend developer</a></li>
+  <li><a href="game-developer-en.html">🎮 How to become a Game Developer</a></li>
+  <li><a href="mobile-developer-en.html">📱 How to become a Mobile Developer</a></li>
+  <li><a href="ux-ui-designer-en.html">🎨 How to become a UX/UI Designer</a></li>
+</ul>
+
+<footer>
+  <p>© Career Test · <a href="https://ivannahodka.github.io/career-test/">Career Test</a> · <a href="../glossary-static-en.html">Glossary</a> · <a href="system-administrator-ru.html">Русский</a></p>
+</footer>
+</body>
+</html>
