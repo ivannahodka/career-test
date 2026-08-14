@@ -392,6 +392,17 @@ function buildHome() {
       ar: { label:'🖥️ كيف تصبح مسؤول نظم', href:'articles/system-administrator-en.html' },
       he: { label:'🖥️ איך להפוך למנהל מערכות', href:'articles/system-administrator-en.html' },
     },
+    {
+      ru: { label:'📋 Как стать Product Manager', href:'articles/product-manager-ru.html' },
+      en: { label:'📋 How to become a Product Manager', href:'articles/product-manager-en.html' },
+      de: { label:'📋 Wie wird man Product Manager?', href:'articles/product-manager-en.html' },
+      fr: { label:'📋 Comment devenir Product Manager', href:'articles/product-manager-en.html' },
+      es: { label:'📋 Cómo convertirse en Product Manager', href:'articles/product-manager-en.html' },
+      pt: { label:'📋 Como se tornar Product Manager', href:'articles/product-manager-en.html' },
+      zh: { label:'📋 如何成为产品经理', href:'articles/product-manager-en.html' },
+      ar: { label:'📋 كيف تصبح مدير منتج', href:'articles/product-manager-en.html' },
+      he: { label:'📋 איך להפוך למנהל מוצר', href:'articles/product-manager-en.html' },
+    },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
