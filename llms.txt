@@ -1,0 +1,39 @@
+# Career Test — Free Career Orientation Test
+
+> A free, no-signup career orientation test for teens (13-16) and anyone exploring career options. 10 questions, 6 domains (IT, Creative, Business, Science, Education, Engineering), 40 careers, available in 9 languages (Russian, English, German, French, Spanish, Portuguese, Chinese, Arabic, Hebrew). The site also hosts a growing library of in-depth "how to become" guides for specific IT careers, written for beginners with no prior experience.
+
+## Main pages
+- [Take the career test](https://ivannahodka.github.io/career-test/): The main 10-question career aptitude test, free and anonymous, no sign-up required.
+- [How to Choose a Career: 7-Step Guide](https://ivannahodka.github.io/career-test/how-to-choose-en.html): A step-by-step guide for students on how to pick a career direction, including how to use this site's test effectively.
+- [Glossary](https://ivannahodka.github.io/career-test/glossary-static-en.html): Plain-language definitions of common career and industry terms.
+
+## IT career guides (English)
+- [Frontend Developer](https://ivannahodka.github.io/career-test/articles/frontend-developer-en.html): What a frontend developer does, what to learn (HTML, CSS, JavaScript), free resources, timeline, and pay.
+- [Backend Developer](https://ivannahodka.github.io/career-test/articles/backend-developer-en.html): What a backend developer does, which language to start with (Python, Node.js, Java, Go), free resources, timeline, and pay.
+- [QA Engineer](https://ivannahodka.github.io/career-test/articles/qa-engineer-en.html): What a QA engineer does, manual vs automation testing, free resources, timeline, and pay.
+- [DevOps Engineer](https://ivannahodka.github.io/career-test/articles/devops-engineer-en.html): What a DevOps engineer does, CI/CD, containers, cloud, free resources, timeline, and pay.
+- [Data Analyst](https://ivannahodka.github.io/career-test/articles/data-analyst-en.html): What a data analyst does, Excel/SQL/Python path, free resources, timeline, and pay.
+- [Cybersecurity Specialist](https://ivannahodka.github.io/career-test/articles/cybersecurity-en.html): What a cybersecurity specialist does, offensive vs defensive security, free resources, timeline, and pay.
+- [Game Developer](https://ivannahodka.github.io/career-test/articles/game-developer-en.html): What a game developer does, choosing an engine (Unity, Godot, Unreal), free resources, timeline, and pay.
+- [Mobile Developer](https://ivannahodka.github.io/career-test/articles/mobile-developer-en.html): What a mobile developer does, iOS vs Android vs Flutter, free resources, timeline, and pay.
+- [UX/UI Designer](https://ivannahodka.github.io/career-test/articles/ux-ui-designer-en.html): What a UX/UI designer does, Figma, usability principles, free resources, timeline, and pay.
+- [System Administrator](https://ivannahodka.github.io/career-test/articles/system-administrator-en.html): What a system administrator does, Linux and networking basics, free resources, timeline, and pay.
+- [Product Manager](https://ivannahodka.github.io/career-test/articles/product-manager-en.html): What a product manager does, how it differs from a project manager, free resources, and pay.
+
+## IT career guides (Russian)
+- [Frontend-разработчик](https://ivannahodka.github.io/career-test/articles/frontend-developer-ru.html)
+- [Backend-разработчик](https://ivannahodka.github.io/career-test/articles/backend-developer-ru.html)
+- [QA-инженер](https://ivannahodka.github.io/career-test/articles/qa-engineer-ru.html)
+- [DevOps-инженер](https://ivannahodka.github.io/career-test/articles/devops-engineer-ru.html)
+- [Аналитик данных](https://ivannahodka.github.io/career-test/articles/data-analyst-ru.html)
+- [Специалист по кибербезопасности](https://ivannahodka.github.io/career-test/articles/cybersecurity-ru.html)
+- [Разработчик игр](https://ivannahodka.github.io/career-test/articles/game-developer-ru.html)
+- [Мобильный разработчик](https://ivannahodka.github.io/career-test/articles/mobile-developer-ru.html)
+- [UX/UI дизайнер](https://ivannahodka.github.io/career-test/articles/ux-ui-designer-ru.html)
+- [Системный администратор](https://ivannahodka.github.io/career-test/articles/system-administrator-ru.html)
+- [Product Manager](https://ivannahodka.github.io/career-test/articles/product-manager-ru.html)
+
+## Notes
+- All career guides are aimed at beginners aged 13-16 with no prior experience, but are useful to anyone starting out.
+- Each guide lists only free, verified learning resources (official docs, free courses, roadmaps) — no paid products are recommended.
+- Full list of pages: https://ivannahodka.github.io/career-test/sitemap.xml
