@@ -403,6 +403,17 @@ function buildHome() {
       ar: { label:'📋 كيف تصبح مدير منتج', href:'articles/product-manager-en.html' },
       he: { label:'📋 איך להפוך למנהל מוצר', href:'articles/product-manager-en.html' },
     },
+    {
+      ru: { label:'📝 Как стать техническим писателем', href:'articles/technical-writer-ru.html' },
+      en: { label:'📝 How to become a Technical Writer', href:'articles/technical-writer-en.html' },
+      de: { label:'📝 Wie wird man Technical Writer?', href:'articles/technical-writer-en.html' },
+      fr: { label:'📝 Comment devenir rédacteur technique', href:'articles/technical-writer-en.html' },
+      es: { label:'📝 Cómo convertirse en redactor técnico', href:'articles/technical-writer-en.html' },
+      pt: { label:'📝 Como se tornar redator técnico', href:'articles/technical-writer-en.html' },
+      zh: { label:'📝 如何成为技术写作专员', href:'articles/technical-writer-en.html' },
+      ar: { label:'📝 كيف تصبح كاتب تقني', href:'articles/technical-writer-en.html' },
+      he: { label:'📝 איך להפוך לכותב טכני', href:'articles/technical-writer-en.html' },
+    },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
