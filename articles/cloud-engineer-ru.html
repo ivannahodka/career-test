@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Как стать облачным инженером: гайд для подростков</title>
+<meta name="description" content="Как стать облачным инженером (Cloud Engineer) с нуля в 13–16 лет: AWS, Azure, Google Cloud, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<link rel="canonical" href="https://ivannahodka.github.io/career-test/articles/cloud-engineer-ru.html">
+<link rel="alternate" hreflang="ru" href="https://ivannahodka.github.io/career-test/articles/cloud-engineer-ru.html">
+<link rel="alternate" hreflang="en" href="https://ivannahodka.github.io/career-test/articles/cloud-engineer-en.html">
+<link rel="alternate" hreflang="x-default" href="https://ivannahodka.github.io/career-test/articles/cloud-engineer-ru.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ivannahodka.github.io/career-test/articles/cloud-engineer-ru.html">
+<meta property="og:title" content="Как стать облачным инженером: гайд для подростков">
+<meta property="og:description" content="Как стать облачным инженером (Cloud Engineer) с нуля в 13–16 лет: AWS, Azure, Google Cloud, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<meta property="og:locale" content="ru">
+<meta property="og:image" content="https://ivannahodka.github.io/career-test/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Как стать облачным инженером: гайд для подростков">
+<meta name="twitter:description" content="Как стать облачным инженером (Cloud Engineer) с нуля в 13–16 лет: AWS, Azure, Google Cloud, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<meta name="twitter:image" content="https://ivannahodka.github.io/career-test/og-image.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Как стать облачным инженером: гайд для подростков","description":"Как стать облачным инженером (Cloud Engineer) с нуля в 13–16 лет: AWS, Azure, Google Cloud, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.","url":"https://ivannahodka.github.io/career-test/articles/cloud-engineer-ru.html","inLanguage":"ru","author":{"@type":"Organization","name":"Career Test"},"publisher":{"@type":"Organization","name":"Career Test","url":"https://ivannahodka.github.io/career-test/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Чем облачный инженер отличается от системного администратора?", "acceptedAnswer": {"@type": "Answer", "text": "Сисадмин чаще всего работает с физической или частично облачной инфраструктурой компании целиком — офисной сетью, серверами, рабочими местами. Облачный инженер специализируется именно на облачных платформах (AWS, Azure, Google Cloud) — проектирует, разворачивает и оптимизирует инфраструктуру, которая целиком живёт в облаке, часто через код (Infrastructure as Code), а не ручную настройку."}}, {"@type": "Question", "name": "Какое облако учить первым: AWS, Azure или Google Cloud?", "acceptedAnswer": {"@type": "Answer", "text": "Для старта — AWS, потому что он самый распространённый и у него больше всего бесплатных обучающих материалов и вакансий. Но сами концепции (виртуальные машины, хранилище, сети, права доступа) одинаковы у всех трёх провайдеров — после того как разберёшься в одном облаке, освоить второе гораздо быстрее."}}, {"@type": "Question", "name": "Нужно ли уметь программировать?", "acceptedAnswer": {"@type": "Answer", "text": "Не обязательно на старте, но со временем — да. Облачные инженеры обычно описывают инфраструктуру кодом (Terraform, CloudFormation) и пишут скрипты автоматизации на Python или Bash, поэтому базовые навыки программирования и скриптинга со временем становятся необходимыми."}}, {"@type": "Question", "name": "Можно ли начать в 13–14 лет?", "acceptedAnswer": {"@type": "Answer", "text": "Да. У всех трёх крупных облачных провайдеров есть бесплатный уровень (free tier) и бесплатные официальные курсы — можно завести собственный аккаунт и потренироваться разворачивать реальные сервисы, не потратив ни копейки."}}]}</script>
+<style>
+  body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;color:#1a202c;line-height:1.75}
+  h1{font-size:2rem;margin-bottom:8px;line-height:1.3}
+  h2{font-size:1.35rem;margin:44px 0 12px;padding-bottom:6px;border-bottom:2px solid #6C63FF;color:#6C63FF}
+  h3{font-size:1.05rem;margin:24px 0 8px;color:#2d3748}
+  .subtitle{color:#718096;margin-bottom:36px;font-size:1.05rem}
+  .tldr{background:#f7f6ff;border-left:4px solid #6C63FF;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0 28px;font-size:1rem}
+  .back{display:inline-block;margin-bottom:24px;color:#6C63FF;text-decoration:none;font-size:.95rem}
+  .back:hover{text-decoration:underline}
+  .cta{background:#6C63FF;color:white;display:inline-block;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700;margin:16px 0;font-size:1rem}
+  .cta:hover{background:#5a52d5}
+  .cta-block{background:#f0efff;border-radius:12px;padding:24px;margin:40px 0;text-align:center}
+  .cta-block p{margin:0 0 16px;font-size:1.05rem}
+  .tip{background:#f0fff4;border-left:4px solid #48bb78;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .warn{background:#fffbeb;border-left:4px solid #f6e05e;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .roadmap{counter-reset:step}
+  .step{counter-increment:step;background:#f7f8fc;border-left:4px solid #6C63FF;padding:16px 20px 16px 56px;border-radius:0 8px 8px 0;margin:16px 0;position:relative}
+  .step::before{content:counter(step);position:absolute;left:16px;top:16px;background:#6C63FF;color:white;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+  table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}
+  th{background:#6C63FF;color:white;padding:10px 12px;text-align:left}
+  td{padding:9px 12px;border-bottom:1px solid #e2e8f0}
+  tr:nth-child(even) td{background:#f7f8fc}
+  ul,ol{padding-left:24px}
+  li{margin:8px 0}
+  code{background:#f0efff;padding:2px 6px;border-radius:4px;font-size:.9em;color:#6C63FF}
+  footer{margin-top:56px;padding-top:16px;border-top:1px solid #e2e8f0;color:#a0aec0;font-size:.8rem}
+</style>
+</head>
+<body>
+<a class="back" href="https://ivannahodka.github.io/career-test/">← Бесплатный тест на профессию</a>
+
+<h1>Как стать облачным инженером: гайд для подростков</h1>
+<p class="subtitle">Облачный инженер строит инфраструктуру, на которой держится половина интернета — но вместо серверных стоек у него открытая вкладка браузера с консолью AWS или Azure. Если тебе интересно, как компании вроде Netflix или Coinmama вообще держат свои сервисы онлайн — читай дальше.</p>
+<div class="tldr"><strong>Коротко:</strong> Облачный инженер проектирует, разворачивает и поддерживает инфраструктуру в облачных платформах — AWS, Azure или Google Cloud — вместо физических серверов. Стартовая точка — основы сетей и Linux плюс один облачный провайдер, а путь до Junior-уровня занимает 10–15 месяцев.</div>
+
+<p>Cloud Engineer — специалист, который проектирует и обслуживает инфраструктуру компании в облаке: виртуальные машины, хранилища данных, сети, базы данных, системы масштабирования. Практически любой современный сервис — от небольшого стартапа до крупного банка — работает на облачной инфраструктуре, и кто-то должен уметь её правильно спроектировать, защитить и не дать счёту за облако вырасти до небес.</p>
+
+<div class="cta-block">
+  <p>Не уверен, подходит ли тебе IT? Пройди бесплатный тест — 10 минут</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти тест →</a>
+</div>
+
+<h2>Чем занимается облачный инженер</h2>
+<p>Если системный администратор следит за инфраструктурой в своём собственном здании, то облачный инженер арендует и настраивает «этажи» в чужом небоскрёбе — у Amazon, Microsoft или Google — и делает это так, чтобы платить только за то, что реально используется:</p>
+<ul>
+  <li><strong>Разворачивает инфраструктуру</strong> — виртуальные машины, базы данных, хранилища файлов, сети — обычно через код, а не ручными кликами в консоли.</li>
+  <li><strong>Настраивает масштабирование</strong> — чтобы сервис выдерживал и 100, и 100 000 пользователей одновременно, автоматически добавляя и убирая мощности.</li>
+  <li><strong>Следит за безопасностью и доступами</strong> — кто и к каким ресурсам может подключаться, шифрование данных, защита от атак.</li>
+  <li><strong>Оптимизирует расходы</strong> — облако легко может «неожиданно» выставить счёт в десятки тысяч долларов, если не следить за использованием ресурсов.</li>
+</ul>
+<p>В небольших командах облачный инженер часто совмещает эту роль с DevOps — настраивает и инфраструктуру, и процесс доставки кода. В крупных компаниях это отдельная специализация с фокусом именно на архитектуре облака.</p>
+
+<h2>Что нужно выучить</h2>
+
+<h3>1. Основы Linux и сетей</h3>
+<p>Вся облачная инфраструктура в итоге — это виртуальные машины на Linux, соединённые сетями. Без понимания командной строки, IP-адресов, DNS и портов работать с облаком невозможно — это тот же фундамент, что и у системного администратора.</p>
+
+<h3>2. Один облачный провайдер (AWS, Azure или Google Cloud)</h3>
+<p>Начинать стоит с одного провайдера и изучить его основательно: виртуальные машины, хранилище, сети, базы данных, права доступа (IAM). Концепции у всех трёх облаков похожи, поэтому после первого второе и третье осваиваются в разы быстрее.</p>
+
+<h3>3. Infrastructure as Code и автоматизация</h3>
+<p>Современные облачные инженеры не кликают вручную в консоли — они описывают инфраструктуру кодом (например, в Terraform) и разворачивают её командой. Это делает инфраструктуру воспроизводимой и легко проверяемой.</p>
+
+<h2>Сколько времени нужно</h2>
+<table>
+  <tr><th>Этап</th><th>Время</th><th>Результат</th></tr>
+  <tr><td>Основы Linux и сетей</td><td>2–3 месяца</td><td>Свободно работаешь в терминале, понимаешь IP, DNS, порты</td></tr>
+  <tr><td>Основы одного облака (AWS/Azure/GCP)</td><td>3–4 месяца</td><td>Разворачиваешь виртуальные машины, хранилище и сети через консоль и код</td></tr>
+  <tr><td>Infrastructure as Code и практика</td><td>3–4 месяца</td><td>Пишешь инфраструктуру в Terraform, настраиваешь масштабирование и мониторинг</td></tr>
+  <tr><td>Junior-уровень</td><td>10–15 месяцев суммарно</td><td>Готов к стажировке или первой работе</td></tr>
+</table>
+
+<h2>С чего начать прямо сейчас</h2>
+<div class="roadmap">
+  <div class="step"><strong>Пройди карту навыков AWS</strong> — <a href="https://roadmap.sh/aws" target="_blank">roadmap.sh/aws</a> — что учить и в каком порядке, если начинаешь с самого распространённого облака.</div>
+  <div class="step"><strong>Пройди бесплатный официальный курс AWS Cloud Practitioner Essentials</strong> — <a href="https://skillbuilder.aws/" target="_blank">AWS Skill Builder</a> — сотни бесплатных курсов от самой Amazon, включая базовый курс для новичков без опыта.</div>
+  <div class="step"><strong>Изучи основы Azure</strong> — <a href="https://learn.microsoft.com/en-us/training/paths/az-900-describe-cloud-concepts/" target="_blank">Microsoft Learn: Azure Fundamentals</a> — бесплатный официальный курс по облачным концепциям от Microsoft.</div>
+  <div class="step"><strong>Попробуй Google Cloud</strong> — <a href="https://www.skills.google/paths" target="_blank">Google Cloud Skills Boost</a> — бесплатные учебные треки и практические лаборатории от Google.</div>
+</div>
+
+<h2>Бесплатные ресурсы</h2>
+<ul>
+  <li><a href="https://roadmap.sh/aws" target="_blank">roadmap.sh/aws</a> — карта навыков по AWS</li>
+  <li><a href="https://skillbuilder.aws/" target="_blank">AWS Skill Builder</a> — бесплатные официальные курсы AWS, включая Cloud Practitioner Essentials</li>
+  <li><a href="https://learn.microsoft.com/en-us/training/paths/az-900-describe-cloud-concepts/" target="_blank">Microsoft Learn: Azure Fundamentals</a> — бесплатный курс по основам облака от Microsoft</li>
+  <li><a href="https://www.skills.google/paths" target="_blank">Google Cloud Skills Boost</a> — бесплатные учебные треки и лаборатории от Google Cloud</li>
+</ul>
+
+<div class="warn">
+  <strong>Осторожно с бесплатным уровнем облака.</strong> У AWS, Azure и Google Cloud есть free tier, но при неаккуратной настройке (например, забытая запущенная виртуальная машина) можно случайно получить реальный счёт. Всегда ставь лимиты по бюджету и удаляй ресурсы, которые не используешь.
+</div>
+
+<h2>Сколько зарабатывают</h2>
+<p>Облачные инженеры — одна из самых востребованных и высокооплачиваемых специализаций в IT, потому что почти любая растущая компания рано или поздно переезжает в облако:</p>
+<ul>
+  <li><strong>Junior</strong> — начальный уровень, обычно достаточно уверенных основ одного облачного провайдера и Linux.</li>
+  <li><strong>Middle</strong> — заметно выше среднего по IT, особенно с опытом Infrastructure as Code и работы с реальной нагрузкой.</li>
+  <li><strong>Senior / Cloud Architect</strong> — один из самых высокооплачиваемых треков в индустрии, особенно с сертификациями AWS/Azure/GCP и опытом проектирования крупных систем.</li>
+</ul>
+<p>Сертификации (например, AWS Certified Solutions Architect) не заменяют опыт, но заметно облегчают первое трудоустройство и часто напрямую влияют на зарплату.</p>
+
+<h2>Облачная инженерия подходит тебе, если...</h2>
+<ul>
+  <li>Тебе нравится думать об архитектуре и о том, «что будет, если нагрузка вырастет в 10 раз»</li>
+  <li>Тебе интересно не только запустить сервис, но и сделать его надёжным и экономным</li>
+  <li>Тебя не пугает работа с командной строкой и описанием инфраструктуры кодом</li>
+  <li>Тебе нравится системное администрирование, но хочется работать с современными облачными инструментами, а не только с физическими серверами</li>
+</ul>
+<p>Скорее не твоё, если тебе интереснее писать пользовательские фичи, чем инфраструктуру — тогда присмотрись к frontend- или backend-разработке.</p>
+
+<div class="cta-block">
+  <p>Пройди тест — узнай, подходит ли тебе облачная инженерия или лучше другое направление в IT</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти бесплатный тест →</a>
+</div>
+
+<h2>Частые вопросы</h2>
+<h3>Чем облачный инженер отличается от системного администратора?</h3>
+<p>Сисадмин чаще всего работает с физической или частично облачной инфраструктурой компании целиком — офисной сетью, серверами, рабочими местами. Облачный инженер специализируется именно на облачных платформах (AWS, Azure, Google Cloud) — проектирует, разворачивает и оптимизирует инфраструктуру, которая целиком живёт в облаке, часто через код (Infrastructure as Code), а не ручную настройку.</p>
+
+<h3>Какое облако учить первым: AWS, Azure или Google Cloud?</h3>
+<p>Для старта — AWS, потому что он самый распространённый и у него больше всего бесплатных обучающих материалов и вакансий. Но сами концепции (виртуальные машины, хранилище, сети, права доступа) одинаковы у всех трёх провайдеров — после того как разберёшься в одном облаке, освоить второе гораздо быстрее.</p>
+
+<h3>Нужно ли уметь программировать?</h3>
+<p>Не обязательно на старте, но со временем — да. Облачные инженеры обычно описывают инфраструктуру кодом (Terraform, CloudFormation) и пишут скрипты автоматизации на Python или Bash, поэтому базовые навыки программирования и скриптинга со временем становятся необходимыми.</p>
+
+<h3>Можно ли начать в 13–14 лет?</h3>
+<p>Да. У всех трёх крупных облачных провайдеров есть бесплатный уровень (free tier) и бесплатные официальные курсы — можно завести собственный аккаунт и потренироваться разворачивать реальные сервисы, не потратив ни копейки.</p>
+
+<h2>Похожие статьи</h2>
+<ul>
+  <li><a href="system-administrator-ru.html">🖥️ Как стать системным администратором</a></li>
+  <li><a href="devops-engineer-ru.html">🛠️ Как стать DevOps-инженером</a></li>
+  <li><a href="cybersecurity-ru.html">🛡️ Как стать специалистом по кибербезопасности</a></li>
+  <li><a href="backend-developer-ru.html">⚙️ Как стать backend-разработчиком</a></li>
+  <li><a href="qa-engineer-ru.html">🐞 Как стать QA-инженером</a></li>
+  <li><a href="data-analyst-ru.html">📊 Как стать аналитиком данных</a></li>
+  <li><a href="frontend-developer-ru.html">💻 Как стать frontend-разработчиком</a></li>
+  <li><a href="game-developer-ru.html">🎮 Как стать разработчиком игр</a></li>
+  <li><a href="mobile-developer-ru.html">📱 Как стать мобильным разработчиком</a></li>
+  <li><a href="ux-ui-designer-ru.html">🎨 Как стать UX/UI дизайнером</a></li>
+  <li><a href="product-manager-ru.html">📋 Как стать Product Manager</a></li>
+  <li><a href="technical-writer-ru.html">📝 Как стать техническим писателем</a></li>
+</ul>
+
+<footer>
+  <p>© Career Test · <a href="https://ivannahodka.github.io/career-test/">Тест на профессию</a> · <a href="../glossary-static.html">Глоссарий</a> · <a href="cloud-engineer-en.html">English</a></p>
+</footer>
+</body>
+</html>

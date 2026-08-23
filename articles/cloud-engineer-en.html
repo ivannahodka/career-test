@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Become a Cloud Engineer: A Guide for Teens</title>
+<meta name="description" content="How to become a cloud engineer from scratch at 13-16: AWS, Azure, Google Cloud, free courses, and how much they earn. A simple, no-fluff guide.">
+<link rel="canonical" href="https://ivannahodka.github.io/career-test/articles/cloud-engineer-en.html">
+<link rel="alternate" hreflang="ru" href="https://ivannahodka.github.io/career-test/articles/cloud-engineer-ru.html">
+<link rel="alternate" hreflang="en" href="https://ivannahodka.github.io/career-test/articles/cloud-engineer-en.html">
+<link rel="alternate" hreflang="x-default" href="https://ivannahodka.github.io/career-test/articles/cloud-engineer-ru.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ivannahodka.github.io/career-test/articles/cloud-engineer-en.html">
+<meta property="og:title" content="How to Become a Cloud Engineer: A Guide for Teens">
+<meta property="og:description" content="How to become a cloud engineer from scratch at 13-16: AWS, Azure, Google Cloud, free courses, and how much they earn. A simple, no-fluff guide.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://ivannahodka.github.io/career-test/og-image-en.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to Become a Cloud Engineer: A Guide for Teens">
+<meta name="twitter:description" content="How to become a cloud engineer from scratch at 13-16: AWS, Azure, Google Cloud, free courses, and how much they earn. A simple, no-fluff guide.">
+<meta name="twitter:image" content="https://ivannahodka.github.io/career-test/og-image-en.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"How to Become a Cloud Engineer: A Guide for Teens","description":"How to become a cloud engineer from scratch at 13-16: AWS, Azure, Google Cloud, free courses, and how much they earn. A simple, no-fluff guide.","url":"https://ivannahodka.github.io/career-test/articles/cloud-engineer-en.html","inLanguage":"en","author":{"@type":"Organization","name":"Career Test"},"publisher":{"@type":"Organization","name":"Career Test","url":"https://ivannahodka.github.io/career-test/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What's the difference between a cloud engineer and a system administrator?", "acceptedAnswer": {"@type": "Answer", "text": "A sysadmin usually works with a company's physical or partly-cloud infrastructure as a whole — the office network, servers, workstations. A cloud engineer specializes specifically in cloud platforms (AWS, Azure, Google Cloud) — designing, deploying, and optimizing infrastructure that lives entirely in the cloud, often through code (Infrastructure as Code) rather than manual setup."}}, {"@type": "Question", "name": "Which cloud should I learn first: AWS, Azure, or Google Cloud?", "acceptedAnswer": {"@type": "Answer", "text": "For starting out, AWS — it's the most widely used and has the most free learning material and job postings. But the core concepts (virtual machines, storage, networking, access control) are similar across all three providers, so once you understand one cloud, picking up the second one is much faster."}}, {"@type": "Question", "name": "Do I need to know programming?", "acceptedAnswer": {"@type": "Answer", "text": "Not necessarily to start, but eventually yes. Cloud engineers typically describe infrastructure as code (Terraform, CloudFormation) and write automation scripts in Python or Bash, so basic programming and scripting skills become necessary over time."}}, {"@type": "Question", "name": "Can I start at 13-14 years old?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All three major cloud providers offer a free tier and free official courses — you can set up your own account and practice deploying real services without spending anything."}}]}</script>
+<style>
+  body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;color:#1a202c;line-height:1.75}
+  h1{font-size:2rem;margin-bottom:8px;line-height:1.3}
+  h2{font-size:1.35rem;margin:44px 0 12px;padding-bottom:6px;border-bottom:2px solid #6C63FF;color:#6C63FF}
+  h3{font-size:1.05rem;margin:24px 0 8px;color:#2d3748}
+  .subtitle{color:#718096;margin-bottom:36px;font-size:1.05rem}
+  .tldr{background:#f7f6ff;border-left:4px solid #6C63FF;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0 28px;font-size:1rem}
+  .back{display:inline-block;margin-bottom:24px;color:#6C63FF;text-decoration:none;font-size:.95rem}
+  .back:hover{text-decoration:underline}
+  .cta{background:#6C63FF;color:white;display:inline-block;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700;margin:16px 0;font-size:1rem}
+  .cta:hover{background:#5a52d5}
+  .cta-block{background:#f0efff;border-radius:12px;padding:24px;margin:40px 0;text-align:center}
+  .cta-block p{margin:0 0 16px;font-size:1.05rem}
+  .tip{background:#f0fff4;border-left:4px solid #48bb78;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .warn{background:#fffbeb;border-left:4px solid #f6e05e;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .roadmap{counter-reset:step}
+  .step{counter-increment:step;background:#f7f8fc;border-left:4px solid #6C63FF;padding:16px 20px 16px 56px;border-radius:0 8px 8px 0;margin:16px 0;position:relative}
+  .step::before{content:counter(step);position:absolute;left:16px;top:16px;background:#6C63FF;color:white;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+  table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}
+  th{background:#6C63FF;color:white;padding:10px 12px;text-align:left}
+  td{padding:9px 12px;border-bottom:1px solid #e2e8f0}
+  tr:nth-child(even) td{background:#f7f8fc}
+  ul,ol{padding-left:24px}
+  li{margin:8px 0}
+  code{background:#f0efff;padding:2px 6px;border-radius:4px;font-size:.9em;color:#6C63FF}
+  footer{margin-top:56px;padding-top:16px;border-top:1px solid #e2e8f0;color:#a0aec0;font-size:.8rem}
+</style>
+</head>
+<body>
+<a class="back" href="https://ivannahodka.github.io/career-test/">← Free Career Aptitude Test</a>
+
+<h1>How to Become a Cloud Engineer: A Guide for Teens</h1>
+<p class="subtitle">A cloud engineer builds the infrastructure that half the internet runs on — except instead of a server room, they've got a browser tab open with the AWS or Azure console. If you're curious how companies like Netflix or Coinmama actually keep their services online, keep reading.</p>
+<div class="tldr"><strong>In short:</strong> A cloud engineer designs, deploys, and maintains a company's infrastructure on cloud platforms — AWS, Azure, or Google Cloud — instead of physical servers. The starting point is networking and Linux basics plus one cloud provider, and reaching a Junior level takes about 10-15 months.</div>
+
+<p>A Cloud Engineer is a specialist who designs and maintains a company's infrastructure in the cloud: virtual machines, data storage, networks, databases, scaling systems. Nearly every modern service — from a small startup to a major bank — runs on cloud infrastructure, and someone needs to know how to design it properly, keep it secure, and stop the cloud bill from spiraling out of control.</p>
+
+<div class="cta-block">
+  <p>Not sure if IT is right for you? Take the free test — 10 minutes</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Take the test →</a>
+</div>
+
+<h2>What a Cloud Engineer does</h2>
+<p>If a system administrator maintains infrastructure inside their own building, a cloud engineer rents and configures "floors" in someone else's skyscraper — Amazon's, Microsoft's, or Google's — and does it in a way that only pays for what's actually used:</p>
+<ul>
+  <li><strong>Deploys infrastructure</strong> — virtual machines, databases, file storage, networks — usually through code rather than manual clicks in a console.</li>
+  <li><strong>Configures scaling</strong> — so a service can handle 100 users or 100,000, automatically adding and removing capacity as needed.</li>
+  <li><strong>Manages security and access</strong> — who can connect to which resources, data encryption, protection against attacks.</li>
+  <li><strong>Optimizes cost</strong> — the cloud can easily rack up a bill of tens of thousands of dollars "out of nowhere" if resource usage isn't monitored.</li>
+</ul>
+<p>In small teams, a cloud engineer often combines this role with DevOps — handling both infrastructure and the code deployment process. In larger companies, it's a separate specialization focused specifically on cloud architecture.</p>
+
+<h2>What you need to learn</h2>
+
+<h3>1. Linux and networking basics</h3>
+<p>Ultimately, all cloud infrastructure is just virtual machines running Linux, connected by networks. Without understanding the command line, IP addresses, DNS, and ports, working with the cloud isn't possible — this is the same foundation a system administrator needs.</p>
+
+<h3>2. One cloud provider (AWS, Azure, or Google Cloud)</h3>
+<p>Start with one provider and learn it thoroughly: virtual machines, storage, networking, databases, access control (IAM). The concepts are similar across all three clouds, so after the first one, picking up the second and third goes much faster.</p>
+
+<h3>3. Infrastructure as Code and automation</h3>
+<p>Modern cloud engineers don't click around manually in a console — they describe infrastructure as code (for example, in Terraform) and deploy it with a single command. This makes infrastructure reproducible and easy to review.</p>
+
+<h2>How much time it takes</h2>
+<table>
+  <tr><th>Stage</th><th>Time</th><th>Result</th></tr>
+  <tr><td>Linux and networking basics</td><td>2-3 months</td><td>Comfortable in the terminal, understand IPs, DNS, ports</td></tr>
+  <tr><td>Basics of one cloud (AWS/Azure/GCP)</td><td>3-4 months</td><td>Deploy virtual machines, storage, and networks through the console and code</td></tr>
+  <tr><td>Infrastructure as Code and practice</td><td>3-4 months</td><td>Write infrastructure in Terraform, configure scaling and monitoring</td></tr>
+  <tr><td>Junior level</td><td>10-15 months total</td><td>Ready for an internship or first job</td></tr>
+</table>
+
+<h2>Where to start right now</h2>
+<div class="roadmap">
+  <div class="step"><strong>Go through the AWS skills roadmap</strong> — <a href="https://roadmap.sh/aws" target="_blank">roadmap.sh/aws</a> — what to learn and in what order, if you're starting with the most widely used cloud.</div>
+  <div class="step"><strong>Take the free official AWS Cloud Practitioner Essentials course</strong> — <a href="https://skillbuilder.aws/" target="_blank">AWS Skill Builder</a> — hundreds of free courses from Amazon itself, including a beginner course requiring no prior experience.</div>
+  <div class="step"><strong>Learn Azure fundamentals</strong> — <a href="https://learn.microsoft.com/en-us/training/paths/az-900-describe-cloud-concepts/" target="_blank">Microsoft Learn: Azure Fundamentals</a> — a free official course on cloud concepts from Microsoft.</div>
+  <div class="step"><strong>Try Google Cloud</strong> — <a href="https://www.skills.google/paths" target="_blank">Google Cloud Skills Boost</a> — free learning paths and hands-on labs from Google.</div>
+</div>
+
+<h2>Free resources</h2>
+<ul>
+  <li><a href="https://roadmap.sh/aws" target="_blank">roadmap.sh/aws</a> — an AWS skills roadmap</li>
+  <li><a href="https://skillbuilder.aws/" target="_blank">AWS Skill Builder</a> — free official AWS courses, including Cloud Practitioner Essentials</li>
+  <li><a href="https://learn.microsoft.com/en-us/training/paths/az-900-describe-cloud-concepts/" target="_blank">Microsoft Learn: Azure Fundamentals</a> — a free course on cloud basics from Microsoft</li>
+  <li><a href="https://www.skills.google/paths" target="_blank">Google Cloud Skills Boost</a> — free learning paths and labs from Google Cloud</li>
+</ul>
+
+<div class="warn">
+  <strong>Be careful with the cloud's free tier.</strong> AWS, Azure, and Google Cloud all offer a free tier, but a careless setup (like a forgotten running virtual machine) can turn into a real bill. Always set budget limits and delete resources you're not using.
+</div>
+
+<h2>How much they earn</h2>
+<p>Cloud engineers are one of the most in-demand and highest-paid specializations in IT, because almost every growing company eventually moves to the cloud:</p>
+<ul>
+  <li><strong>Junior</strong> — entry level, usually solid basics of one cloud provider plus Linux are enough.</li>
+  <li><strong>Middle</strong> — noticeably above the IT average, especially with experience in Infrastructure as Code and handling real production load.</li>
+  <li><strong>Senior / Cloud Architect</strong> — one of the highest-paid tracks in the industry, especially with AWS/Azure/GCP certifications and experience designing large-scale systems.</li>
+</ul>
+<p>Certifications (like AWS Certified Solutions Architect) don't replace experience, but they noticeably ease getting a first job and often directly affect pay.</p>
+
+<h2>Cloud engineering is for you if...</h2>
+<ul>
+  <li>You like thinking about architecture and "what happens if load grows 10x"</li>
+  <li>You care not just about launching a service, but making it reliable and cost-efficient</li>
+  <li>You're not intimidated by the command line or describing infrastructure as code</li>
+  <li>You like system administration, but want to work with modern cloud tools instead of only physical servers</li>
+</ul>
+<p>Probably not for you if you'd rather build user-facing features than infrastructure — in that case, look into frontend or backend development instead.</p>
+
+<div class="cta-block">
+  <p>Take the test — find out if cloud engineering fits you, or if another IT path suits you better</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Take the free test →</a>
+</div>
+
+<h2>Frequently asked questions</h2>
+<h3>What's the difference between a cloud engineer and a system administrator?</h3>
+<p>A sysadmin usually works with a company's physical or partly-cloud infrastructure as a whole — the office network, servers, workstations. A cloud engineer specializes specifically in cloud platforms (AWS, Azure, Google Cloud) — designing, deploying, and optimizing infrastructure that lives entirely in the cloud, often through code (Infrastructure as Code) rather than manual setup.</p>
+
+<h3>Which cloud should I learn first: AWS, Azure, or Google Cloud?</h3>
+<p>For starting out, AWS — it's the most widely used and has the most free learning material and job postings. But the core concepts (virtual machines, storage, networking, access control) are similar across all three providers, so once you understand one cloud, picking up the second one is much faster.</p>
+
+<h3>Do I need to know programming?</h3>
+<p>Not necessarily to start, but eventually yes. Cloud engineers typically describe infrastructure as code (Terraform, CloudFormation) and write automation scripts in Python or Bash, so basic programming and scripting skills become necessary over time.</p>
+
+<h3>Can I start at 13-14 years old?</h3>
+<p>Yes. All three major cloud providers offer a free tier and free official courses — you can set up your own account and practice deploying real services without spending anything.</p>
+
+<h2>Related articles</h2>
+<ul>
+  <li><a href="../how-to-choose-en.html">🧭 How to Choose a Career: 7-Step Guide</a></li>
+  <li><a href="system-administrator-en.html">🖥️ How to become a System Administrator</a></li>
+  <li><a href="devops-engineer-en.html">🛠️ How to become a DevOps engineer</a></li>
+  <li><a href="cybersecurity-en.html">🛡️ How to become a Cybersecurity Specialist</a></li>
+  <li><a href="backend-developer-en.html">⚙️ How to become a backend developer</a></li>
+  <li><a href="qa-engineer-en.html">🐞 How to become a QA engineer</a></li>
+  <li><a href="data-analyst-en.html">📊 How to become a Data Analyst</a></li>
+  <li><a href="frontend-developer-en.html">💻 How to become a frontend developer</a></li>
+  <li><a href="game-developer-en.html">🎮 How to become a Game Developer</a></li>
+  <li><a href="mobile-developer-en.html">📱 How to become a Mobile Developer</a></li>
+  <li><a href="ux-ui-designer-en.html">🎨 How to become a UX/UI Designer</a></li>
+  <li><a href="product-manager-en.html">📋 How to become a Product Manager</a></li>
+  <li><a href="technical-writer-en.html">📝 How to become a Technical Writer</a></li>
+</ul>
+
+<footer>
+  <p>© Career Test · <a href="https://ivannahodka.github.io/career-test/">Career Test</a> · <a href="../glossary-static-en.html">Glossary</a> · <a href="cloud-engineer-ru.html">Русский</a></p>
+</footer>
+</body>
+</html>
