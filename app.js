@@ -414,6 +414,17 @@ function buildHome() {
       ar: { label:'📝 كيف تصبح كاتب تقني', href:'articles/technical-writer-en.html' },
       he: { label:'📝 איך להפוך לכותב טכני', href:'articles/technical-writer-en.html' },
     },
+    {
+      ru: { label:'☁️ Как стать облачным инженером', href:'articles/cloud-engineer-ru.html' },
+      en: { label:'☁️ How to become a Cloud Engineer', href:'articles/cloud-engineer-en.html' },
+      de: { label:'☁️ Wie wird man Cloud Engineer?', href:'articles/cloud-engineer-en.html' },
+      fr: { label:'☁️ Comment devenir ingénieur cloud', href:'articles/cloud-engineer-en.html' },
+      es: { label:'☁️ Cómo convertirse en ingeniero de nube', href:'articles/cloud-engineer-en.html' },
+      pt: { label:'☁️ Como se tornar engenheiro de nuvem', href:'articles/cloud-engineer-en.html' },
+      zh: { label:'☁️ 如何成为云工程师', href:'articles/cloud-engineer-en.html' },
+      ar: { label:'☁️ كيف تصبح مهندس حوسبة سحابية', href:'articles/cloud-engineer-en.html' },
+      he: { label:'☁️ איך להפוך למהנדס ענן', href:'articles/cloud-engineer-en.html' },
+    },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',

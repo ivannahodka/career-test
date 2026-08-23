@@ -20,6 +20,7 @@
 - [System Administrator](https://ivannahodka.github.io/career-test/articles/system-administrator-en.html): What a system administrator does, Linux and networking basics, free resources, timeline, and pay.
 - [Product Manager](https://ivannahodka.github.io/career-test/articles/product-manager-en.html): What a product manager does, how it differs from a project manager, free resources, and pay.
 - [Technical Writer](https://ivannahodka.github.io/career-test/articles/technical-writer-en.html): What a technical writer does, documentation basics, free resources, and pay.
+- [Cloud Engineer](https://ivannahodka.github.io/career-test/articles/cloud-engineer-en.html): What a cloud engineer does, AWS vs Azure vs Google Cloud, free resources, timeline, and pay.
 
 ## IT career guides (Russian)
 - [Frontend-разработчик](https://ivannahodka.github.io/career-test/articles/frontend-developer-ru.html)
@@ -34,6 +35,7 @@
 - [Системный администратор](https://ivannahodka.github.io/career-test/articles/system-administrator-ru.html)
 - [Product Manager](https://ivannahodka.github.io/career-test/articles/product-manager-ru.html)
 - [Технический писатель](https://ivannahodka.github.io/career-test/articles/technical-writer-ru.html)
+- [Облачный инженер](https://ivannahodka.github.io/career-test/articles/cloud-engineer-ru.html)
 
 ## Notes
 - All career guides are aimed at beginners aged 13-16 with no prior experience, but are useful to anyone starting out.
