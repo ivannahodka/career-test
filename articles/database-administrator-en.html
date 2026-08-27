@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Become a Database Administrator: A Guide for Teens</title>
+<meta name="description" content="How to become a database administrator (DBA) from scratch at 13-16: SQL, PostgreSQL, free courses, and how much they earn. A simple, no-fluff guide.">
+<link rel="canonical" href="https://ivannahodka.github.io/career-test/articles/database-administrator-en.html">
+<link rel="alternate" hreflang="ru" href="https://ivannahodka.github.io/career-test/articles/database-administrator-ru.html">
+<link rel="alternate" hreflang="en" href="https://ivannahodka.github.io/career-test/articles/database-administrator-en.html">
+<link rel="alternate" hreflang="x-default" href="https://ivannahodka.github.io/career-test/articles/database-administrator-ru.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ivannahodka.github.io/career-test/articles/database-administrator-en.html">
+<meta property="og:title" content="How to Become a Database Administrator: A Guide for Teens">
+<meta property="og:description" content="How to become a database administrator (DBA) from scratch at 13-16: SQL, PostgreSQL, free courses, and how much they earn. A simple, no-fluff guide.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://ivannahodka.github.io/career-test/og-image-en.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to Become a Database Administrator: A Guide for Teens">
+<meta name="twitter:description" content="How to become a database administrator (DBA) from scratch at 13-16: SQL, PostgreSQL, free courses, and how much they earn. A simple, no-fluff guide.">
+<meta name="twitter:image" content="https://ivannahodka.github.io/career-test/og-image-en.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"How to Become a Database Administrator: A Guide for Teens","description":"How to become a database administrator (DBA) from scratch at 13-16: SQL, PostgreSQL, free courses, and how much they earn. A simple, no-fluff guide.","url":"https://ivannahodka.github.io/career-test/articles/database-administrator-en.html","inLanguage":"en","author":{"@type":"Organization","name":"Career Test"},"publisher":{"@type":"Organization","name":"Career Test","url":"https://ivannahodka.github.io/career-test/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What's the difference between a database administrator and a Data Analyst?", "acceptedAnswer": {"@type": "Answer", "text": "A Data Analyst works with data to find answers to business questions — building reports and dashboards. A Database Administrator (DBA) is responsible for making sure the data itself is available, intact, and secure — installing and configuring the database system, managing backups, optimizing query speed, and controlling access. A DBA works closer to infrastructure than to analysis."}}, {"@type": "Question", "name": "Which database system should I learn first?", "acceptedAnswer": {"@type": "Answer", "text": "PostgreSQL — it's free, open source, widely used in the industry, and has excellent free documentation. After PostgreSQL, picking up MySQL, MS SQL Server, or Oracle is much easier, because the core SQL and relational database principles are the same."}}, {"@type": "Question", "name": "Do I need to know programming?", "acceptedAnswer": {"@type": "Answer", "text": "SQL is itself a programming language, and you'll need to be fluent in it. Full-scale programming in Python or Bash isn't required to start, but it becomes useful for automating backups and routine tasks as you grow."}}, {"@type": "Question", "name": "Can I start at 13-14 years old?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. PostgreSQL and MySQL are free and install on a regular home computer, and you can start practicing basic SQL right in your browser on free interactive trainers without installing anything."}}]}</script>
+<style>
+  body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;color:#1a202c;line-height:1.75}
+  h1{font-size:2rem;margin-bottom:8px;line-height:1.3}
+  h2{font-size:1.35rem;margin:44px 0 12px;padding-bottom:6px;border-bottom:2px solid #6C63FF;color:#6C63FF}
+  h3{font-size:1.05rem;margin:24px 0 8px;color:#2d3748}
+  .subtitle{color:#718096;margin-bottom:36px;font-size:1.05rem}
+  .tldr{background:#f7f6ff;border-left:4px solid #6C63FF;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0 28px;font-size:1rem}
+  .back{display:inline-block;margin-bottom:24px;color:#6C63FF;text-decoration:none;font-size:.95rem}
+  .back:hover{text-decoration:underline}
+  .cta{background:#6C63FF;color:white;display:inline-block;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700;margin:16px 0;font-size:1rem}
+  .cta:hover{background:#5a52d5}
+  .cta-block{background:#f0efff;border-radius:12px;padding:24px;margin:40px 0;text-align:center}
+  .cta-block p{margin:0 0 16px;font-size:1.05rem}
+  .tip{background:#f0fff4;border-left:4px solid #48bb78;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .warn{background:#fffbeb;border-left:4px solid #f6e05e;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .roadmap{counter-reset:step}
+  .step{counter-increment:step;background:#f7f8fc;border-left:4px solid #6C63FF;padding:16px 20px 16px 56px;border-radius:0 8px 8px 0;margin:16px 0;position:relative}
+  .step::before{content:counter(step);position:absolute;left:16px;top:16px;background:#6C63FF;color:white;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+  table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}
+  th{background:#6C63FF;color:white;padding:10px 12px;text-align:left}
+  td{padding:9px 12px;border-bottom:1px solid #e2e8f0}
+  tr:nth-child(even) td{background:#f7f8fc}
+  ul,ol{padding-left:24px}
+  li{margin:8px 0}
+  code{background:#f0efff;padding:2px 6px;border-radius:4px;font-size:.9em;color:#6C63FF}
+  footer{margin-top:56px;padding-top:16px;border-top:1px solid #e2e8f0;color:#a0aec0;font-size:.8rem}
+</style>
+</head>
+<body>
+<a class="back" href="https://ivannahodka.github.io/career-test/">← Free Career Aptitude Test</a>
+
+<h1>How to Become a Database Administrator: A Guide for Teens</h1>
+<p class="subtitle">A database administrator is responsible for the most valuable thing a company has — its data — making sure it never gets lost, corrupted, or into the wrong hands. If you're more interested in how data is properly stored and protected than in the numbers themselves, keep reading.</p>
+<div class="tldr"><strong>In short:</strong> A database administrator (DBA) installs, configures, and secures database management systems, handles backups, and keeps queries running fast. The starting point is SQL and one database system (usually PostgreSQL), and reaching a Junior level takes about 9-14 months.</div>
+
+<p>A Database Administrator is a specialist responsible for a company's databases: installing and configuring the database management system (DBMS), managing backups, protecting data from loss or unauthorized access, and optimizing query performance. Every application — from an online store to a banking service — stores its data in a database, and someone needs to make sure that database never fails at the worst possible moment.</p>
+
+<div class="cta-block">
+  <p>Not sure if IT is right for you? Take the free test — 10 minutes</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Take the test →</a>
+</div>
+
+<h2>What a Database Administrator does</h2>
+<p>If a backend developer writes the code that talks to the data, a DBA makes sure the data itself is always there, intact, and fast to respond to:</p>
+<ul>
+  <li><strong>Installs and configures the DBMS</strong> — PostgreSQL, MySQL, MS SQL Server, Oracle, and other database management systems.</li>
+  <li><strong>Creates and tests backups</strong> — so that after a failure, mistake, or attack, data can be restored instead of lost forever.</li>
+  <li><strong>Manages access control</strong> — which employees or services can read or modify which data.</li>
+  <li><strong>Optimizes performance</strong> — if a query takes 10 seconds instead of 10 milliseconds, it's the DBA's job to find the cause and speed it up.</li>
+</ul>
+<p>In smaller companies, this role is often combined with backend development or system administration. In larger companies, it's a separate specialization, especially where the database is huge and business-critical.</p>
+
+<h2>What you need to learn</h2>
+
+<h3>1. SQL</h3>
+<p>SQL is the query language for databases, and it's the absolute foundation of this profession. Without being fluent in SELECT, JOIN, indexes, and transactions, becoming a DBA isn't possible.</p>
+
+<h3>2. One database system (usually PostgreSQL)</h3>
+<p>Knowing SQL in theory isn't enough — you need to be able to administer a specific system: installing it, tuning performance settings, managing user permissions, and setting up replication.</p>
+
+<h3>3. Backups and recovery</h3>
+<p>The single most important DBA skill is not losing data. You need to understand different backup strategies and be able to actually restore a database from a backup in practice, not just know it's theoretically possible.</p>
+
+<h2>How much time it takes</h2>
+<table>
+  <tr><th>Stage</th><th>Time</th><th>Result</th></tr>
+  <tr><td>SQL basics</td><td>2-3 months</td><td>Confidently write queries with joins, grouping, and subqueries</td></tr>
+  <tr><td>Administering one DBMS</td><td>3-4 months</td><td>Install, configure, and secure PostgreSQL or a similar system</td></tr>
+  <tr><td>Practice on real tasks</td><td>3-4 months</td><td>Set up backups, optimize slow queries</td></tr>
+  <tr><td>Junior level</td><td>9-14 months total</td><td>Ready for an internship or first job</td></tr>
+</table>
+
+<h2>Where to start right now</h2>
+<div class="roadmap">
+  <div class="step"><strong>Learn SQL from scratch</strong> — <a href="https://www.sqltutorial.org/" target="_blank">SQL Tutorial</a> — a free course on SQL with clear examples, from a simple SELECT to window functions.</div>
+  <div class="step"><strong>Practice on real tasks</strong> — <a href="https://pgexercises.com/" target="_blank">PostgreSQL Exercises</a> — free interactive SQL exercises right in your browser, from simple queries to recursive ones.</div>
+  <div class="step"><strong>Go through the PostgreSQL DBA skills roadmap</strong> — <a href="https://roadmap.sh/postgresql-dba" target="_blank">roadmap.sh/postgresql-dba</a> — what to learn and in what order to become a database administrator.</div>
+  <div class="step"><strong>Read the official PostgreSQL documentation</strong> — <a href="https://www.postgresql.org/docs/current/tutorial.html" target="_blank">PostgreSQL Tutorial</a> — a free official tutorial from the PostgreSQL developers, from installation to advanced features.</div>
+</div>
+
+<h2>Free resources</h2>
+<ul>
+  <li><a href="https://www.sqltutorial.org/" target="_blank">SQL Tutorial</a> — a free course on SQL from scratch</li>
+  <li><a href="https://pgexercises.com/" target="_blank">PostgreSQL Exercises</a> — free interactive SQL exercises</li>
+  <li><a href="https://roadmap.sh/postgresql-dba" target="_blank">roadmap.sh/postgresql-dba</a> — a database administrator skills roadmap</li>
+  <li><a href="https://www.postgresql.org/docs/current/tutorial.html" target="_blank">PostgreSQL Tutorial</a> — official free PostgreSQL documentation</li>
+</ul>
+
+<div class="warn">
+  <strong>Don't skip backups and recovery.</strong> A DBA who writes great SQL but has never actually restored a database from a backup risks losing the company's data at the first real failure. Make sure to practice this on a test database.
+</div>
+
+<h2>How much they earn</h2>
+<p>Database administrators are needed by nearly any company with a serious amount of data — from fintech to online retailers:</p>
+<ul>
+  <li><strong>Junior</strong> — entry level, usually solid SQL and basic administration skills for one DBMS are enough.</li>
+  <li><strong>Middle</strong> — noticeably above the IT average, especially with experience setting up replication and recovering from failures.</li>
+  <li><strong>Senior / DBA Lead</strong> — one of the consistently well-paid tracks, especially when working with large, high-load databases.</li>
+</ul>
+<p>DBAs who also pick up cloud databases (AWS RDS, Google Cloud SQL) and automation easily move into cloud engineering roles, where pay is often even higher.</p>
+
+<h2>Database administration is for you if...</h2>
+<ul>
+  <li>You like bringing order to structure and making sure everything is reliably organized</li>
+  <li>You're drawn to responsibility — knowing that important data's safety depends on your work</li>
+  <li>You find query logic and optimization interesting, more than visual output</li>
+  <li>You like system administration, but want to specialize specifically in data rather than the whole infrastructure</li>
+</ul>
+<p>Probably not for you if seeing a flashy, immediate result matters most to you — in that case, look into frontend development or design instead.</p>
+
+<div class="cta-block">
+  <p>Take the test — find out if database administration fits you, or if another IT path suits you better</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Take the free test →</a>
+</div>
+
+<h2>Frequently asked questions</h2>
+<h3>What's the difference between a database administrator and a Data Analyst?</h3>
+<p>A Data Analyst works with data to find answers to business questions — building reports and dashboards. A Database Administrator (DBA) is responsible for making sure the data itself is available, intact, and secure — installing and configuring the database system, managing backups, optimizing query speed, and controlling access. A DBA works closer to infrastructure than to analysis.</p>
+
+<h3>Which database system should I learn first?</h3>
+<p>PostgreSQL — it's free, open source, widely used in the industry, and has excellent free documentation. After PostgreSQL, picking up MySQL, MS SQL Server, or Oracle is much easier, because the core SQL and relational database principles are the same.</p>
+
+<h3>Do I need to know programming?</h3>
+<p>SQL is itself a programming language, and you'll need to be fluent in it. Full-scale programming in Python or Bash isn't required to start, but it becomes useful for automating backups and routine tasks as you grow.</p>
+
+<h3>Can I start at 13-14 years old?</h3>
+<p>Yes. PostgreSQL and MySQL are free and install on a regular home computer, and you can start practicing basic SQL right in your browser on free interactive trainers without installing anything.</p>
+
+<h2>Related articles</h2>
+<ul>
+  <li><a href="../how-to-choose-en.html">🧭 How to Choose a Career: 7-Step Guide</a></li>
+  <li><a href="data-analyst-en.html">📊 How to become a Data Analyst</a></li>
+  <li><a href="system-administrator-en.html">🖥️ How to become a System Administrator</a></li>
+  <li><a href="cloud-engineer-en.html">☁️ How to become a Cloud Engineer</a></li>
+  <li><a href="backend-developer-en.html">⚙️ How to become a backend developer</a></li>
+  <li><a href="devops-engineer-en.html">🛠️ How to become a DevOps engineer</a></li>
+  <li><a href="cybersecurity-en.html">🛡️ How to become a Cybersecurity Specialist</a></li>
+  <li><a href="qa-engineer-en.html">🐞 How to become a QA engineer</a></li>
+  <li><a href="frontend-developer-en.html">💻 How to become a frontend developer</a></li>
+  <li><a href="game-developer-en.html">🎮 How to become a Game Developer</a></li>
+  <li><a href="mobile-developer-en.html">📱 How to become a Mobile Developer</a></li>
+  <li><a href="ux-ui-designer-en.html">🎨 How to become a UX/UI Designer</a></li>
+  <li><a href="product-manager-en.html">📋 How to become a Product Manager</a></li>
+  <li><a href="technical-writer-en.html">📝 How to become a Technical Writer</a></li>
+</ul>
+
+<footer>
+  <p>© Career Test · <a href="https://ivannahodka.github.io/career-test/">Career Test</a> · <a href="../glossary-static-en.html">Glossary</a> · <a href="database-administrator-ru.html">Русский</a></p>
+</footer>
+</body>
+</html>

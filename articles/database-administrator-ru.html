@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Как стать администратором баз данных: гайд для подростков</title>
+<meta name="description" content="Как стать администратором баз данных (DBA) с нуля в 13–16 лет: SQL, PostgreSQL, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<link rel="canonical" href="https://ivannahodka.github.io/career-test/articles/database-administrator-ru.html">
+<link rel="alternate" hreflang="ru" href="https://ivannahodka.github.io/career-test/articles/database-administrator-ru.html">
+<link rel="alternate" hreflang="en" href="https://ivannahodka.github.io/career-test/articles/database-administrator-en.html">
+<link rel="alternate" hreflang="x-default" href="https://ivannahodka.github.io/career-test/articles/database-administrator-ru.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ivannahodka.github.io/career-test/articles/database-administrator-ru.html">
+<meta property="og:title" content="Как стать администратором баз данных: гайд для подростков">
+<meta property="og:description" content="Как стать администратором баз данных (DBA) с нуля в 13–16 лет: SQL, PostgreSQL, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<meta property="og:locale" content="ru">
+<meta property="og:image" content="https://ivannahodka.github.io/career-test/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Как стать администратором баз данных: гайд для подростков">
+<meta name="twitter:description" content="Как стать администратором баз данных (DBA) с нуля в 13–16 лет: SQL, PostgreSQL, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<meta name="twitter:image" content="https://ivannahodka.github.io/career-test/og-image.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Как стать администратором баз данных: гайд для подростков","description":"Как стать администратором баз данных (DBA) с нуля в 13–16 лет: SQL, PostgreSQL, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.","url":"https://ivannahodka.github.io/career-test/articles/database-administrator-ru.html","inLanguage":"ru","author":{"@type":"Organization","name":"Career Test"},"publisher":{"@type":"Organization","name":"Career Test","url":"https://ivannahodka.github.io/career-test/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Чем администратор баз данных отличается от Data Analyst?", "acceptedAnswer": {"@type": "Answer", "text": "Data Analyst работает с данными, чтобы находить в них ответы на бизнес-вопросы — строит отчёты и графики. Администратор баз данных (DBA) отвечает за то, чтобы сами данные были доступны, целы и защищены — устанавливает и настраивает СУБД, следит за резервным копированием, оптимизирует скорость запросов, управляет доступами. DBA работает ближе к инфраструктуре, чем к анализу."}}, {"@type": "Question", "name": "Какую СУБД учить первой?", "acceptedAnswer": {"@type": "Answer", "text": "PostgreSQL — бесплатная, с открытым исходным кодом, широко используется в индустрии и имеет отличную бесплатную документацию. После неё разобраться в MySQL, MS SQL Server или Oracle гораздо проще, потому что базовые принципы SQL и реляционных баз одинаковы."}}, {"@type": "Question", "name": "Нужно ли уметь программировать?", "acceptedAnswer": {"@type": "Answer", "text": "SQL — это тоже язык программирования, и им придётся владеть свободно. Полноценная разработка на Python или Bash не обязательна на старте, но пригодится для автоматизации резервного копирования и рутинных задач по мере роста."}}, {"@type": "Question", "name": "Можно ли начать в 13–14 лет?", "acceptedAnswer": {"@type": "Answer", "text": "Да. PostgreSQL и MySQL бесплатны и устанавливаются на обычный домашний компьютер, а базовый SQL можно начать практиковать прямо в браузере на бесплатных тренажёрах без установки чего-либо."}}]}</script>
+<style>
+  body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;color:#1a202c;line-height:1.75}
+  h1{font-size:2rem;margin-bottom:8px;line-height:1.3}
+  h2{font-size:1.35rem;margin:44px 0 12px;padding-bottom:6px;border-bottom:2px solid #6C63FF;color:#6C63FF}
+  h3{font-size:1.05rem;margin:24px 0 8px;color:#2d3748}
+  .subtitle{color:#718096;margin-bottom:36px;font-size:1.05rem}
+  .tldr{background:#f7f6ff;border-left:4px solid #6C63FF;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0 28px;font-size:1rem}
+  .back{display:inline-block;margin-bottom:24px;color:#6C63FF;text-decoration:none;font-size:.95rem}
+  .back:hover{text-decoration:underline}
+  .cta{background:#6C63FF;color:white;display:inline-block;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700;margin:16px 0;font-size:1rem}
+  .cta:hover{background:#5a52d5}
+  .cta-block{background:#f0efff;border-radius:12px;padding:24px;margin:40px 0;text-align:center}
+  .cta-block p{margin:0 0 16px;font-size:1.05rem}
+  .tip{background:#f0fff4;border-left:4px solid #48bb78;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .warn{background:#fffbeb;border-left:4px solid #f6e05e;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .roadmap{counter-reset:step}
+  .step{counter-increment:step;background:#f7f8fc;border-left:4px solid #6C63FF;padding:16px 20px 16px 56px;border-radius:0 8px 8px 0;margin:16px 0;position:relative}
+  .step::before{content:counter(step);position:absolute;left:16px;top:16px;background:#6C63FF;color:white;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+  table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}
+  th{background:#6C63FF;color:white;padding:10px 12px;text-align:left}
+  td{padding:9px 12px;border-bottom:1px solid #e2e8f0}
+  tr:nth-child(even) td{background:#f7f8fc}
+  ul,ol{padding-left:24px}
+  li{margin:8px 0}
+  code{background:#f0efff;padding:2px 6px;border-radius:4px;font-size:.9em;color:#6C63FF}
+  footer{margin-top:56px;padding-top:16px;border-top:1px solid #e2e8f0;color:#a0aec0;font-size:.8rem}
+</style>
+</head>
+<body>
+<a class="back" href="https://ivannahodka.github.io/career-test/">← Бесплатный тест на профессию</a>
+
+<h1>Как стать администратором баз данных: гайд для подростков</h1>
+<p class="subtitle">Администратор баз данных отвечает за самое ценное, что есть у любой компании — её данные: чтобы они не терялись, не путались и не попадали в чужие руки. Если тебе интереснее не сами цифры, а то, как их правильно хранить и защищать, — читай дальше.</p>
+<div class="tldr"><strong>Коротко:</strong> Администратор баз данных (DBA) устанавливает, настраивает и защищает системы управления базами данных, следит за резервным копированием и скоростью запросов. Стартовая точка — SQL и одна СУБД (обычно PostgreSQL), а путь до Junior-уровня занимает 9–14 месяцев.</div>
+
+<p>Database Administrator — специалист, который отвечает за базы данных компании: устанавливает и настраивает систему управления базами данных (СУБД), следит за резервным копированием, защищает данные от потери и несанкционированного доступа, оптимизирует скорость работы запросов. Любое приложение — от интернет-магазина до банковского сервиса — хранит данные в базе, и кто-то должен следить, чтобы эта база не подвела в самый неподходящий момент.</p>
+
+<div class="cta-block">
+  <p>Не уверен, подходит ли тебе IT? Пройди бесплатный тест — 10 минут</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти тест →</a>
+</div>
+
+<h2>Чем занимается администратор баз данных</h2>
+<p>Если backend-разработчик пишет код, который обращается к данным, то DBA следит, чтобы сами данные всегда были на месте, целы и быстро отвечали на запросы:</p>
+<ul>
+  <li><strong>Устанавливает и настраивает СУБД</strong> — PostgreSQL, MySQL, MS SQL Server, Oracle и другие системы управления базами данных.</li>
+  <li><strong>Делает и проверяет резервные копии</strong> — чтобы при сбое, ошибке или атаке данные можно было восстановить, а не потерять навсегда.</li>
+  <li><strong>Управляет доступами</strong> — кто из сотрудников или сервисов может читать или менять какие данные.</li>
+  <li><strong>Оптимизирует производительность</strong> — если запрос к базе выполняется 10 секунд вместо 10 миллисекунд, это работа DBA — найти причину и ускорить его.</li>
+</ul>
+<p>В небольших компаниях эту роль часто совмещает backend-разработчик или системный администратор. В крупных — это отдельная специализация, особенно там, где база данных огромна и критически важна для бизнеса.</p>
+
+<h2>Что нужно выучить</h2>
+
+<h3>1. SQL</h3>
+<p>SQL — язык запросов к базам данных, и это абсолютный фундамент профессии. Без свободного владения SELECT, JOIN, индексами и транзакциями стать DBA невозможно.</p>
+
+<h3>2. Одна СУБД (обычно PostgreSQL)</h3>
+<p>Мало знать SQL в теории — нужно уметь администрировать конкретную систему: устанавливать, настраивать параметры производительности, работать с правами пользователей, настраивать репликацию.</p>
+
+<h3>3. Резервное копирование и восстановление</h3>
+<p>Самый важный навык DBA — не потерять данные. Нужно понимать разные стратегии бэкапов и уметь на практике восстановить базу из резервной копии, а не только теоретически знать, что так можно.</p>
+
+<h2>Сколько времени нужно</h2>
+<table>
+  <tr><th>Этап</th><th>Время</th><th>Результат</th></tr>
+  <tr><td>Основы SQL</td><td>2–3 месяца</td><td>Уверенно пишешь запросы с JOIN, группировками и подзапросами</td></tr>
+  <tr><td>Администрирование одной СУБД</td><td>3–4 месяца</td><td>Устанавливаешь, настраиваешь и защищаешь PostgreSQL или аналог</td></tr>
+  <tr><td>Практика на реальных задачах</td><td>3–4 месяца</td><td>Настраиваешь бэкапы, оптимизируешь медленные запросы</td></tr>
+  <tr><td>Junior-уровень</td><td>9–14 месяцев суммарно</td><td>Готов к стажировке или первой работе</td></tr>
+</table>
+
+<h2>С чего начать прямо сейчас</h2>
+<div class="roadmap">
+  <div class="step"><strong>Изучи SQL с нуля</strong> — <a href="https://www.sqltutorial.org/" target="_blank">SQL Tutorial</a> — бесплатный курс по SQL с понятными примерами, от простого SELECT до оконных функций.</div>
+  <div class="step"><strong>Попрактикуйся на реальных задачах</strong> — <a href="https://pgexercises.com/" target="_blank">PostgreSQL Exercises</a> — бесплатные интерактивные упражнения по SQL прямо в браузере, от простых запросов до рекурсивных.</div>
+  <div class="step"><strong>Пройди карту навыков PostgreSQL DBA</strong> — <a href="https://roadmap.sh/postgresql-dba" target="_blank">roadmap.sh/postgresql-dba</a> — что учить и в каком порядке, чтобы стать администратором баз данных.</div>
+  <div class="step"><strong>Изучи официальную документацию PostgreSQL</strong> — <a href="https://www.postgresql.org/docs/current/tutorial.html" target="_blank">PostgreSQL Tutorial</a> — бесплатный официальный туториал от разработчиков PostgreSQL, от установки до продвинутых возможностей.</div>
+</div>
+
+<h2>Бесплатные ресурсы</h2>
+<ul>
+  <li><a href="https://www.sqltutorial.org/" target="_blank">SQL Tutorial</a> — бесплатный курс по SQL с нуля</li>
+  <li><a href="https://pgexercises.com/" target="_blank">PostgreSQL Exercises</a> — бесплатные интерактивные упражнения по SQL</li>
+  <li><a href="https://roadmap.sh/postgresql-dba" target="_blank">roadmap.sh/postgresql-dba</a> — карта навыков администратора баз данных</li>
+  <li><a href="https://www.postgresql.org/docs/current/tutorial.html" target="_blank">PostgreSQL Tutorial</a> — официальная бесплатная документация PostgreSQL</li>
+</ul>
+
+<div class="warn">
+  <strong>Не пропускай тему резервного копирования.</strong> DBA, который отлично пишет SQL, но ни разу не восстанавливал базу из бэкапа на практике, рискует потерять данные компании в первый же серьёзный сбой. Обязательно потренируйся делать это на тестовой базе.
+</div>
+
+<h2>Сколько зарабатывают</h2>
+<p>Администраторы баз данных нужны почти любой компании с серьёзным объёмом данных — от финтеха до интернет-магазинов:</p>
+<ul>
+  <li><strong>Junior</strong> — начальный уровень, обычно достаточно уверенного SQL и базовых навыков администрирования одной СУБД.</li>
+  <li><strong>Middle</strong> — заметно выше среднего по IT, особенно с опытом настройки репликации и восстановления после сбоев.</li>
+  <li><strong>Senior / DBA Lead</strong> — один из стабильно высокооплачиваемых треков, особенно при работе с крупными и высоконагруженными базами данных.</li>
+</ul>
+<p>DBA, которые дополнительно осваивают облачные базы данных (AWS RDS, Google Cloud SQL) и автоматизацию, легко переходят в облачную инженерию — там доход часто ещё выше.</p>
+
+<h2>Администрирование баз данных подходит тебе, если...</h2>
+<ul>
+  <li>Тебе нравится наводить порядок в структуре и следить, чтобы всё было надёжно организовано</li>
+  <li>Тебя привлекает ответственность — понимание, что от твоей работы зависит сохранность важных данных</li>
+  <li>Тебе интересна логика запросов и оптимизация, а не визуальный результат</li>
+  <li>Тебе нравится системное администрирование, но хочется специализироваться именно на данных, а не на всей инфраструктуре</li>
+</ul>
+<p>Скорее не твоё, если тебе важно видеть яркий результат работы сразу — тогда присмотрись к frontend-разработке или дизайну.</p>
+
+<div class="cta-block">
+  <p>Пройди тест — узнай, подходит ли тебе администрирование баз данных или лучше другое направление в IT</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти бесплатный тест →</a>
+</div>
+
+<h2>Частые вопросы</h2>
+<h3>Чем администратор баз данных отличается от Data Analyst?</h3>
+<p>Data Analyst работает с данными, чтобы находить в них ответы на бизнес-вопросы — строит отчёты и графики. Администратор баз данных (DBA) отвечает за то, чтобы сами данные были доступны, целы и защищены — устанавливает и настраивает СУБД, следит за резервным копированием, оптимизирует скорость запросов, управляет доступами. DBA работает ближе к инфраструктуре, чем к анализу.</p>
+
+<h3>Какую СУБД учить первой?</h3>
+<p>PostgreSQL — бесплатная, с открытым исходным кодом, широко используется в индустрии и имеет отличную бесплатную документацию. После неё разобраться в MySQL, MS SQL Server или Oracle гораздо проще, потому что базовые принципы SQL и реляционных баз одинаковы.</p>
+
+<h3>Нужно ли уметь программировать?</h3>
+<p>SQL — это тоже язык программирования, и им придётся владеть свободно. Полноценная разработка на Python или Bash не обязательна на старте, но пригодится для автоматизации резервного копирования и рутинных задач по мере роста.</p>
+
+<h3>Можно ли начать в 13–14 лет?</h3>
+<p>Да. PostgreSQL и MySQL бесплатны и устанавливаются на обычный домашний компьютер, а базовый SQL можно начать практиковать прямо в браузере на бесплатных тренажёрах без установки чего-либо.</p>
+
+<h2>Похожие статьи</h2>
+<ul>
+  <li><a href="data-analyst-ru.html">📊 Как стать аналитиком данных</a></li>
+  <li><a href="system-administrator-ru.html">🖥️ Как стать системным администратором</a></li>
+  <li><a href="cloud-engineer-ru.html">☁️ Как стать облачным инженером</a></li>
+  <li><a href="backend-developer-ru.html">⚙️ Как стать backend-разработчиком</a></li>
+  <li><a href="devops-engineer-ru.html">🛠️ Как стать DevOps-инженером</a></li>
+  <li><a href="cybersecurity-ru.html">🛡️ Как стать специалистом по кибербезопасности</a></li>
+  <li><a href="qa-engineer-ru.html">🐞 Как стать QA-инженером</a></li>
+  <li><a href="frontend-developer-ru.html">💻 Как стать frontend-разработчиком</a></li>
+  <li><a href="game-developer-ru.html">🎮 Как стать разработчиком игр</a></li>
+  <li><a href="mobile-developer-ru.html">📱 Как стать мобильным разработчиком</a></li>
+  <li><a href="ux-ui-designer-ru.html">🎨 Как стать UX/UI дизайнером</a></li>
+  <li><a href="product-manager-ru.html">📋 Как стать Product Manager</a></li>
+  <li><a href="technical-writer-ru.html">📝 Как стать техническим писателем</a></li>
+</ul>
+
+<footer>
+  <p>© Career Test · <a href="https://ivannahodka.github.io/career-test/">Тест на профессию</a> · <a href="../glossary-static.html">Глоссарий</a> · <a href="database-administrator-en.html">English</a></p>
+</footer>
+</body>
+</html>
