@@ -219,6 +219,18 @@ function showHome() {
   buildHome();
 }
 
+function toggleArticleGroup(btn) {
+  const body = btn.nextElementSibling;
+  const isOpen = body && body.style.display === 'block';
+  document.querySelectorAll('#articles-menu .artmenu-group-body').forEach(b => { b.style.display = 'none'; });
+  document.querySelectorAll('#articles-menu .artmenu-group-arrow').forEach(a => { a.style.transform = ''; });
+  if (!isOpen && body) {
+    body.style.display = 'block';
+    const arrow = btn.querySelector('.artmenu-group-arrow');
+    if (arrow) arrow.style.transform = 'rotate(180deg)';
+  }
+}
+
 function buildHome() {
   const dir = (I18N[lang] && I18N[lang].dir) || 'ltr';
   document.documentElement.dir = dir;
@@ -283,6 +295,7 @@ function buildHome() {
   // Articles dropdown menu
   const ARTICLES = [
     {
+      group: 'grpDev',
       ru: { label:'💻 Как стать frontend-разработчиком', href:'articles/frontend-developer-ru.html' },
       en: { label:'💻 How to become a frontend developer', href:'articles/frontend-developer-en.html' },
       de: { label:'💻 Wie wird man Frontend-Entwickler?', href:'articles/frontend-developer-en.html' },
@@ -294,6 +307,7 @@ function buildHome() {
       he: { label:'💻 איך להפוך למפתח frontend', href:'articles/frontend-developer-en.html' },
     },
     {
+      group: 'grpDev',
       ru: { label:'⚙️ Как стать backend-разработчиком', href:'articles/backend-developer-ru.html' },
       en: { label:'⚙️ How to become a backend developer', href:'articles/backend-developer-en.html' },
       de: { label:'⚙️ Wie wird man Backend-Entwickler?', href:'articles/backend-developer-en.html' },
@@ -305,6 +319,7 @@ function buildHome() {
       he: { label:'⚙️ איך להפוך למפתח backend', href:'articles/backend-developer-en.html' },
     },
     {
+      group: 'grpQa',
       ru: { label:'🐞 Как стать QA-инженером', href:'articles/qa-engineer-ru.html' },
       en: { label:'🐞 How to become a QA engineer', href:'articles/qa-engineer-en.html' },
       de: { label:'🐞 Wie wird man QA-Ingenieur?', href:'articles/qa-engineer-en.html' },
@@ -316,6 +331,7 @@ function buildHome() {
       he: { label:'🐞 איך להפוך למהנדס QA', href:'articles/qa-engineer-en.html' },
     },
     {
+      group: 'grpInfra',
       ru: { label:'🛠️ Как стать DevOps-инженером', href:'articles/devops-engineer-ru.html' },
       en: { label:'🛠️ How to become a DevOps engineer', href:'articles/devops-engineer-en.html' },
       de: { label:'🛠️ Wie wird man DevOps-Ingenieur?', href:'articles/devops-engineer-en.html' },
@@ -327,6 +343,7 @@ function buildHome() {
       he: { label:'🛠️ איך להפוך למהנדס DevOps', href:'articles/devops-engineer-en.html' },
     },
     {
+      group: 'grpData',
       ru: { label:'📊 Как стать аналитиком данных', href:'articles/data-analyst-ru.html' },
       en: { label:'📊 How to become a Data Analyst', href:'articles/data-analyst-en.html' },
       de: { label:'📊 Wie wird man Data Analyst?', href:'articles/data-analyst-en.html' },
@@ -338,6 +355,7 @@ function buildHome() {
       he: { label:'📊 איך להפוך לאנליסט נתונים', href:'articles/data-analyst-en.html' },
     },
     {
+      group: 'grpSec',
       ru: { label:'🛡️ Как стать специалистом по кибербезопасности', href:'articles/cybersecurity-ru.html' },
       en: { label:'🛡️ How to become a Cybersecurity Specialist', href:'articles/cybersecurity-en.html' },
       de: { label:'🛡️ Wie wird man Cybersecurity-Spezialist?', href:'articles/cybersecurity-en.html' },
@@ -349,6 +367,7 @@ function buildHome() {
       he: { label:'🛡️ איך להפוך למומחה סייבר', href:'articles/cybersecurity-en.html' },
     },
     {
+      group: 'grpDev',
       ru: { label:'🎮 Как стать разработчиком игр', href:'articles/game-developer-ru.html' },
       en: { label:'🎮 How to become a Game Developer', href:'articles/game-developer-en.html' },
       de: { label:'🎮 Wie wird man Game Developer?', href:'articles/game-developer-en.html' },
@@ -360,6 +379,7 @@ function buildHome() {
       he: { label:'🎮 איך להפוך למפתח משחקים', href:'articles/game-developer-en.html' },
     },
     {
+      group: 'grpDev',
       ru: { label:'📱 Как стать мобильным разработчиком', href:'articles/mobile-developer-ru.html' },
       en: { label:'📱 How to become a Mobile Developer', href:'articles/mobile-developer-en.html' },
       de: { label:'📱 Wie wird man App-Entwickler?', href:'articles/mobile-developer-en.html' },
@@ -371,6 +391,7 @@ function buildHome() {
       he: { label:'📱 איך להפוך למפתח מובייל', href:'articles/mobile-developer-en.html' },
     },
     {
+      group: 'grpDes',
       ru: { label:'🎨 Как стать UX/UI дизайнером', href:'articles/ux-ui-designer-ru.html' },
       en: { label:'🎨 How to become a UX/UI Designer', href:'articles/ux-ui-designer-en.html' },
       de: { label:'🎨 Wie wird man UX/UI-Designer?', href:'articles/ux-ui-designer-en.html' },
@@ -382,6 +403,7 @@ function buildHome() {
       he: { label:'🎨 איך להפוך למעצב UX/UI', href:'articles/ux-ui-designer-en.html' },
     },
     {
+      group: 'grpInfra',
       ru: { label:'🖥️ Как стать системным администратором', href:'articles/system-administrator-ru.html' },
       en: { label:'🖥️ How to become a System Administrator', href:'articles/system-administrator-en.html' },
       de: { label:'🖥️ Wie wird man Systemadministrator?', href:'articles/system-administrator-en.html' },
@@ -393,6 +415,7 @@ function buildHome() {
       he: { label:'🖥️ איך להפוך למנהל מערכות', href:'articles/system-administrator-en.html' },
     },
     {
+      group: 'grpPm',
       ru: { label:'📋 Как стать Product Manager', href:'articles/product-manager-ru.html' },
       en: { label:'📋 How to become a Product Manager', href:'articles/product-manager-en.html' },
       de: { label:'📋 Wie wird man Product Manager?', href:'articles/product-manager-en.html' },
@@ -404,6 +427,7 @@ function buildHome() {
       he: { label:'📋 איך להפוך למנהל מוצר', href:'articles/product-manager-en.html' },
     },
     {
+      group: 'grpPm',
       ru: { label:'📝 Как стать техническим писателем', href:'articles/technical-writer-ru.html' },
       en: { label:'📝 How to become a Technical Writer', href:'articles/technical-writer-en.html' },
       de: { label:'📝 Wie wird man Technical Writer?', href:'articles/technical-writer-en.html' },
@@ -415,6 +439,7 @@ function buildHome() {
       he: { label:'📝 איך להפוך לכותב טכני', href:'articles/technical-writer-en.html' },
     },
     {
+      group: 'grpInfra',
       ru: { label:'☁️ Как стать облачным инженером', href:'articles/cloud-engineer-ru.html' },
       en: { label:'☁️ How to become a Cloud Engineer', href:'articles/cloud-engineer-en.html' },
       de: { label:'☁️ Wie wird man Cloud Engineer?', href:'articles/cloud-engineer-en.html' },
@@ -426,6 +451,7 @@ function buildHome() {
       he: { label:'☁️ איך להפוך למהנדס ענן', href:'articles/cloud-engineer-en.html' },
     },
     {
+      group: 'grpData',
       ru: { label:'🗄️ Как стать администратором баз данных', href:'articles/database-administrator-ru.html' },
       en: { label:'🗄️ How to become a Database Administrator', href:'articles/database-administrator-en.html' },
       de: { label:'🗄️ Wie wird man Datenbankadministrator?', href:'articles/database-administrator-en.html' },
@@ -444,9 +470,21 @@ function buildHome() {
   if (btnLabelEl) btnLabelEl.textContent = articlesBtnLabel[lang] || articlesBtnLabel.en;
   const menu = document.getElementById('articles-menu');
   if (menu) {
-    menu.innerHTML = ARTICLES.map(a => {
-      const item = a[lang] || a['en'];
-      return '<a href="' + item.href + '">' + item.label + '</a>';
+    const groupOrder = ['grpDev','grpQa','grpInfra','grpData','grpSec','grpDes','grpPm'];
+    const groupLabels = { grpDev: hu('grpDev'), grpQa: hu('grpQa'), grpInfra: hu('grpInfra'),
+      grpData: hu('grpData'), grpSec: hu('grpSec'), grpDes: hu('grpDes'), grpPm: hu('grpPm') };
+    const byGroup = {};
+    ARTICLES.forEach(a => { (byGroup[a.group] = byGroup[a.group] || []).push(a); });
+    menu.innerHTML = groupOrder.filter(g => byGroup[g] && byGroup[g].length).map(g => {
+      const links = byGroup[g].map(a => {
+        const item = a[lang] || a['en'];
+        return '<a href="' + item.href + '">' + item.label + '</a>';
+      }).join('');
+      return '<div class="artmenu-group">'
+        + '<button type="button" class="artmenu-group-btn" onclick="toggleArticleGroup(this)">'
+        + '<span>' + groupLabels[g] + '</span><span class="artmenu-group-arrow">▾</span></button>'
+        + '<div class="artmenu-group-body">' + links + '</div>'
+        + '</div>';
     }).join('');
   }
 

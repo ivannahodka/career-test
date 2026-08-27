@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <link rel="sitemap" type="application/xml" href="/career-test/sitemap.xml">
 <meta name="google-site-verification" content="NzpIMGw7UCpJ3JBgM7g8quO8dvmrVgzxluh4pyVg6hI" />
+<meta name="yandex-verification" content="0eff69e0f3836d32" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Бесплатный тест профориентации — IT, Бизнес, Наука, Инженерия | Career Test</title>
 <meta name="description" content="Бесплатный тест профориентации онлайн: 40 профессий, 9 языков, без регистрации. IT, Творчество, Бизнес, Наука, Педагогика, Инженерия. Узнай свою профессию за 10 вопросов. Free career orientation test: 40 careers, 9 languages, no sign-up.">
@@ -185,13 +186,19 @@
       <button onclick="toggleArticlesMenu()" style="background:none;border:none;cursor:pointer;color:var(--accent);font-size:14px;font-weight:500;padding:0;display:flex;align-items:center;gap:4px" id="articles-btn">
         📝 <span id="articles-btn-label">Статьи</span> <span id="articles-arrow" style="font-size:10px;transition:transform .2s">▾</span>
       </button>
-      <div id="articles-menu" style="display:none;position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%);background:white;border:1px solid #e2e8f0;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.1);min-width:240px;z-index:100;overflow:hidden"></div>
+      <div id="articles-menu" style="display:none;position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%);background:white;border:1px solid #e2e8f0;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.1);min-width:260px;max-width:90vw;max-height:min(70vh,420px);overflow-y:auto;z-index:100"></div>
     </div>
   </div>
   <style>
-    #articles-menu a{display:block;padding:10px 16px;color:#2d3748;text-decoration:none;font-size:13px;border-bottom:1px solid #f0f0f0}
-    #articles-menu a:last-child{border-bottom:none}
+    #articles-menu a{display:block;padding:9px 16px 9px 28px;color:#2d3748;text-decoration:none;font-size:13px;border-bottom:1px solid #f0f0f0}
     #articles-menu a:hover{background:#f7f8fc;color:var(--accent)}
+    .artmenu-group{border-bottom:1px solid #e2e8f0}
+    .artmenu-group:last-child{border-bottom:none}
+    .artmenu-group:last-child .artmenu-group-body a:last-child{border-bottom:none}
+    .artmenu-group-btn{display:flex;align-items:center;justify-content:space-between;width:100%;background:#f7f8fc;border:none;cursor:pointer;padding:10px 16px;font-size:13px;font-weight:600;color:#2d3748;text-align:left;font-family:inherit}
+    .artmenu-group-btn:hover{background:#f0efff;color:var(--accent)}
+    .artmenu-group-arrow{font-size:10px;transition:transform .2s;flex-shrink:0;margin-left:8px}
+    .artmenu-group-body{display:none}
   </style>
   <script>
     function toggleArticlesMenu(){
