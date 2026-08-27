@@ -425,6 +425,17 @@ function buildHome() {
       ar: { label:'☁️ كيف تصبح مهندس حوسبة سحابية', href:'articles/cloud-engineer-en.html' },
       he: { label:'☁️ איך להפוך למהנדס ענן', href:'articles/cloud-engineer-en.html' },
     },
+    {
+      ru: { label:'🗄️ Как стать администратором баз данных', href:'articles/database-administrator-ru.html' },
+      en: { label:'🗄️ How to become a Database Administrator', href:'articles/database-administrator-en.html' },
+      de: { label:'🗄️ Wie wird man Datenbankadministrator?', href:'articles/database-administrator-en.html' },
+      fr: { label:'🗄️ Comment devenir administrateur de bases de données', href:'articles/database-administrator-en.html' },
+      es: { label:'🗄️ Cómo convertirse en administrador de bases de datos', href:'articles/database-administrator-en.html' },
+      pt: { label:'🗄️ Como se tornar administrador de banco de dados', href:'articles/database-administrator-en.html' },
+      zh: { label:'🗄️ 如何成为数据库管理员', href:'articles/database-administrator-en.html' },
+      ar: { label:'🗄️ كيف تصبح مسؤول قواعد بيانات', href:'articles/database-administrator-en.html' },
+      he: { label:'🗄️ איך להפוך למנהל בסיסי נתונים', href:'articles/database-administrator-en.html' },
+    },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
