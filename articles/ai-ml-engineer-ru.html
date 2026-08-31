@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Как стать AI/ML-инженером: гайд для подростков</title>
+<meta name="description" content="Как стать AI/ML-инженером с нуля в 13–16 лет: Python, машинное обучение, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<link rel="canonical" href="https://ivannahodka.github.io/career-test/articles/ai-ml-engineer-ru.html">
+<link rel="alternate" hreflang="ru" href="https://ivannahodka.github.io/career-test/articles/ai-ml-engineer-ru.html">
+<link rel="alternate" hreflang="en" href="https://ivannahodka.github.io/career-test/articles/ai-ml-engineer-en.html">
+<link rel="alternate" hreflang="x-default" href="https://ivannahodka.github.io/career-test/articles/ai-ml-engineer-ru.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ivannahodka.github.io/career-test/articles/ai-ml-engineer-ru.html">
+<meta property="og:title" content="Как стать AI/ML-инженером: гайд для подростков">
+<meta property="og:description" content="Как стать AI/ML-инженером с нуля в 13–16 лет: Python, машинное обучение, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<meta property="og:locale" content="ru">
+<meta property="og:image" content="https://ivannahodka.github.io/career-test/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Как стать AI/ML-инженером: гайд для подростков">
+<meta name="twitter:description" content="Как стать AI/ML-инженером с нуля в 13–16 лет: Python, машинное обучение, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.">
+<meta name="twitter:image" content="https://ivannahodka.github.io/career-test/og-image.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Как стать AI/ML-инженером: гайд для подростков","description":"Как стать AI/ML-инженером с нуля в 13–16 лет: Python, машинное обучение, бесплатные курсы, сколько зарабатывают. Простой гайд без воды.","url":"https://ivannahodka.github.io/career-test/articles/ai-ml-engineer-ru.html","inLanguage":"ru","author":{"@type":"Organization","name":"Career Test"},"publisher":{"@type":"Organization","name":"Career Test","url":"https://ivannahodka.github.io/career-test/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Чем AI/ML-инженер отличается от Data Analyst?", "acceptedAnswer": {"@type": "Answer", "text": "Data Analyst изучает уже собранные данные, чтобы находить в них закономерности и отвечать на бизнес-вопросы. AI/ML-инженер идёт дальше — строит и обучает модели, которые сами делают предсказания на новых данных (например, распознают лица или переводят текст), а затем внедряет эти модели в реальные приложения. Работа ML-инженера ближе к разработке, чем к анализу."}}, {"@type": "Question", "name": "Нужна ли высшая математика?", "acceptedAnswer": {"@type": "Answer", "text": "Базовое понимание алгебры, статистики и производных пригодится, но не нужно быть математиком-теоретиком, чтобы начать. Большинство современных курсов (включая бесплатные) объясняют математику по ходу дела, на конкретных примерах, а не требуют её знания заранее."}}, {"@type": "Question", "name": "На каком языке программирования работают ML-инженеры?", "acceptedAnswer": {"@type": "Answer", "text": "Python — практически стандарт индустрии. Все основные библиотеки машинного обучения (TensorFlow, PyTorch, scikit-learn) написаны для Python, и подавляющее большинство курсов и вакансий ожидают именно его."}}, {"@type": "Question", "name": "Можно ли начать в 13–14 лет?", "acceptedAnswer": {"@type": "Answer", "text": "Да, но сначала стоит освоить основы программирования на Python — без них машинное обучение будет непонятным набором формул. После основ Python можно бесплатно начинать с интерактивных курсов вроде Kaggle Learn прямо в браузере, без установки чего-либо."}}]}</script>
+<style>
+  body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;color:#1a202c;line-height:1.75}
+  h1{font-size:2rem;margin-bottom:8px;line-height:1.3}
+  h2{font-size:1.35rem;margin:44px 0 12px;padding-bottom:6px;border-bottom:2px solid #6C63FF;color:#6C63FF}
+  h3{font-size:1.05rem;margin:24px 0 8px;color:#2d3748}
+  .subtitle{color:#718096;margin-bottom:36px;font-size:1.05rem}
+  .tldr{background:#f7f6ff;border-left:4px solid #6C63FF;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0 28px;font-size:1rem}
+  .back{display:inline-block;margin-bottom:24px;color:#6C63FF;text-decoration:none;font-size:.95rem}
+  .back:hover{text-decoration:underline}
+  .cta{background:#6C63FF;color:white;display:inline-block;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700;margin:16px 0;font-size:1rem}
+  .cta:hover{background:#5a52d5}
+  .cta-block{background:#f0efff;border-radius:12px;padding:24px;margin:40px 0;text-align:center}
+  .cta-block p{margin:0 0 16px;font-size:1.05rem}
+  .tip{background:#f0fff4;border-left:4px solid #48bb78;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .warn{background:#fffbeb;border-left:4px solid #f6e05e;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .roadmap{counter-reset:step}
+  .step{counter-increment:step;background:#f7f8fc;border-left:4px solid #6C63FF;padding:16px 20px 16px 56px;border-radius:0 8px 8px 0;margin:16px 0;position:relative}
+  .step::before{content:counter(step);position:absolute;left:16px;top:16px;background:#6C63FF;color:white;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+  table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}
+  th{background:#6C63FF;color:white;padding:10px 12px;text-align:left}
+  td{padding:9px 12px;border-bottom:1px solid #e2e8f0}
+  tr:nth-child(even) td{background:#f7f8fc}
+  ul,ol{padding-left:24px}
+  li{margin:8px 0}
+  code{background:#f0efff;padding:2px 6px;border-radius:4px;font-size:.9em;color:#6C63FF}
+  footer{margin-top:56px;padding-top:16px;border-top:1px solid #e2e8f0;color:#a0aec0;font-size:.8rem}
+</style>
+</head>
+<body>
+<a class="back" href="https://ivannahodka.github.io/career-test/">← Бесплатный тест на профессию</a>
+
+<h1>Как стать AI/ML-инженером: гайд для подростков</h1>
+<p class="subtitle">AI/ML-инженер учит компьютер находить закономерности и делать предсказания — от рекомендаций фильмов до распознавания лиц. Если тебе интересно не просто анализировать данные, а строить системы, которые сами учатся на них, — читай дальше.</p>
+<div class="tldr"><strong>Коротко:</strong> AI/ML-инженер строит, обучает и внедряет модели машинного обучения в реальные приложения. Стартовая точка — Python и основы статистики, а путь до Junior-уровня занимает 12–18 месяцев.</div>
+
+<p>AI/ML Engineer — специалист, который строит системы, способные учиться на данных и делать предсказания: рекомендовать товары, распознавать речь, фильтровать спам, переводить текст. В отличие от Data Analyst, который ищет ответы в уже собранных данных, ML-инженер создаёт модель, которая сама находит закономерности в новых данных и применяется в реальном продукте — от мобильного приложения до промышленной системы.</p>
+
+<div class="cta-block">
+  <p>Не уверен, подходит ли тебе IT? Пройди бесплатный тест — 10 минут</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти тест →</a>
+</div>
+
+<h2>Чем занимается AI/ML-инженер</h2>
+<p>Если Data Analyst — это детектив, который ищет ответ в уже случившихся событиях, то ML-инженер — это тот, кто строит систему, способную предсказывать будущее на основе прошлого:</p>
+<ul>
+  <li><strong>Готовит данные</strong> — очищает, размечает и структурирует данные так, чтобы модель могла на них обучиться.</li>
+  <li><strong>Строит и обучает модели</strong> — выбирает подходящий алгоритм (от простой регрессии до нейросетей) и тренирует его на данных.</li>
+  <li><strong>Оценивает качество модели</strong> — проверяет, насколько точны предсказания, и не запомнила ли модель тренировочные данные вместо того, чтобы научиться на них обобщать.</li>
+  <li><strong>Внедряет модель в продукт</strong> — превращает обученную модель в работающий сервис, который выдерживает реальную нагрузку пользователей.</li>
+</ul>
+<p>В небольших компаниях один специалист часто совмещает роли Data Analyst и ML-инженера. В крупных — это отдельная специализация, а иногда даже несколько: отдельно готовящие данные, отдельно обучающие модели, отдельно внедряющие их в продакшн (MLOps).</p>
+
+<h2>Что нужно выучить</h2>
+
+<h3>1. Python</h3>
+<p>Python — практический стандарт машинного обучения. Все основные библиотеки (TensorFlow, PyTorch, scikit-learn, pandas) написаны для него, и без свободного владения Python двигаться дальше будет тяжело.</p>
+
+<h3>2. Основы статистики и линейной алгебры</h3>
+<p>Не нужно быть математиком, но понимать, что такое среднее, дисперсия, вероятность, векторы и матрицы — необходимо, чтобы понимать, как и почему работают модели, а не использовать их как чёрный ящик.</p>
+
+<h3>3. Классическое машинное обучение и нейросети</h3>
+<p>Начинают обычно с классических алгоритмов — линейная и логистическая регрессия, деревья решений, — а затем переходят к нейросетям и глубокому обучению, которые лежат в основе современных технологий вроде больших языковых моделей.</p>
+
+<h2>Сколько времени нужно</h2>
+<table>
+  <tr><th>Этап</th><th>Время</th><th>Результат</th></tr>
+  <tr><td>Python и основы данных</td><td>3–4 месяца</td><td>Уверенно пишешь код на Python, работаешь с pandas и NumPy</td></tr>
+  <tr><td>Классическое машинное обучение</td><td>3–4 месяца</td><td>Понимаешь и применяешь регрессию, классификацию, деревья решений</td></tr>
+  <tr><td>Нейросети и практика на проектах</td><td>5–7 месяцев</td><td>Строишь и обучаешь нейросети, участвуешь в соревнованиях или пет-проектах</td></tr>
+  <tr><td>Junior-уровень</td><td>12–18 месяцев суммарно</td><td>Готов к стажировке или первой работе</td></tr>
+</table>
+
+<h2>С чего начать прямо сейчас</h2>
+<div class="roadmap">
+  <div class="step"><strong>Пройди карту навыков Machine Learning</strong> — <a href="https://roadmap.sh/machine-learning" target="_blank">roadmap.sh/machine-learning</a> — что учить и в каком порядке, чтобы стать ML-инженером.</div>
+  <div class="step"><strong>Начни с бесплатных интерактивных курсов Kaggle</strong> — <a href="https://www.kaggle.com/learn" target="_blank">Kaggle Learn</a> — короткие практические курсы по Python, pandas и основам машинного обучения прямо в браузере.</div>
+  <div class="step"><strong>Пройди Machine Learning Crash Course от Google</strong> — <a href="https://developers.google.com/machine-learning/crash-course" target="_blank">Google ML Crash Course</a> — бесплатный официальный курс с видео, визуализациями и практикой.</div>
+  <div class="step"><strong>Углубись в глубокое обучение на практике</strong> — <a href="https://course.fast.ai/" target="_blank">Practical Deep Learning for Coders (fast.ai)</a> — бесплатный курс, который учит строить настоящие нейросети с первых уроков, без предварительной серьёзной математической базы.</div>
+</div>
+
+<h2>Бесплатные ресурсы</h2>
+<ul>
+  <li><a href="https://roadmap.sh/machine-learning" target="_blank">roadmap.sh/machine-learning</a> — карта навыков ML-инженера</li>
+  <li><a href="https://www.kaggle.com/learn" target="_blank">Kaggle Learn</a> — бесплатные интерактивные курсы по Python и машинному обучению</li>
+  <li><a href="https://developers.google.com/machine-learning/crash-course" target="_blank">Google ML Crash Course</a> — бесплатный официальный курс по машинному обучению от Google</li>
+  <li><a href="https://course.fast.ai/" target="_blank">Practical Deep Learning for Coders</a> — бесплатный практический курс по глубокому обучению от fast.ai</li>
+</ul>
+
+<div class="warn">
+  <strong>Не начинай с нейросетей, пропустив классику.</strong> Соблазн сразу учить трансформеры и большие языковые модели велик, но без понимания базовых алгоритмов (регрессия, деревья решений) сложно будет понять, почему нейросеть выдаёт именно такой результат и как её улучшить.
+</div>
+
+<h2>Сколько зарабатывают</h2>
+<p>AI/ML-инженеры — одна из самых высокооплачиваемых и быстрорастущих специализаций в IT на фоне взрывного спроса на технологии искусственного интеллекта:</p>
+<ul>
+  <li><strong>Junior</strong> — начальный уровень, обычно достаточно уверенного Python и портфолио из нескольких учебных проектов.</li>
+  <li><strong>Middle</strong> — заметно выше среднего по IT, особенно с опытом внедрения моделей в реальные продукты, а не только в учебных задачах.</li>
+  <li><strong>Senior / ML Lead</strong> — один из самых высокооплачиваемых треков в индустрии, особенно с опытом работы с большими языковыми моделями и продакшн-системами.</li>
+</ul>
+<p>Спрос на специалистов в этой области продолжает расти быстрее, чем во многих других направлениях IT, благодаря повсеместному внедрению технологий ИИ в бизнес.</p>
+
+<h2>AI/ML-инженерия подходит тебе, если...</h2>
+<ul>
+  <li>Тебе интересно не просто анализировать данные, а строить системы, которые сами делают выводы</li>
+  <li>Тебя не пугает математика — хотя бы на уровне готовности разбираться в статистике и алгебре по ходу дела</li>
+  <li>Тебе нравится экспериментировать — пробовать разные подходы и смотреть, какой сработает лучше</li>
+  <li>Тебе интересны и данные, и разработка — эта профессия объединяет оба направления</li>
+</ul>
+<p>Скорее не твоё, если тебе важен быстрый и предсказуемый результат — обучение моделей часто требует множества экспериментов и терпения.</p>
+
+<div class="cta-block">
+  <p>Пройди тест — узнай, подходит ли тебе AI/ML-инженерия или лучше другое направление в IT</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Пройти бесплатный тест →</a>
+</div>
+
+<h2>Частые вопросы</h2>
+<h3>Чем AI/ML-инженер отличается от Data Analyst?</h3>
+<p>Data Analyst изучает уже собранные данные, чтобы находить в них закономерности и отвечать на бизнес-вопросы. AI/ML-инженер идёт дальше — строит и обучает модели, которые сами делают предсказания на новых данных (например, распознают лица или переводят текст), а затем внедряет эти модели в реальные приложения. Работа ML-инженера ближе к разработке, чем к анализу.</p>
+
+<h3>Нужна ли высшая математика?</h3>
+<p>Базовое понимание алгебры, статистики и производных пригодится, но не нужно быть математиком-теоретиком, чтобы начать. Большинство современных курсов (включая бесплатные) объясняют математику по ходу дела, на конкретных примерах, а не требуют её знания заранее.</p>
+
+<h3>На каком языке программирования работают ML-инженеры?</h3>
+<p>Python — практически стандарт индустрии. Все основные библиотеки машинного обучения (TensorFlow, PyTorch, scikit-learn) написаны для Python, и подавляющее большинство курсов и вакансий ожидают именно его.</p>
+
+<h3>Можно ли начать в 13–14 лет?</h3>
+<p>Да, но сначала стоит освоить основы программирования на Python — без них машинное обучение будет непонятным набором формул. После основ Python можно бесплатно начинать с интерактивных курсов вроде Kaggle Learn прямо в браузере, без установки чего-либо.</p>
+
+<h2>Похожие статьи</h2>
+<ul>
+  <li><a href="data-analyst-ru.html">📊 Как стать аналитиком данных</a></li>
+  <li><a href="database-administrator-ru.html">🗄️ Как стать администратором баз данных</a></li>
+  <li><a href="backend-developer-ru.html">⚙️ Как стать backend-разработчиком</a></li>
+  <li><a href="cloud-engineer-ru.html">☁️ Как стать облачным инженером</a></li>
+  <li><a href="devops-engineer-ru.html">🛠️ Как стать DevOps-инженером</a></li>
+  <li><a href="system-administrator-ru.html">🖥️ Как стать системным администратором</a></li>
+  <li><a href="cybersecurity-ru.html">🛡️ Как стать специалистом по кибербезопасности</a></li>
+  <li><a href="qa-engineer-ru.html">🐞 Как стать QA-инженером</a></li>
+  <li><a href="frontend-developer-ru.html">💻 Как стать frontend-разработчиком</a></li>
+  <li><a href="game-developer-ru.html">🎮 Как стать разработчиком игр</a></li>
+  <li><a href="mobile-developer-ru.html">📱 Как стать мобильным разработчиком</a></li>
+  <li><a href="ux-ui-designer-ru.html">🎨 Как стать UX/UI дизайнером</a></li>
+  <li><a href="product-manager-ru.html">📋 Как стать Product Manager</a></li>
+  <li><a href="technical-writer-ru.html">📝 Как стать техническим писателем</a></li>
+</ul>
+
+<footer>
+  <p>© Career Test · <a href="https://ivannahodka.github.io/career-test/">Тест на профессию</a> · <a href="../glossary-static.html">Глоссарий</a> · <a href="ai-ml-engineer-en.html">English</a></p>
+</footer>
+</body>
+</html>
