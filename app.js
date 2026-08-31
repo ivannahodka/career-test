@@ -462,6 +462,18 @@ function buildHome() {
       ar: { label:'🗄️ كيف تصبح مسؤول قواعد بيانات', href:'articles/database-administrator-en.html' },
       he: { label:'🗄️ איך להפוך למנהל בסיסי נתונים', href:'articles/database-administrator-en.html' },
     },
+    {
+      group: 'grpData',
+      ru: { label:'🤖 Как стать AI/ML-инженером', href:'articles/ai-ml-engineer-ru.html' },
+      en: { label:'🤖 How to become an AI/ML Engineer', href:'articles/ai-ml-engineer-en.html' },
+      de: { label:'🤖 Wie wird man AI/ML Engineer?', href:'articles/ai-ml-engineer-en.html' },
+      fr: { label:'🤖 Comment devenir ingénieur IA/ML', href:'articles/ai-ml-engineer-en.html' },
+      es: { label:'🤖 Cómo convertirse en ingeniero de IA/ML', href:'articles/ai-ml-engineer-en.html' },
+      pt: { label:'🤖 Como se tornar engenheiro de IA/ML', href:'articles/ai-ml-engineer-en.html' },
+      zh: { label:'🤖 如何成为AI/ML工程师', href:'articles/ai-ml-engineer-en.html' },
+      ar: { label:'🤖 كيف تصبح مهندس AI/ML', href:'articles/ai-ml-engineer-en.html' },
+      he: { label:'🤖 איך להפוך למהנדס AI/ML', href:'articles/ai-ml-engineer-en.html' },
+    },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
