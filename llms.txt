@@ -23,6 +23,7 @@
 - [Cloud Engineer](https://ivannahodka.github.io/career-test/articles/cloud-engineer-en.html): What a cloud engineer does, AWS vs Azure vs Google Cloud, free resources, timeline, and pay.
 - [Database Administrator](https://ivannahodka.github.io/career-test/articles/database-administrator-en.html): What a DBA does, SQL, PostgreSQL, backups, free resources, timeline, and pay.
 - [AI/ML Engineer](https://ivannahodka.github.io/career-test/articles/ai-ml-engineer-en.html): What an AI/ML engineer does, Python, machine learning basics, free resources, timeline, and pay.
+- [IT Support Specialist](https://ivannahodka.github.io/career-test/articles/it-support-specialist-en.html): What an IT support specialist does, computer and network basics, free resources, timeline, and pay.
 
 ## IT career guides (Russian)
 - [Frontend-разработчик](https://ivannahodka.github.io/career-test/articles/frontend-developer-ru.html)
@@ -40,6 +41,7 @@
 - [Облачный инженер](https://ivannahodka.github.io/career-test/articles/cloud-engineer-ru.html)
 - [Администратор баз данных](https://ivannahodka.github.io/career-test/articles/database-administrator-ru.html)
 - [AI/ML-инженер](https://ivannahodka.github.io/career-test/articles/ai-ml-engineer-ru.html)
+- [Специалист техподдержки](https://ivannahodka.github.io/career-test/articles/it-support-specialist-ru.html)
 
 ## Notes
 - All career guides are aimed at beginners aged 13-16 with no prior experience, but are useful to anyone starting out.

@@ -474,6 +474,18 @@ function buildHome() {
       ar: { label:'🤖 كيف تصبح مهندس AI/ML', href:'articles/ai-ml-engineer-en.html' },
       he: { label:'🤖 איך להפוך למהנדס AI/ML', href:'articles/ai-ml-engineer-en.html' },
     },
+  {
+    group: 'grpInfra',
+    ru: { label:'🎧 Как стать специалистом техподдержки', href:'articles/it-support-specialist-ru.html' },
+    en: { label:'🎧 How to become an IT Support Specialist', href:'articles/it-support-specialist-en.html' },
+    de: { label:'🎧 Wie wird man IT-Support-Spezialist?', href:'articles/it-support-specialist-en.html' },
+    fr: { label:'🎧 Comment devenir spécialiste du support IT', href:'articles/it-support-specialist-en.html' },
+    es: { label:'🎧 Cómo convertirse en especialista de soporte IT', href:'articles/it-support-specialist-en.html' },
+    pt: { label:'🎧 Como se tornar especialista em suporte de TI', href:'articles/it-support-specialist-en.html' },
+    zh: { label:'🎧 如何成为IT支持专员', href:'articles/it-support-specialist-en.html' },
+    ar: { label:'🎧 كيف تصبح أخصائي دعم تقني', href:'articles/it-support-specialist-en.html' },
+    he: { label:'🎧 איך להפוך למומחה תמיכה טכנית', href:'articles/it-support-specialist-en.html' },
+  },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
