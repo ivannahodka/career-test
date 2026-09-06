@@ -43,6 +43,12 @@
 - [AI/ML-инженер](https://ivannahodka.github.io/career-test/articles/ai-ml-engineer-ru.html)
 - [Специалист техподдержки](https://ivannahodka.github.io/career-test/articles/it-support-specialist-ru.html)
 
+## Business career guides (English)
+- [Marketer](https://ivannahodka.github.io/career-test/articles/marketer-en.html): What a marketer does, online marketing and analytics basics, free Google/HubSpot resources, timeline, and pay.
+
+## Business career guides (Russian)
+- [Маркетолог](https://ivannahodka.github.io/career-test/articles/marketer-ru.html)
+
 ## Notes
 - All career guides are aimed at beginners aged 13-16 with no prior experience, but are useful to anyone starting out.
 - Each guide lists only free, verified learning resources (official docs, free courses, roadmaps) — no paid products are recommended.
