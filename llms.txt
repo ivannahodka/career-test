@@ -45,9 +45,11 @@
 
 ## Business career guides (English)
 - [Marketer](https://ivannahodka.github.io/career-test/articles/marketer-en.html): What a marketer does, online marketing and analytics basics, free Google/HubSpot resources, timeline, and pay.
+- [Entrepreneur](https://ivannahodka.github.io/career-test/articles/entrepreneur-en.html): What an entrepreneur does, idea validation and basic business skills, free Y Combinator resources, timeline, and pay.
 
 ## Business career guides (Russian)
 - [Маркетолог](https://ivannahodka.github.io/career-test/articles/marketer-ru.html)
+- [Предприниматель](https://ivannahodka.github.io/career-test/articles/entrepreneur-ru.html)
 
 ## Notes
 - All career guides are aimed at beginners aged 13-16 with no prior experience, but are useful to anyone starting out.

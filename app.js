@@ -498,6 +498,18 @@ function buildHome() {
     ar: { label:'📣 كيف تصبح أخصائي تسويق', href:'articles/marketer-en.html' },
     he: { label:'📣 איך להפוך למשווק', href:'articles/marketer-en.html' },
   },
+  {
+    group: 'grpBiz',
+    ru: { label:'🚀 Как стать предпринимателем', href:'articles/entrepreneur-ru.html' },
+    en: { label:'🚀 How to become an Entrepreneur', href:'articles/entrepreneur-en.html' },
+    de: { label:'🚀 Wie wird man Unternehmer?', href:'articles/entrepreneur-en.html' },
+    fr: { label:'🚀 Comment devenir entrepreneur', href:'articles/entrepreneur-en.html' },
+    es: { label:'🚀 Cómo convertirse en emprendedor', href:'articles/entrepreneur-en.html' },
+    pt: { label:'🚀 Como se tornar empreendedor', href:'articles/entrepreneur-en.html' },
+    zh: { label:'🚀 如何成为企业家', href:'articles/entrepreneur-en.html' },
+    ar: { label:'🚀 كيف تصبح رائد أعمال', href:'articles/entrepreneur-en.html' },
+    he: { label:'🚀 איך להפוך ליזם', href:'articles/entrepreneur-en.html' },
+  },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
