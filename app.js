@@ -510,6 +510,18 @@ function buildHome() {
     ar: { label:'🚀 كيف تصبح رائد أعمال', href:'articles/entrepreneur-en.html' },
     he: { label:'🚀 איך להפוך ליזם', href:'articles/entrepreneur-en.html' },
   },
+  {
+    group: 'grpBiz',
+    ru: { label:'💰 Как стать финансистом', href:'articles/financier-ru.html' },
+    en: { label:'💰 How to become a Financier', href:'articles/financier-en.html' },
+    de: { label:'💰 Wie wird man Finanzanalyst?', href:'articles/financier-en.html' },
+    fr: { label:'💰 Comment devenir analyste financier', href:'articles/financier-en.html' },
+    es: { label:'💰 Cómo convertirse en analista financiero', href:'articles/financier-en.html' },
+    pt: { label:'💰 Como se tornar analista financeiro', href:'articles/financier-en.html' },
+    zh: { label:'💰 如何成为财务分析师', href:'articles/financier-en.html' },
+    ar: { label:'💰 كيف تصبح محللاً مالياً', href:'articles/financier-en.html' },
+    he: { label:'💰 איך להפוך לאנליסט פיננסי', href:'articles/financier-en.html' },
+  },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
