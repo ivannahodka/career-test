@@ -228,6 +228,10 @@ function toggleArticleGroup(btn) {
     body.style.display = 'block';
     const arrow = btn.querySelector('.artmenu-group-arrow');
     if (arrow) arrow.style.transform = 'rotate(180deg)';
+    // Scroll the opened group to the top of the visible menu area so its
+    // items are shown with as little manual scrolling as possible.
+    const menu = document.getElementById('articles-menu');
+    if (menu) menu.scrollTop = Math.max(0, btn.offsetTop - 4);
   }
 }
 
