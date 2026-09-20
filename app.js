@@ -522,6 +522,18 @@ function buildHome() {
     ar: { label:'💰 كيف تصبح محللاً مالياً', href:'articles/financier-en.html' },
     he: { label:'💰 איך להפוך לאנליסט פיננסי', href:'articles/financier-en.html' },
   },
+  {
+    group: 'grpBiz',
+    ru: { label:'🤝 Как стать HR-менеджером', href:'articles/hr-ru.html' },
+    en: { label:'🤝 How to become an HR Manager', href:'articles/hr-en.html' },
+    de: { label:'🤝 Wie wird man HR-Manager?', href:'articles/hr-en.html' },
+    fr: { label:'🤝 Comment devenir responsable RH', href:'articles/hr-en.html' },
+    es: { label:'🤝 Cómo convertirse en responsable de RRHH', href:'articles/hr-en.html' },
+    pt: { label:'🤝 Como se tornar gestor de RH', href:'articles/hr-en.html' },
+    zh: { label:'🤝 如何成为HR经理', href:'articles/hr-en.html' },
+    ar: { label:'🤝 كيف تصبح مدير موارد بشرية', href:'articles/hr-en.html' },
+    he: { label:'🤝 איך להפוך למנהל משאבי אנוש', href:'articles/hr-en.html' },
+  },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
