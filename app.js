@@ -550,6 +550,18 @@ function buildHome() {
     ar: { label:'💼 كيف تصبح مدير مبيعات', href:'articles/sales-en.html' },
     he: { label:'💼 איך להפוך למנהל מכירות', href:'articles/sales-en.html' },
   },
+  {
+    group: 'grpBiz',
+    ru: { label:'📈 Как стать бизнес-аналитиком', href:'articles/business-analyst-ru.html' },
+    en: { label:'📈 How to become a Business Analyst', href:'articles/business-analyst-en.html' },
+    de: { label:'📈 Wie wird man Business Analyst?', href:'articles/business-analyst-en.html' },
+    fr: { label:'📈 Comment devenir Business Analyst', href:'articles/business-analyst-en.html' },
+    es: { label:'📈 Cómo convertirse en Business Analyst', href:'articles/business-analyst-en.html' },
+    pt: { label:'📈 Como se tornar Business Analyst', href:'articles/business-analyst-en.html' },
+    zh: { label:'📈 如何成为业务分析师', href:'articles/business-analyst-en.html' },
+    ar: { label:'📈 كيف تصبح محلل أعمال', href:'articles/business-analyst-en.html' },
+    he: { label:'📈 איך להפוך לאנליסט עסקי', href:'articles/business-analyst-en.html' },
+  },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
