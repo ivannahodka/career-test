@@ -48,12 +48,14 @@
 - [Entrepreneur](https://ivannahodka.github.io/career-test/articles/entrepreneur-en.html): What an entrepreneur does, idea validation and basic business skills, free Y Combinator resources, timeline, and pay.
 - [Financier](https://ivannahodka.github.io/career-test/articles/financier-en.html): What a financier does, Excel and financial modeling basics, free Coursera/CFI resources, timeline, and pay.
 - [HR Manager](https://ivannahodka.github.io/career-test/articles/hr-en.html): What an HR manager does, recruiting and interviewing basics, free SHRM/Coursera/HBR resources, timeline, and pay.
+- [Sales Manager](https://ivannahodka.github.io/career-test/articles/sales-en.html): What a sales manager does, negotiation and CRM basics, free HubSpot/Coursera resources, timeline, and pay.
 
 ## Business career guides (Russian)
 - [Маркетолог](https://ivannahodka.github.io/career-test/articles/marketer-ru.html)
 - [Предприниматель](https://ivannahodka.github.io/career-test/articles/entrepreneur-ru.html)
 - [Финансист](https://ivannahodka.github.io/career-test/articles/financier-ru.html)
 - [HR-менеджер](https://ivannahodka.github.io/career-test/articles/hr-ru.html)
+- [Менеджер по продажам](https://ivannahodka.github.io/career-test/articles/sales-ru.html)
 
 ## Notes
 - All career guides are aimed at beginners aged 13-16 with no prior experience, but are useful to anyone starting out.

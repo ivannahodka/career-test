@@ -538,6 +538,18 @@ function buildHome() {
     ar: { label:'🤝 كيف تصبح مدير موارد بشرية', href:'articles/hr-en.html' },
     he: { label:'🤝 איך להפוך למנהל משאבי אנוש', href:'articles/hr-en.html' },
   },
+  {
+    group: 'grpBiz',
+    ru: { label:'💼 Как стать менеджером по продажам', href:'articles/sales-ru.html' },
+    en: { label:'💼 How to become a Sales Manager', href:'articles/sales-en.html' },
+    de: { label:'💼 Wie wird man Vertriebsmanager?', href:'articles/sales-en.html' },
+    fr: { label:'💼 Comment devenir commercial', href:'articles/sales-en.html' },
+    es: { label:'💼 Cómo convertirse en gerente de ventas', href:'articles/sales-en.html' },
+    pt: { label:'💼 Como se tornar gerente de vendas', href:'articles/sales-en.html' },
+    zh: { label:'💼 如何成为销售经理', href:'articles/sales-en.html' },
+    ar: { label:'💼 كيف تصبح مدير مبيعات', href:'articles/sales-en.html' },
+    he: { label:'💼 איך להפוך למנהל מכירות', href:'articles/sales-en.html' },
+  },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
