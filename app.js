@@ -8,7 +8,7 @@ const HOME_UI = {
     domainIT:'IT & Технологии', domainITSub:'9 профессий',
     domainCreative:'Творческие профессии', domainCreativeSub:'7 профессий', domainBusiness:'Бизнес & Менеджмент', domainBusinessSub:'6 профессий', domainScience:'Наука & Медицина', domainScienceSub:'6 профессий', domainPedagogy:'Педагогика & Общество', domainPedagogySub:'6 профессий', domainEngineering:'Инженерия & Производство', domainEngineeringSub:'6 профессий',
     domainSoon:'Скоро', backHome:'← Все тесты',
-    grpDev:'💻 Разработка', grpData:'📊 Данные & ИИ', grpInfra:'🚀 Инфраструктура',
+    grpGuide:'🧭 Выбор профессии', grpDev:'💻 Разработка', grpData:'📊 Данные & ИИ', grpInfra:'🚀 Инфраструктура',
     grpSec:'🔐 Безопасность', grpDes:'🎨 Дизайн', grpQa:'🔍 Тестирование',
     grpPm:'📋 Product Management', grpBiz:'💼 Бизнес & Менеджмент',
     directLabel:'Знаешь профессию? Пропусти общий тест:',
@@ -24,7 +24,7 @@ const HOME_UI = {
     domainIT:'IT & Technology', domainITSub:'9 careers',
     domainCreative:'Creative Careers', domainCreativeSub:'7 careers', domainBusiness:'Business & Management', domainBusinessSub:'6 careers', domainScience:'Science & Medicine', domainScienceSub:'6 careers', domainPedagogy:'Pedagogy & Society', domainPedagogySub:'6 careers', domainEngineering:'Engineering & Production', domainEngineeringSub:'6 careers',
     domainSoon:'Coming soon', backHome:'← All tests',
-    grpDev:'💻 Development', grpData:'📊 Data & AI', grpInfra:'🚀 Infrastructure',
+    grpGuide:'🧭 Choosing a career', grpDev:'💻 Development', grpData:'📊 Data & AI', grpInfra:'🚀 Infrastructure',
     grpSec:'🔐 Security', grpDes:'🎨 Design', grpQa:'🔍 Testing',
     grpPm:'📋 Product Management', grpBiz:'💼 Business & Management',
     directLabel:'Know your field? Skip the general test:',
@@ -40,7 +40,7 @@ const HOME_UI = {
     domainIT:'IT & Technologie', domainITSub:'9 Berufe',
     domainCreative:'Kreative Berufe', domainCreativeSub:'7 Berufe', domainBusiness:'Business & Management', domainBusinessSub:'6 Berufe', domainScience:'Wissenschaft & Medizin', domainScienceSub:'6 Berufe', domainPedagogy:'Pädagogik & Gesellschaft', domainPedagogySub:'6 Berufe', domainEngineering:'Ingenieurwesen & Produktion', domainEngineeringSub:'6 Berufe',
     domainSoon:'Bald verfügbar', backHome:'← Alle Tests',
-    grpDev:'💻 Entwicklung', grpData:'📊 Daten & KI', grpInfra:'🚀 Infrastruktur',
+    grpGuide:'🧭 Berufswahl', grpDev:'💻 Entwicklung', grpData:'📊 Daten & KI', grpInfra:'🚀 Infrastruktur',
     grpSec:'🔐 Sicherheit', grpDes:'🎨 Design', grpQa:'🔍 Testen',
     grpPm:'📋 Product Management', grpBiz:'💼 Business & Management',
     directLabel:'Kennst du deinen Bereich? Überspringe den allgemeinen Test:',
@@ -56,7 +56,7 @@ const HOME_UI = {
     domainIT:'IT & Technologie', domainITSub:'9 métiers',
     domainCreative:'Métiers créatifs', domainCreativeSub:'7 métiers', domainBusiness:'Business & Management', domainBusinessSub:'6 métiers', domainScience:'Sciences & Médecine', domainScienceSub:'6 métiers', domainPedagogy:'Pédagogie & Société', domainPedagogySub:'6 métiers', domainEngineering:'Ingénierie & Production', domainEngineeringSub:'6 métiers',
     domainSoon:'Bientôt', backHome:'← Tous les tests',
-    grpDev:'💻 Développement', grpData:'📊 Données & IA', grpInfra:'🚀 Infrastructure',
+    grpGuide:'🧭 Choisir un métier', grpDev:'💻 Développement', grpData:'📊 Données & IA', grpInfra:'🚀 Infrastructure',
     grpSec:'🔐 Sécurité', grpDes:'🎨 Design', grpQa:'🔍 Tests',
     grpPm:'📋 Product Management', grpBiz:'💼 Business & Management',
     directLabel:'Tu connais ton domaine? Saute le test général:',
@@ -72,7 +72,7 @@ const HOME_UI = {
     domainIT:'IT & Tecnología', domainITSub:'9 profesiones',
     domainCreative:'Profesiones creativas', domainCreativeSub:'7 profesiones', domainBusiness:'Negocios & Gestión', domainBusinessSub:'6 profesiones', domainScience:'Ciencia & Medicina', domainScienceSub:'6 profesiones', domainPedagogy:'Pedagogía & Sociedad', domainPedagogySub:'6 profesiones', domainEngineering:'Ingeniería & Producción', domainEngineeringSub:'6 profesiones',
     domainSoon:'Próximamente', backHome:'← Todos los tests',
-    grpDev:'💻 Desarrollo', grpData:'📊 Datos & IA', grpInfra:'🚀 Infraestructura',
+    grpGuide:'🧭 Elegir profesión', grpDev:'💻 Desarrollo', grpData:'📊 Datos & IA', grpInfra:'🚀 Infraestructura',
     grpSec:'🔐 Seguridad', grpDes:'🎨 Diseño', grpQa:'🔍 Testing',
     grpPm:'📋 Product Management', grpBiz:'💼 Negocios & Gestión',
     directLabel:'¿Sabes tu área? Salta el test general:',
@@ -88,7 +88,7 @@ const HOME_UI = {
     domainIT:'IT & Tecnologia', domainITSub:'9 profissões',
     domainCreative:'Profissões criativas', domainCreativeSub:'7 profissões', domainBusiness:'Negócios & Gestão', domainBusinessSub:'6 profissões', domainScience:'Ciência & Medicina', domainScienceSub:'6 profissões', domainPedagogy:'Pedagogia & Sociedade', domainPedagogySub:'6 carreiras', domainEngineering:'Engenharia & Produção', domainEngineeringSub:'6 carreiras',
     domainSoon:'Em breve', backHome:'← Todos os testes',
-    grpDev:'💻 Desenvolvimento', grpData:'📊 Dados & IA', grpInfra:'🚀 Infraestrutura',
+    grpGuide:'🧭 Escolher profissão', grpDev:'💻 Desenvolvimento', grpData:'📊 Dados & IA', grpInfra:'🚀 Infraestrutura',
     grpSec:'🔐 Segurança', grpDes:'🎨 Design', grpQa:'🔍 Testes',
     grpPm:'📋 Product Management', grpBiz:'💼 Negócios & Gestão',
     directLabel:'Conhece sua área? Pule o teste geral:',
@@ -104,7 +104,7 @@ const HOME_UI = {
     domainIT:'تكنولوجيا المعلومات', domainITSub:'9 مهن',
     domainCreative:'المهن الإبداعية', domainCreativeSub:'7 مهن', domainBusiness:'الأعمال والإدارة', domainBusinessSub:'6 مهن', domainScience:'العلوم والطب', domainScienceSub:'6 مهن', domainPedagogy:'التربية والمجتمع', domainPedagogySub:'٦ مهن', domainEngineering:'الهندسة والإنتاج', domainEngineeringSub:'٦ مهن',
     domainSoon:'قريباً', backHome:'← جميع الاختبارات',
-    grpDev:'💻 التطوير', grpData:'📊 البيانات والذكاء الاصطناعي',
+    grpGuide:'🧭 اختيار المهنة', grpDev:'💻 التطوير', grpData:'📊 البيانات والذكاء الاصطناعي',
     grpInfra:'🚀 البنية التحتية', grpSec:'🔐 الأمن', grpDes:'🎨 التصميم',
     grpQa:'🔍 الاختبار', grpPm:'📋 إدارة المنتج', grpBiz:'💼 الأعمال والإدارة',
     directLabel:'هل تعرف مجالك؟ تخطَّ الاختبار العام:',
@@ -120,7 +120,7 @@ const HOME_UI = {
     domainIT:'IT וטכנולוגיה', domainITSub:'9 מקצועות',
     domainCreative:'מקצועות יצירתיים', domainCreativeSub:'7 מקצועות', domainBusiness:'עסקים וניהול', domainBusinessSub:'6 מקצועות', domainScience:'מדע ורפואה', domainScienceSub:'6 מקצועות', domainPedagogy:'פדגוגיה וחברה', domainPedagogySub:'6 מקצועות', domainEngineering:'הנדסה וייצור', domainEngineeringSub:'6 מקצועות',
     domainSoon:'בקרוב', backHome:'← כל המבחנים',
-    grpDev:'💻 פיתוח', grpData:'📊 נתונים ובינה מלאכותית',
+    grpGuide:'🧭 בחירת מקצוע', grpDev:'💻 פיתוח', grpData:'📊 נתונים ובינה מלאכותית',
     grpInfra:'🚀 תשתיות', grpSec:'🔐 אבטחה', grpDes:'🎨 עיצוב',
     grpQa:'🔍 בדיקות', grpPm:'📋 ניהול מוצר', grpBiz:'💼 עסקים וניהול',
     directLabel:'מכיר את התחום שלך? דלג על המבחן הכללי:',
@@ -136,7 +136,7 @@ const HOME_UI = {
     domainIT:'IT与科技', domainITSub:'9个职业',
     domainCreative:'创意职业', domainCreativeSub:'7个职业', domainBusiness:'商业与管理', domainBusinessSub:'6个职业', domainScience:'科学与医学', domainScienceSub:'6个职业', domainPedagogy:'教育与社会', domainPedagogySub:'6个职业', domainEngineering:'工程与制造', domainEngineeringSub:'6个职业',
     domainSoon:'即将推出', backHome:'← 所有测试',
-    grpDev:'💻 开发', grpData:'📊 数据与AI',
+    grpGuide:'🧭 职业选择', grpDev:'💻 开发', grpData:'📊 数据与AI',
     grpInfra:'🚀 基础设施', grpSec:'🔐 安全', grpDes:'🎨 设计',
     grpQa:'🔍 测试', grpPm:'📋 产品管理', grpBiz:'💼 商业与管理',
     directLabel:'已知道自己的方向？直接开始：',
@@ -298,6 +298,18 @@ function buildHome() {
   }
   // Articles dropdown menu
   const ARTICLES = [
+    {
+      group: 'grpGuide',
+      ru: { label:'🎓 Какую профессию выбрать после 9 и 11 класса', href:'articles/after-9-11-grade-ru.html' },
+      en: { label:'🎓 What career to choose after 9th or 11th grade', href:'articles/after-9-11-grade-en.html' },
+      de: { label:'🎓 Welcher Beruf nach der 9. oder 11. Klasse?', href:'articles/after-9-11-grade-en.html' },
+      fr: { label:'🎓 Quel métier choisir après la 9e ou la 11e année', href:'articles/after-9-11-grade-en.html' },
+      es: { label:'🎓 Qué profesión elegir después de 9.º u 11.º grado', href:'articles/after-9-11-grade-en.html' },
+      pt: { label:'🎓 Que profissão escolher após o 9.º ou 11.º ano', href:'articles/after-9-11-grade-en.html' },
+      zh: { label:'🎓 9年级或11年级后如何选择职业', href:'articles/after-9-11-grade-en.html' },
+      ar: { label:'🎓 أي مهنة تختار بعد الصف التاسع أو الحادي عشر', href:'articles/after-9-11-grade-en.html' },
+      he: { label:'🎓 איזה מקצוע לבחור אחרי כיתה ט׳ או י״א', href:'articles/after-9-11-grade-en.html' },
+    },
     {
       group: 'grpDev',
       ru: { label:'💻 Как стать frontend-разработчиком', href:'articles/frontend-developer-ru.html' },
@@ -570,12 +582,12 @@ function buildHome() {
   if (btnLabelEl) btnLabelEl.textContent = articlesBtnLabel[lang] || articlesBtnLabel.en;
   const menu = document.getElementById('articles-menu');
   if (menu) {
-    const groupOrder = ['grpDev','grpQa','grpInfra','grpData','grpSec','grpDes','grpPm','grpBiz'];
-    const groupLabels = { grpDev: hu('grpDev'), grpQa: hu('grpQa'), grpInfra: hu('grpInfra'),
+    const groupOrder = ['grpGuide','grpDev','grpQa','grpInfra','grpData','grpSec','grpDes','grpPm','grpBiz'];
+    const groupLabels = { grpGuide: hu('grpGuide'), grpDev: hu('grpDev'), grpQa: hu('grpQa'), grpInfra: hu('grpInfra'),
       grpData: hu('grpData'), grpSec: hu('grpSec'), grpDes: hu('grpDes'), grpPm: hu('grpPm'),
       grpBiz: hu('grpBiz') };
     const byGroup = {};
-    ARTICLES.forEach(a => { (byGroup[a.group] = byGroup[a.group] || []).push(a); });
+    ARTICLES.filter(a => a[lang] || a['en']).forEach(a => { (byGroup[a.group] = byGroup[a.group] || []).push(a); });
     menu.innerHTML = groupOrder.filter(g => byGroup[g] && byGroup[g].length).map(g => {
       const links = byGroup[g].map(a => {
         const item = a[lang] || a['en'];

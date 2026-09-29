@@ -1,11 +1,15 @@
 # Career Test — Free Career Orientation Test
 
-> A free, no-signup career orientation test for teens (13-16) and anyone exploring career options. 10 questions, 6 domains (IT, Creative, Business, Science, Education, Engineering), 40 careers, available in 9 languages (Russian, English, German, French, Spanish, Portuguese, Chinese, Arabic, Hebrew). The site also hosts a growing library of in-depth "how to become" guides for specific IT careers, written for beginners with no prior experience.
+> A free, no-signup career orientation test for teens (13-16) and anyone exploring career options. 10 questions, 6 domains (IT, Creative, Business, Science, Education, Engineering), 40 careers, available in 9 languages (Russian, English, German, French, Spanish, Portuguese, Chinese, Arabic, Hebrew). The site also hosts a growing library of career choice guides and in-depth "how to become" guides for specific IT and business careers, written for beginners with no prior experience.
 
 ## Main pages
 - [Take the career test](https://ivannahodka.github.io/career-test/): The main 10-question career aptitude test, free and anonymous, no sign-up required.
 - [How to Choose a Career: 7-Step Guide](https://ivannahodka.github.io/career-test/how-to-choose-en.html): A step-by-step guide for students on how to pick a career direction, including how to use this site's test effectively.
 - [Glossary](https://ivannahodka.github.io/career-test/glossary-static-en.html): Plain-language definitions of common career and industry terms.
+
+## Career choice guides
+- [What Career to Choose After 9th or 11th Grade](https://ivannahodka.github.io/career-test/articles/after-9-11-grade-en.html): College vs university after 9th or 11th grade, 5 steps to choose a career, which school subjects lead to which careers, common mistakes, and FAQ.
+- [Какую профессию выбрать после 9 и 11 класса](https://ivannahodka.github.io/career-test/articles/after-9-11-grade-ru.html): Russian version of the same guide.
 
 ## IT career guides (English)
 - [Frontend Developer](https://ivannahodka.github.io/career-test/articles/frontend-developer-en.html): What a frontend developer does, what to learn (HTML, CSS, JavaScript), free resources, timeline, and pay.
@@ -60,6 +64,7 @@
 - [Бизнес-аналитик](https://ivannahodka.github.io/career-test/articles/business-analyst-ru.html)
 
 ## Notes
+- Career choice guides help students decide what to do after 9th or 11th grade (college, university, courses).
 - All career guides are aimed at beginners aged 13-16 with no prior experience, but are useful to anyone starting out.
 - Each guide lists only free, verified learning resources (official docs, free courses, roadmaps) — no paid products are recommended.
 - Full list of pages: https://ivannahodka.github.io/career-test/sitemap.xml
