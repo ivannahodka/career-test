@@ -10,6 +10,8 @@
 ## Career choice guides
 - [What Career to Choose After School: A Guide for Ages 16 and 18](https://ivannahodka.github.io/career-test/articles/career-after-school-en.html): Options at 16 and 18 in the US, UK and India (university, college, apprenticeships, vocational routes), 5 steps to choose a career, which school subjects lead to which careers, common mistakes, and FAQ.
 - [Какую профессию выбрать после 9 и 11 класса](https://ivannahodka.github.io/career-test/articles/after-9-11-grade-ru.html): Russian-language guide for students in Russia and CIS countries: college after 9th grade vs university after 11th grade.
+- [Best Jobs for Introverts: 20 Careers and How to Choose Yours](https://ivannahodka.github.io/career-test/articles/introvert-careers-en.html): What introversion really means (vs shyness, ambiverts), introvert strengths at work, 20 careers by field with how much interaction each involves, roles that may be harder, and how to choose.
+- [Профессии для интроверта](https://ivannahodka.github.io/career-test/articles/introvert-careers-ru.html): Russian version of the introvert careers guide.
 
 ## IT career guides (English)
 - [Frontend Developer](https://ivannahodka.github.io/career-test/articles/frontend-developer-en.html): What a frontend developer does, what to learn (HTML, CSS, JavaScript), free resources, timeline, and pay.

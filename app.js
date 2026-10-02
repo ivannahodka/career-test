@@ -311,6 +311,18 @@ function buildHome() {
       he: { label:'🎓 איזה מקצוע לבחור אחרי בית הספר', href:'articles/career-after-school-en.html' },
     },
     {
+      group: 'grpGuide',
+      ru: { label:'🤫 Профессии для интроверта', href:'articles/introvert-careers-ru.html' },
+      en: { label:'🤫 Best jobs for introverts', href:'articles/introvert-careers-en.html' },
+      de: { label:'🤫 Berufe für Introvertierte', href:'articles/introvert-careers-en.html' },
+      fr: { label:'🤫 Métiers pour introvertis', href:'articles/introvert-careers-en.html' },
+      es: { label:'🤫 Profesiones para introvertidos', href:'articles/introvert-careers-en.html' },
+      pt: { label:'🤫 Profissões para introvertidos', href:'articles/introvert-careers-en.html' },
+      zh: { label:'🤫 适合内向者的职业', href:'articles/introvert-careers-en.html' },
+      ar: { label:'🤫 مهن مناسبة للانطوائيين', href:'articles/introvert-careers-en.html' },
+      he: { label:'🤫 מקצועות למופנמים', href:'articles/introvert-careers-en.html' },
+    },
+    {
       group: 'grpDev',
       ru: { label:'💻 Как стать frontend-разработчиком', href:'articles/frontend-developer-ru.html' },
       en: { label:'💻 How to become a frontend developer', href:'articles/frontend-developer-en.html' },
