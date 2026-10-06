@@ -12,6 +12,8 @@
 - [Какую профессию выбрать после 9 и 11 класса](https://ivannahodka.github.io/career-test/articles/after-9-11-grade-ru.html): Russian-language guide for students in Russia and CIS countries: college after 9th grade vs university after 11th grade.
 - [Best Jobs for Introverts: 20 Careers and How to Choose Yours](https://ivannahodka.github.io/career-test/articles/introvert-careers-en.html): What introversion really means (vs shyness, ambiverts), introvert strengths at work, 20 careers by field with how much interaction each involves, roles that may be harder, and how to choose.
 - [Профессии для интроверта](https://ivannahodka.github.io/career-test/articles/introvert-careers-ru.html): Russian version of the introvert careers guide.
+- [How to Change Careers at 30, 40 or Later: A Step-by-Step Plan](https://ivannahodka.github.io/career-test/articles/career-change-30-en.html): Guide for adults: signs it's time to change careers, common fears vs reality, a step-by-step transition plan, how previous experience transfers to new roles, mistakes to avoid.
+- [Как сменить профессию в 30, 40 лет и позже](https://ivannahodka.github.io/career-test/articles/career-change-30-ru.html): Russian version of the career change guide.
 
 ## IT career guides (English)
 - [Frontend Developer](https://ivannahodka.github.io/career-test/articles/frontend-developer-en.html): What a frontend developer does, what to learn (HTML, CSS, JavaScript), free resources, timeline, and pay.
@@ -66,7 +68,7 @@
 - [Бизнес-аналитик](https://ivannahodka.github.io/career-test/articles/business-analyst-ru.html)
 
 ## Notes
-- Career choice guides help students decide what to do after school at 16 and 18 (college, university, apprenticeships, courses).
+- Career choice guides help students decide what to do after school at 16 and 18, and help adults plan a career change (college, university, apprenticeships, courses).
 - All career guides are aimed at beginners aged 13-16 with no prior experience, but are useful to anyone starting out.
 - Each guide lists only free, verified learning resources (official docs, free courses, roadmaps) — no paid products are recommended.
 - Full list of pages: https://ivannahodka.github.io/career-test/sitemap.xml

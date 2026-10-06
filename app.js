@@ -323,6 +323,18 @@ function buildHome() {
       he: { label:'🤫 מקצועות למופנמים', href:'articles/introvert-careers-en.html' },
     },
     {
+      group: 'grpGuide',
+      ru: { label:'🔄 Как сменить профессию в 30+', href:'articles/career-change-30-ru.html' },
+      en: { label:'🔄 How to change careers at 30+', href:'articles/career-change-30-en.html' },
+      de: { label:'🔄 Berufswechsel mit 30+', href:'articles/career-change-30-en.html' },
+      fr: { label:'🔄 Changer de métier après 30 ans', href:'articles/career-change-30-en.html' },
+      es: { label:'🔄 Cambiar de profesión a los 30+', href:'articles/career-change-30-en.html' },
+      pt: { label:'🔄 Mudar de profissão aos 30+', href:'articles/career-change-30-en.html' },
+      zh: { label:'🔄 30岁以后如何转行', href:'articles/career-change-30-en.html' },
+      ar: { label:'🔄 كيف تغيّر مهنتك بعد الثلاثين', href:'articles/career-change-30-en.html' },
+      he: { label:'🔄 איך להחליף מקצוע בגיל 30+', href:'articles/career-change-30-en.html' },
+    },
+    {
       group: 'grpDev',
       ru: { label:'💻 Как стать frontend-разработчиком', href:'articles/frontend-developer-ru.html' },
       en: { label:'💻 How to become a frontend developer', href:'articles/frontend-developer-en.html' },
