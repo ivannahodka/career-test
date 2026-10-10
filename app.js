@@ -10,7 +10,7 @@ const HOME_UI = {
     domainSoon:'Скоро', backHome:'← Все тесты',
     grpGuide:'🧭 Выбор профессии', grpDev:'💻 Разработка', grpData:'📊 Данные & ИИ', grpInfra:'🚀 Инфраструктура',
     grpSec:'🔐 Безопасность', grpDes:'🎨 Дизайн', grpQa:'🔍 Тестирование',
-    grpPm:'📋 Product Management', grpBiz:'💼 Бизнес & Менеджмент',
+    grpPm:'📋 Product Management', grpBiz:'💼 Бизнес & Менеджмент', grpSci:'🔬 Наука & Медицина',
     directLabel:'Знаешь профессию? Пропусти общий тест:',
     directPlaceholder:'— выбери профессию —', directGoBtn:'Начать →',
     poCta:'Не знаешь с чего начать? Пройди тест профориентации',
@@ -26,7 +26,7 @@ const HOME_UI = {
     domainSoon:'Coming soon', backHome:'← All tests',
     grpGuide:'🧭 Choosing a career', grpDev:'💻 Development', grpData:'📊 Data & AI', grpInfra:'🚀 Infrastructure',
     grpSec:'🔐 Security', grpDes:'🎨 Design', grpQa:'🔍 Testing',
-    grpPm:'📋 Product Management', grpBiz:'💼 Business & Management',
+    grpPm:'📋 Product Management', grpBiz:'💼 Business & Management', grpSci:'🔬 Science & Medicine',
     directLabel:'Know your field? Skip the general test:',
     directPlaceholder:'— choose a career —', directGoBtn:'Start →',
     poCta:'Not sure where to start? Take the orientation test',
@@ -42,7 +42,7 @@ const HOME_UI = {
     domainSoon:'Bald verfügbar', backHome:'← Alle Tests',
     grpGuide:'🧭 Berufswahl', grpDev:'💻 Entwicklung', grpData:'📊 Daten & KI', grpInfra:'🚀 Infrastruktur',
     grpSec:'🔐 Sicherheit', grpDes:'🎨 Design', grpQa:'🔍 Testen',
-    grpPm:'📋 Product Management', grpBiz:'💼 Business & Management',
+    grpPm:'📋 Product Management', grpBiz:'💼 Business & Management', grpSci:'🔬 Wissenschaft & Medizin',
     directLabel:'Kennst du deinen Bereich? Überspringe den allgemeinen Test:',
     directPlaceholder:'— Beruf wählen —', directGoBtn:'Starten →',
     poCta:'Unsicher, womit du anfangen sollst? Starte den Orientierungstest',
@@ -58,7 +58,7 @@ const HOME_UI = {
     domainSoon:'Bientôt', backHome:'← Tous les tests',
     grpGuide:'🧭 Choisir un métier', grpDev:'💻 Développement', grpData:'📊 Données & IA', grpInfra:'🚀 Infrastructure',
     grpSec:'🔐 Sécurité', grpDes:'🎨 Design', grpQa:'🔍 Tests',
-    grpPm:'📋 Product Management', grpBiz:'💼 Business & Management',
+    grpPm:'📋 Product Management', grpBiz:'💼 Business & Management', grpSci:'🔬 Science & Médecine',
     directLabel:'Tu connais ton domaine? Saute le test général:',
     directPlaceholder:'— choisir un métier —', directGoBtn:'Démarrer →',
     poCta:'Pas sûr par où commencer? Passe le test d\'orientation',
@@ -74,7 +74,7 @@ const HOME_UI = {
     domainSoon:'Próximamente', backHome:'← Todos los tests',
     grpGuide:'🧭 Elegir profesión', grpDev:'💻 Desarrollo', grpData:'📊 Datos & IA', grpInfra:'🚀 Infraestructura',
     grpSec:'🔐 Seguridad', grpDes:'🎨 Diseño', grpQa:'🔍 Testing',
-    grpPm:'📋 Product Management', grpBiz:'💼 Negocios & Gestión',
+    grpPm:'📋 Product Management', grpBiz:'💼 Negocios & Gestión', grpSci:'🔬 Ciencia & Medicina',
     directLabel:'¿Sabes tu área? Salta el test general:',
     directPlaceholder:'— elige una profesión —', directGoBtn:'Iniciar →',
     poCta:'¿No sabes por dónde empezar? Haz el test de orientación',
@@ -90,7 +90,7 @@ const HOME_UI = {
     domainSoon:'Em breve', backHome:'← Todos os testes',
     grpGuide:'🧭 Escolher profissão', grpDev:'💻 Desenvolvimento', grpData:'📊 Dados & IA', grpInfra:'🚀 Infraestrutura',
     grpSec:'🔐 Segurança', grpDes:'🎨 Design', grpQa:'🔍 Testes',
-    grpPm:'📋 Product Management', grpBiz:'💼 Negócios & Gestão',
+    grpPm:'📋 Product Management', grpBiz:'💼 Negócios & Gestão', grpSci:'🔬 Ciência & Medicina',
     directLabel:'Conhece sua área? Pule o teste geral:',
     directPlaceholder:'— escolha uma profissão —', directGoBtn:'Iniciar →',
     poCta:'Não sabes por onde começar? Faz o teste de orientação',
@@ -106,7 +106,7 @@ const HOME_UI = {
     domainSoon:'قريباً', backHome:'← جميع الاختبارات',
     grpGuide:'🧭 اختيار المهنة', grpDev:'💻 التطوير', grpData:'📊 البيانات والذكاء الاصطناعي',
     grpInfra:'🚀 البنية التحتية', grpSec:'🔐 الأمن', grpDes:'🎨 التصميم',
-    grpQa:'🔍 الاختبار', grpPm:'📋 إدارة المنتج', grpBiz:'💼 الأعمال والإدارة',
+    grpQa:'🔍 الاختبار', grpPm:'📋 إدارة المنتج', grpBiz:'💼 الأعمال والإدارة', grpSci:'🔬 العلوم والطب',
     directLabel:'هل تعرف مجالك؟ تخطَّ الاختبار العام:',
     directPlaceholder:'— اختر مهنة —', directGoBtn:'ابدأ →',
     poCta:'لست متأكداً من أين تبدأ؟ أجرِ اختبار التوجيه المهني',
@@ -122,7 +122,7 @@ const HOME_UI = {
     domainSoon:'בקרוב', backHome:'← כל המבחנים',
     grpGuide:'🧭 בחירת מקצוע', grpDev:'💻 פיתוח', grpData:'📊 נתונים ובינה מלאכותית',
     grpInfra:'🚀 תשתיות', grpSec:'🔐 אבטחה', grpDes:'🎨 עיצוב',
-    grpQa:'🔍 בדיקות', grpPm:'📋 ניהול מוצר', grpBiz:'💼 עסקים וניהול',
+    grpQa:'🔍 בדיקות', grpPm:'📋 ניהול מוצר', grpBiz:'💼 עסקים וניהול', grpSci:'🔬 מדע ורפואה',
     directLabel:'מכיר את התחום שלך? דלג על המבחן הכללי:',
     directPlaceholder:'— בחר מקצוע —', directGoBtn:'התחל →',
     poCta:'לא בטוח מאיפה להתחיל? עשה את מבחן האוריינטציה',
@@ -138,7 +138,7 @@ const HOME_UI = {
     domainSoon:'即将推出', backHome:'← 所有测试',
     grpGuide:'🧭 职业选择', grpDev:'💻 开发', grpData:'📊 数据与AI',
     grpInfra:'🚀 基础设施', grpSec:'🔐 安全', grpDes:'🎨 设计',
-    grpQa:'🔍 测试', grpPm:'📋 产品管理', grpBiz:'💼 商业与管理',
+    grpQa:'🔍 测试', grpPm:'📋 产品管理', grpBiz:'💼 商业与管理', grpSci:'🔬 科学与医学',
     directLabel:'已知道自己的方向？直接开始：',
     directPlaceholder:'— 选择职业 —', directGoBtn:'开始 →',
     poCta:'不确定从哪里开始？做一下职业定向测试',
@@ -598,6 +598,18 @@ function buildHome() {
     ar: { label:'📈 كيف تصبح محلل أعمال', href:'articles/business-analyst-en.html' },
     he: { label:'📈 איך להפוך לאנליסט עסקי', href:'articles/business-analyst-en.html' },
   },
+  {
+    group: 'grpSci',
+    ru: { label:'🧠 Как стать психологом', href:'articles/psychologist-ru.html' },
+    en: { label:'🧠 How to become a Psychologist', href:'articles/psychologist-en.html' },
+    de: { label:'🧠 Wie wird man Psychologe?', href:'articles/psychologist-en.html' },
+    fr: { label:'🧠 Comment devenir psychologue', href:'articles/psychologist-en.html' },
+    es: { label:'🧠 Cómo convertirse en psicólogo', href:'articles/psychologist-en.html' },
+    pt: { label:'🧠 Como se tornar psicólogo', href:'articles/psychologist-en.html' },
+    zh: { label:'🧠 如何成为心理学家', href:'articles/psychologist-en.html' },
+    ar: { label:'🧠 كيف تصبح أخصائياً نفسياً', href:'articles/psychologist-en.html' },
+    he: { label:'🧠 איך להפוך לפסיכולוג', href:'articles/psychologist-en.html' },
+  },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
@@ -606,10 +618,10 @@ function buildHome() {
   if (btnLabelEl) btnLabelEl.textContent = articlesBtnLabel[lang] || articlesBtnLabel.en;
   const menu = document.getElementById('articles-menu');
   if (menu) {
-    const groupOrder = ['grpGuide','grpDev','grpQa','grpInfra','grpData','grpSec','grpDes','grpPm','grpBiz'];
+    const groupOrder = ['grpGuide','grpDev','grpQa','grpInfra','grpData','grpSec','grpDes','grpPm','grpBiz','grpSci'];
     const groupLabels = { grpGuide: hu('grpGuide'), grpDev: hu('grpDev'), grpQa: hu('grpQa'), grpInfra: hu('grpInfra'),
       grpData: hu('grpData'), grpSec: hu('grpSec'), grpDes: hu('grpDes'), grpPm: hu('grpPm'),
-      grpBiz: hu('grpBiz') };
+      grpBiz: hu('grpBiz'), grpSci: hu('grpSci') };
     const byGroup = {};
     ARTICLES.filter(a => a[lang] || a['en']).forEach(a => { (byGroup[a.group] = byGroup[a.group] || []).push(a); });
     menu.innerHTML = groupOrder.filter(g => byGroup[g] && byGroup[g].length).map(g => {

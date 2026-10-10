@@ -1,6 +1,6 @@
 # Career Test — Free Career Orientation Test
 
-> A free, no-signup career orientation test for teens (13-16) and anyone exploring career options. 10 questions, 6 domains (IT, Creative, Business, Science, Education, Engineering), 40 careers, available in 9 languages (Russian, English, German, French, Spanish, Portuguese, Chinese, Arabic, Hebrew). The site also hosts a growing library of career choice guides and in-depth "how to become" guides for specific IT and business careers, written for beginners with no prior experience.
+> A free, no-signup career orientation test for teens (13-16) and anyone exploring career options. 10 questions, 6 domains (IT, Creative, Business, Science, Education, Engineering), 40 careers, available in 9 languages (Russian, English, German, French, Spanish, Portuguese, Chinese, Arabic, Hebrew). The site also hosts a growing library of career choice guides and in-depth "how to become" guides for specific IT, business and science careers, written for beginners with no prior experience.
 
 ## Main pages
 - [Take the career test](https://ivannahodka.github.io/career-test/): The main 10-question career aptitude test, free and anonymous, no sign-up required.
@@ -66,6 +66,10 @@
 - [HR-менеджер](https://ivannahodka.github.io/career-test/articles/hr-ru.html)
 - [Менеджер по продажам](https://ivannahodka.github.io/career-test/articles/sales-ru.html)
 - [Бизнес-аналитик](https://ivannahodka.github.io/career-test/articles/business-analyst-ru.html)
+
+## Science & medicine career guides
+- [Psychologist](https://ivannahodka.github.io/career-test/articles/psychologist-en.html): What a psychologist does, psychologist vs therapist vs psychiatrist, specialties, education paths in the US and UK, timeline, free courses, and how pay works.
+- [Психолог](https://ivannahodka.github.io/career-test/articles/psychologist-ru.html)
 
 ## Notes
 - Career choice guides help students decide what to do after school at 16 and 18, and help adults plan a career change (college, university, apprenticeships, courses).
