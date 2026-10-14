@@ -335,6 +335,18 @@ function buildHome() {
       he: { label:'🔄 איך להחליף מקצוע בגיל 30+', href:'articles/career-change-30-en.html' },
     },
     {
+      group: 'grpGuide',
+      ru: { label:'🚀 Профессии будущего и ИИ', href:'articles/future-careers-ru.html' },
+      en: { label:'🚀 Jobs of the future and AI', href:'articles/future-careers-en.html' },
+      de: { label:'🚀 Berufe der Zukunft und KI', href:'articles/future-careers-en.html' },
+      fr: { label:'🚀 Métiers du futur et IA', href:'articles/future-careers-en.html' },
+      es: { label:'🚀 Profesiones del futuro e IA', href:'articles/future-careers-en.html' },
+      pt: { label:'🚀 Profissões do futuro e IA', href:'articles/future-careers-en.html' },
+      zh: { label:'🚀 未来职业与人工智能', href:'articles/future-careers-en.html' },
+      ar: { label:'🚀 مهن المستقبل والذكاء الاصطناعي', href:'articles/future-careers-en.html' },
+      he: { label:'🚀 מקצועות העתיד ובינה מלאכותית', href:'articles/future-careers-en.html' },
+    },
+    {
       group: 'grpDev',
       ru: { label:'💻 Как стать frontend-разработчиком', href:'articles/frontend-developer-ru.html' },
       en: { label:'💻 How to become a frontend developer', href:'articles/frontend-developer-en.html' },

@@ -14,6 +14,8 @@
 - [Профессии для интроверта](https://ivannahodka.github.io/career-test/articles/introvert-careers-ru.html): Russian version of the introvert careers guide.
 - [How to Change Careers at 30, 40 or Later: A Step-by-Step Plan](https://ivannahodka.github.io/career-test/articles/career-change-30-en.html): Guide for adults: signs it's time to change careers, common fears vs reality, a step-by-step transition plan, how previous experience transfers to new roles, mistakes to avoid.
 - [Как сменить профессию в 30, 40 лет и позже](https://ivannahodka.github.io/career-test/articles/career-change-30-ru.html): Russian version of the career change guide.
+- [Jobs of the Future: In-Demand Careers by 2030 and the Impact of AI](https://ivannahodka.github.io/career-test/articles/future-careers-en.html): Fastest-growing and declining jobs to 2030 based on the WEF Future of Jobs Report 2025, how AI changes tasks within careers, skills employers want, and how to choose a future-proof career. Updated October 2026.
+- [Профессии будущего и ИИ](https://ivannahodka.github.io/career-test/articles/future-careers-ru.html): Russian version of the jobs of the future guide.
 
 ## IT career guides (English)
 - [Frontend Developer](https://ivannahodka.github.io/career-test/articles/frontend-developer-en.html): What a frontend developer does, what to learn (HTML, CSS, JavaScript), free resources, timeline, and pay.
