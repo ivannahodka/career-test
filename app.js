@@ -351,6 +351,10 @@ function buildHome() {
       ru: { label:'🧪 Тест Климова онлайн (ДДО)', href:'klimov-test.html' },
     },
     {
+      group: 'grpGuide',
+      ru: { label:'📚 Методика Климова: классификация профессий', href:'articles/klimov-method-ru.html' },
+    },
+    {
       group: 'grpDev',
       ru: { label:'💻 Как стать frontend-разработчиком', href:'articles/frontend-developer-ru.html' },
       en: { label:'💻 How to become a frontend developer', href:'articles/frontend-developer-en.html' },

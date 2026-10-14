@@ -7,6 +7,7 @@
 - [How to Choose a Career: 7-Step Guide](https://ivannahodka.github.io/career-test/how-to-choose-en.html): A step-by-step guide for students on how to pick a career direction, including how to use this site's test effectively.
 - [Glossary](https://ivannahodka.github.io/career-test/glossary-static-en.html): Plain-language definitions of common career and industry terms.
 - [Klimov test online (Russian)](https://ivannahodka.github.io/career-test/klimov-test.html): Online version of E. A. Klimov's Differential Diagnostic Questionnaire (DDO), a classic standardized career orientation questionnaire widely used in Russia and CIS schools: 20 forced-choice pairs, automatic scoring across 5 occupation types (nature, technology, people, sign systems, artistic image), and a mapping to this site's 6 career domains for comparison.
+- [Klimov method (Russian)](https://ivannahodka.github.io/career-test/articles/klimov-method-ru.html): About E. A. Klimov (1930–2014) and his classification of occupations: 5 types by subject of labor, classes by goal, divisions by tools, groups by working conditions, the profession formula, how the DDO questionnaire works, and how it compares to Holland's RIASEC.
 
 ## Career choice guides
 - [What Career to Choose After School: A Guide for Ages 16 and 18](https://ivannahodka.github.io/career-test/articles/career-after-school-en.html): Options at 16 and 18 in the US, UK and India (university, college, apprenticeships, vocational routes), 5 steps to choose a career, which school subjects lead to which careers, common mistakes, and FAQ.
