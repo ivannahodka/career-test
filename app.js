@@ -347,6 +347,10 @@ function buildHome() {
       he: { label:'🚀 מקצועות העתיד ובינה מלאכותית', href:'articles/future-careers-en.html' },
     },
     {
+      group: 'grpGuide',
+      ru: { label:'🧪 Тест Климова онлайн (ДДО)', href:'klimov-test.html' },
+    },
+    {
       group: 'grpDev',
       ru: { label:'💻 Как стать frontend-разработчиком', href:'articles/frontend-developer-ru.html' },
       en: { label:'💻 How to become a frontend developer', href:'articles/frontend-developer-en.html' },
