@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="favicon.ico" sizes="any">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Holland Code (RIASEC) Test — Free Career Interest Test</title>
+<meta name="description" content="Take a free Holland Code (RIASEC) career interest test: 48 activities, about 7 minutes, no sign-up. Get your 3-letter Holland code, learn what each type means and see matching careers.">
+<link rel="canonical" href="https://ivannahodka.github.io/career-test/holland-test.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ivannahodka.github.io/career-test/holland-test.html">
+<meta property="og:title" content="Holland Code (RIASEC) Test — Free Career Interest Test">
+<meta property="og:description" content="48 activities, about 7 minutes. Get your 3-letter Holland code and matching careers.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://ivannahodka.github.io/career-test/og-image-en.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Holland Code (RIASEC) Test — Free Career Interest Test">
+<meta name="twitter:description" content="48 activities, about 7 minutes. Get your 3-letter Holland code and matching careers.">
+<meta name="twitter:image" content="https://ivannahodka.github.io/career-test/og-image-en.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Holland Code (RIASEC) Test","description":"Free online Holland Code (RIASEC) career interest test with automatic scoring, based on the O*NET Interest Profiler Short Form.","url":"https://ivannahodka.github.io/career-test/holland-test.html","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Career Test","url":"https://ivannahodka.github.io/career-test/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is a Holland Code?","acceptedAnswer":{"@type":"Answer","text":"A Holland Code is a three-letter summary of your strongest career interests, based on psychologist John Holland's RIASEC model: Realistic, Investigative, Artistic, Social, Enterprising and Conventional. For example, the code SAE means your strongest interest is Social, followed by Artistic and Enterprising."}},{"@type":"Question","name":"How accurate is the RIASEC test?","acceptedAnswer":{"@type":"Answer","text":"The RIASEC model is one of the most researched frameworks in career psychology, and the activities in this test come from the O*NET Interest Profiler Short Form developed for the U.S. Department of Labor. Still, it measures interests, not abilities, so treat the result as a starting point for exploring careers rather than a final answer."}},{"@type":"Question","name":"What age is the Holland Code test for?","acceptedAnswer":{"@type":"Answer","text":"It works for teenagers from about 13–14 and for adults. Interests are still developing in the teenage years, so it is worth retaking the test every year or two."}},{"@type":"Question","name":"What if two of my scores are tied?","acceptedAnswer":{"@type":"Answer","text":"Ties are common. Look at careers that combine both types — for example, a UX designer combines Artistic and Investigative interests. You can swap the tied letters in your code and explore both versions."}}]}</script>
+<style>
+  *{box-sizing:border-box}
+  body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;color:#1a202c;line-height:1.7;background:#fff}
+  h1{font-size:2rem;margin-bottom:8px;line-height:1.3}
+  h2{font-size:1.35rem;margin:44px 0 12px;padding-bottom:6px;border-bottom:2px solid #6C63FF;color:#6C63FF}
+  h3{font-size:1.05rem;margin:24px 0 8px;color:#2d3748}
+  .subtitle{color:#718096;margin-bottom:20px;font-size:1.05rem}
+  .back{display:inline-block;margin-bottom:24px;color:#6C63FF;text-decoration:none;font-size:.95rem}
+  .back:hover{text-decoration:underline}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px}
+  .chip{background:#f0efff;color:#4c44d4;border-radius:100px;padding:4px 14px;font-size:.88rem;font-weight:600}
+  .cta{background:#6C63FF;color:#fff;display:inline-block;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700;margin:8px 0;font-size:1rem;border:none;cursor:pointer;font-family:inherit}
+  .cta:hover{background:#5a52d5}
+  .cta.secondary{background:#fff;color:#6C63FF;border:2px solid #6C63FF}
+  .cta.secondary:hover{background:#f0efff}
+  .cta-block{background:#f0efff;border-radius:12px;padding:24px;margin:40px 0;text-align:center}
+  .cta-block p{margin:0 0 16px;font-size:1.05rem}
+  .tip{background:#f0fff4;border-left:4px solid #48bb78;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .warn{background:#fffbeb;border-left:4px solid #f6e05e;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}
+  th{background:#6C63FF;color:#fff;padding:10px 12px;text-align:left}
+  td{padding:9px 12px;border-bottom:1px solid #e2e8f0;vertical-align:top}
+  tr:nth-child(even) td{background:#f7f8fc}
+  ul,ol{padding-left:24px}
+  li{margin:8px 0}
+  footer{margin-top:56px;padding-top:16px;border-top:1px solid #e2e8f0;color:#a0aec0;font-size:.8rem}
+  footer a{color:#a0aec0}
+  .hex{display:block;max-width:340px;width:100%;height:auto;margin:16px auto}
+
+  #quiz{background:#f7f8fc;border:1px solid #e2e8f0;border-radius:16px;padding:24px;margin:8px 0 32px}
+  .q-top{display:flex;justify-content:space-between;align-items:center;font-size:.9rem;color:#718096;margin-bottom:10px}
+  .bar{height:8px;background:#e2e8f0;border-radius:100px;overflow:hidden;margin-bottom:22px}
+  .bar>div{height:100%;background:#6C63FF;border-radius:100px;transition:width .25s}
+  .q-lead{color:#718096;margin:0 0 6px;font-size:.95rem}
+  .q-title{font-size:1.25rem;font-weight:700;margin:0 0 18px;line-height:1.4}
+  .scale{display:grid;gap:10px}
+  .sc{display:flex;gap:14px;align-items:center;text-align:left;width:100%;background:#fff;border:2px solid #e2e8f0;border-radius:12px;padding:12px 16px;font-size:1rem;color:#1a202c;cursor:pointer;font-family:inherit;transition:border-color .15s,background .15s}
+  .sc:hover,.sc:focus-visible{border-color:#6C63FF;background:#f7f6ff;outline:none}
+  .sc.sel{border-color:#6C63FF;background:#f0efff}
+  .sc .k{flex:0 0 28px;height:28px;border-radius:50%;background:#f0efff;color:#6C63FF;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:.9rem}
+  .q-nav{display:flex;justify-content:space-between;align-items:center;margin-top:18px;gap:12px;flex-wrap:wrap}
+  .linkbtn{background:none;border:none;color:#6C63FF;font-size:.95rem;cursor:pointer;padding:6px 0;font-family:inherit}
+  .linkbtn:disabled{color:#cbd5e0;cursor:default}
+  .kbd{color:#a0aec0;font-size:.82rem}
+  .start{text-align:center}
+  .start p{margin:0 0 16px}
+
+  .code{font-size:2.6rem;font-weight:900;letter-spacing:.12em;color:#6C63FF;margin:4px 0 2px}
+  .res-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 14px;align-items:center;margin:14px 0}
+  .res-name{font-weight:600}
+  .res-score{text-align:right;font-size:.9rem;color:#4a5568;white-space:nowrap}
+  .res-bar{grid-column:1/-1;height:12px;background:#e2e8f0;border-radius:100px;overflow:hidden}
+  .res-bar>div{height:100%;border-radius:100px}
+  .top{background:#6C63FF}
+  .rest{background:#cbd5e0}
+  .lead{background:#fff;border:2px solid #6C63FF;border-radius:14px;padding:18px 20px;margin:18px 0}
+  .lead h3{margin-top:0;color:#6C63FF}
+  .lead p{margin:6px 0}
+  .res-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+  @media (max-width:520px){
+    h1{font-size:1.6rem}
+    #quiz{padding:18px 14px}
+    .res-score{font-size:.82rem}
+  }
+</style>
+</head>
+<body>
+<a class="back" href="https://ivannahodka.github.io/career-test/">← Free career test</a>
+
+<h1>Holland Code (RIASEC) Test: Find Your Career Interest Type</h1>
+<p class="subtitle">The Holland Code is one of the most widely used and researched ways to match people with careers. Rate how much you would like doing 48 everyday work activities and get your three-letter Holland code — plus the careers that fit it.</p>
+<div class="chips"><span class="chip">48 activities</span><span class="chip">≈ 7 minutes</span><span class="chip">Free</span><span class="chip">No sign-up</span></div>
+
+<div id="quiz" aria-live="polite">
+  <div class="start">
+    <p><strong>How to answer:</strong> for each activity, think about whether you would <em>like</em> doing it. Don't worry about whether you have the skills or training, or how much money it pays — just go with your first reaction.</p>
+    <button class="cta" type="button" id="startBtn">Start the test →</button>
+  </div>
+</div>
+<noscript><p class="warn">Please enable JavaScript in your browser to take the test.</p></noscript>
+
+<h2>What is the Holland Code?</h2>
+<p>American psychologist <strong>John L. Holland</strong> (1919–2008) noticed that people in the same occupation tend to share similar interests and personalities. From decades of research he developed the theory that most people — and most work environments — can be described by a mix of <strong>six types</strong>. Their first letters form the acronym <strong>RIASEC</strong>.</p>
+<p>Holland, a long-time professor at Johns Hopkins University, set out his theory in the book <em>Making Vocational Choices</em> and created the Self-Directed Search, one of the first career tests people could take and score on their own. Today his model underpins many career assessments, including the U.S. Department of Labor's O*NET Interest Profiler.</p>
+
+<svg class="hex" viewBox="0 0 300 270" role="img" aria-label="Holland hexagon: Realistic, Investigative, Artistic, Social, Enterprising and Conventional arranged around a hexagon; neighboring types are most similar">
+  <polygon points="150,30 254,90 254,190 150,250 46,190 46,90" fill="#f0efff" stroke="#6C63FF" stroke-width="2"/>
+  <g font-family="system-ui,Arial,sans-serif" font-weight="700" fill="#4c44d4" text-anchor="middle">
+    <text x="150" y="22" font-size="15">R</text>
+    <text x="268" y="88" font-size="15" text-anchor="start">I</text>
+    <text x="268" y="196" font-size="15" text-anchor="start">A</text>
+    <text x="150" y="268" font-size="15">S</text>
+    <text x="32" y="196" font-size="15" text-anchor="end">E</text>
+    <text x="32" y="88" font-size="15" text-anchor="end">C</text>
+  </g>
+  <g font-family="system-ui,Arial,sans-serif" font-size="12" fill="#4a5568" text-anchor="middle">
+    <text x="150" y="128">Neighbors are</text>
+    <text x="150" y="146">most similar;</text>
+    <text x="150" y="164">opposites differ most</text>
+  </g>
+</svg>
+<p>Holland arranged the six types on a <strong>hexagon</strong>. Types next to each other (like Realistic and Investigative) have a lot in common; types on opposite sides (like Realistic and Social) are the most different. A code made of neighboring letters, such as RIC or SAE, is called <em>consistent</em> and is very common.</p>
+
+<h2>The six RIASEC types</h2>
+<div style="overflow-x:auto"><table>
+  <tr><th>Type</th><th>Likes to…</th><th>Example careers</th></tr>
+  <tr><td>🔧 <strong>R</strong> — Realistic ("Doers")</td><td>Work with tools, machines, plants or animals; build and fix things; work outdoors</td><td>Engineer, electrician, mechanic, <a href="articles/system-administrator-en.html">system administrator</a></td></tr>
+  <tr><td>🔬 <strong>I</strong> — Investigative ("Thinkers")</td><td>Observe, research, analyze and solve complex problems</td><td>Scientist, doctor, <a href="articles/data-analyst-en.html">data analyst</a>, <a href="articles/ai-ml-engineer-en.html">AI/ML engineer</a></td></tr>
+  <tr><td>🎨 <strong>A</strong> — Artistic ("Creators")</td><td>Create, design and express ideas in unstructured settings</td><td><a href="articles/graphic-designer-en.html">Graphic designer</a>, writer, musician, <a href="articles/ux-ui-designer-en.html">UX/UI designer</a></td></tr>
+  <tr><td>🤝 <strong>S</strong> — Social ("Helpers")</td><td>Teach, help, care for and counsel people</td><td>Teacher, nurse, <a href="articles/psychologist-en.html">psychologist</a>, social worker</td></tr>
+  <tr><td>📣 <strong>E</strong> — Enterprising ("Persuaders")</td><td>Lead, persuade, sell and take business risks</td><td><a href="articles/entrepreneur-en.html">Entrepreneur</a>, <a href="articles/marketer-en.html">marketer</a>, <a href="articles/sales-en.html">sales manager</a>, <a href="articles/product-manager-en.html">product manager</a></td></tr>
+  <tr><td>📊 <strong>C</strong> — Conventional ("Organizers")</td><td>Work with data, records and clear procedures; keep things accurate and orderly</td><td>Accountant, <a href="articles/financier-en.html">financial analyst</a>, <a href="articles/database-administrator-en.html">database administrator</a>, <a href="articles/qa-engineer-en.html">QA engineer</a></td></tr>
+</table></div>
+
+<h2>How the test is scored</h2>
+<p>Each of the 48 activities belongs to one of the six types — eight per type. Your answers are scored from 1 (strongly dislike) to 5 (strongly like), so each type gets a score from <strong>8 to 40</strong>. Your <strong>Holland code</strong> is made of your three highest-scoring types, from strongest to weakest.</p>
+<ul>
+  <li>The <strong>first letter</strong> is your dominant interest — the kind of work you're likely to enjoy most.</li>
+  <li>The <strong>second and third letters</strong> refine it. An "IA" person and an "IC" person both like analysis, but the first leans toward creative research and the second toward precise, structured work.</li>
+  <li>If two scores are tied, both orders are valid — explore careers for each.</li>
+</ul>
+<div class="warn">
+  <strong>The test measures interests, not abilities.</strong> A high Realistic score means you'd likely enjoy hands-on work, not that you're already good at it. Use your code to decide which careers to explore, then test them in practice — through courses, projects or job shadowing.
+</div>
+
+<h2>How the Holland Code relates to our career test</h2>
+<p>Our <a href="https://ivannahodka.github.io/career-test/">career test</a> groups careers into 6 fields. Here's how they line up with Holland's types:</p>
+<div style="overflow-x:auto"><table>
+  <tr><th>Holland type</th><th>Fields in our test</th></tr>
+  <tr><td>🔧 Realistic</td><td>⚙️ Engineering, 💻 IT (infrastructure)</td></tr>
+  <tr><td>🔬 Investigative</td><td>🔬 Science &amp; Medicine, 💻 IT (data &amp; AI)</td></tr>
+  <tr><td>🎨 Artistic</td><td>🎨 Creative</td></tr>
+  <tr><td>🤝 Social</td><td>👩‍🏫 Education &amp; Society</td></tr>
+  <tr><td>📣 Enterprising</td><td>💼 Business</td></tr>
+  <tr><td>📊 Conventional</td><td>💼 Business (finance), 💻 IT (testing, databases)</td></tr>
+</table></div>
+<p>Take both tests and compare. If they point the same way, that's a good sign. If they differ, take the second-level test for the career you're curious about, or talk it through with a school counselor.</p>
+
+<div class="cta-block">
+  <p>Know your Holland code? Compare it with our test: 6 fields, 40 careers</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/">Take the main test →</a>
+</div>
+
+<h2>FAQ</h2>
+<h3>What is a Holland Code?</h3>
+<p>A Holland Code is a three-letter summary of your strongest career interests, based on psychologist John Holland's RIASEC model: Realistic, Investigative, Artistic, Social, Enterprising and Conventional. For example, the code SAE means your strongest interest is Social, followed by Artistic and Enterprising.</p>
+<h3>How accurate is the RIASEC test?</h3>
+<p>The RIASEC model is one of the most researched frameworks in career psychology, and the activities in this test come from the O*NET Interest Profiler Short Form developed for the U.S. Department of Labor. Still, it measures interests, not abilities, so treat the result as a starting point for exploring careers rather than a final answer.</p>
+<h3>What age is the Holland Code test for?</h3>
+<p>It works for teenagers from about 13–14 and for adults. Interests are still developing in the teenage years, so it is worth retaking the test every year or two. Adults often use it when <a href="articles/career-change-30-en.html">changing careers</a>.</p>
+<h3>What if two of my scores are tied?</h3>
+<p>Ties are common. Look at careers that combine both types — for example, a UX designer combines Artistic and Investigative interests. You can swap the tied letters in your code and explore both versions.</p>
+
+<h2>Read next</h2>
+<ul>
+  <li><a href="how-to-choose-en.html">📖 How to Choose a Career: 7 Steps</a></li>
+  <li><a href="articles/career-after-school-en.html">🎓 What career to choose after school</a></li>
+  <li><a href="articles/introvert-careers-en.html">🤫 Best jobs for introverts</a></li>
+  <li><a href="articles/future-careers-en.html">🚀 Jobs of the future and AI</a></li>
+</ul>
+
+<footer>
+  <p>Test items are adapted from the O*NET Interest Profiler Short Form (U.S. Department of Labor, Employment and Training Administration). This online version, its scoring display and career matches were created by Career Test and are not endorsed by O*NET or the U.S. Department of Labor. Theory: Holland, J. L. <em>Making Vocational Choices: A Theory of Vocational Personalities and Work Environments</em>.</p>
+  <p>© Career Test · <a href="https://ivannahodka.github.io/career-test/">Career test</a> · <a href="glossary-static-en.html">Glossary</a> · <a href="klimov-test.html">Тест Климова (на русском)</a></p>
+</footer>
+
+<script>
+(function(){
+  var ITEMS={
+    R:["Test the quality of parts before shipment","Lay brick or tile","Work on an offshore oil-drilling rig","Assemble electronic parts","Operate a grinding machine in a factory","Fix a broken faucet","Assemble products in a factory","Install flooring in houses"],
+    I:["Study the structure of the human body","Study animal behavior","Do research on plants or animals","Develop a new medical treatment or procedure","Conduct biological research","Study whales and other types of marine life","Work in a biology lab","Make a map of the bottom of an ocean"],
+    A:["Conduct a musical choir","Direct a play","Design artwork for magazines","Write a song","Write books or plays","Play a musical instrument","Perform stunts for a movie or television show","Design sets for plays"],
+    S:["Give career guidance to people","Do volunteer work at a non-profit organization","Help people who have problems with drugs or alcohol","Teach an individual an exercise routine","Help people with family-related problems","Supervise the activities of children at a camp","Teach children how to read","Help elderly people with their daily activities"],
+    E:["Sell restaurant franchises to individuals","Sell merchandise at a department store","Manage the operations of a hotel","Operate a beauty salon or barber shop","Manage a department within a large company","Manage a clothing store","Sell houses","Run a toy store"],
+    C:["Generate the monthly payroll checks for an office","Inventory supplies using a hand-held computer","Use a computer program to generate customer bills","Maintain employee records","Compute and record statistical and other numerical data","Operate a calculator","Handle customers' bank transactions","Keep shipping and receiving records"]
+  };
+  var ORDER=["R","I","A","S","E","C"];
+  var Q=[]; for(var k=0;k<8;k++){ORDER.forEach(function(t){Q.push([ITEMS[t][k],t]);});}
+  var SCALE=["Strongly dislike","Dislike","Unsure","Like","Strongly like"];
+  var T={
+    R:{n:"Realistic",e:"🔧",d:"You enjoy practical, hands-on work with tools, machines, materials, plants or animals. You like seeing a concrete result and often prefer doing to talking.",j:"Engineer, electrician, mechanic, robotics technician, system administrator, builder.",m:"⚙️ Engineering and 💻 IT (infrastructure)",l:[["articles/system-administrator-en.html","System administrator"],["articles/devops-engineer-en.html","DevOps engineer"]]},
+    I:{n:"Investigative",e:"🔬",d:"You enjoy observing, researching and figuring out how things work. You like complex problems, ideas and data more than routine tasks.",j:"Scientist, doctor, data analyst, AI/ML engineer, researcher, pharmacist.",m:"🔬 Science & Medicine and 💻 IT (data & AI)",l:[["articles/data-analyst-en.html","Data analyst"],["articles/ai-ml-engineer-en.html","AI/ML engineer"]]},
+    A:{n:"Artistic",e:"🎨",d:"You enjoy creating, designing and expressing ideas. You value originality and freedom more than strict rules and routines.",j:"Graphic designer, illustrator, writer, musician, actor, UX/UI designer.",m:"🎨 Creative",l:[["articles/graphic-designer-en.html","Graphic designer"],["articles/ux-ui-designer-en.html","UX/UI designer"]]},
+    S:{n:"Social",e:"🤝",d:"You enjoy helping, teaching and caring for people. You're good at listening and explaining, and you want your work to make a difference to others.",j:"Teacher, nurse, psychologist, counselor, social worker, coach.",m:"👩‍🏫 Education & Society",l:[["articles/psychologist-en.html","Psychologist"],["articles/hr-en.html","HR manager"]]},
+    E:{n:"Enterprising",e:"📣",d:"You enjoy leading, persuading and making things happen. You like goals, competition and taking initiative, and you're comfortable with some risk.",j:"Entrepreneur, marketer, sales manager, product manager, manager, lawyer.",m:"💼 Business",l:[["articles/entrepreneur-en.html","Entrepreneur"],["articles/marketer-en.html","Marketer"]]},
+    C:{n:"Conventional",e:"📊",d:"You enjoy working with data, records and clear procedures. You value accuracy, order and reliability, and you're good at keeping track of details.",j:"Accountant, financial analyst, database administrator, QA engineer, office manager.",m:"💼 Business (finance) and 💻 IT (testing, databases)",l:[["articles/financier-en.html","Financial analyst"],["articles/qa-engineer-en.html","QA engineer"]]}
+  };
+  var box=document.getElementById('quiz'), ans=[], cur=0;
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function render(){
+    var pct=Math.round(cur/Q.length*100);
+    var h='<div class="q-top"><span>Activity '+(cur+1)+' of '+Q.length+'</span><span>'+pct+'%</span></div>'+
+      '<div class="bar"><div style="width:'+pct+'%"></div></div>'+
+      '<p class="q-lead">How would you feel about doing this?</p><p class="q-title">'+esc(Q[cur][0])+'</p><div class="scale">';
+    for(var i=0;i<5;i++){
+      h+='<button type="button" class="sc'+(ans[cur]===i+1?' sel':'')+'" data-v="'+(i+1)+'"><span class="k">'+(i+1)+'</span><span>'+SCALE[i]+'</span></button>';
+    }
+    h+='</div><div class="q-nav"><button type="button" class="linkbtn" id="prevBtn"'+(cur===0?' disabled':'')+'>← Back</button><span class="kbd">You can also press keys 1–5</span></div>';
+    box.innerHTML=h;
+    Array.prototype.forEach.call(box.querySelectorAll('.sc'),function(b){b.addEventListener('click',function(){pick(+b.getAttribute('data-v'))})});
+    document.getElementById('prevBtn').addEventListener('click',function(){if(cur>0){cur--;render();}});
+  }
+  function pick(v){
+    ans[cur]=v;
+    if(cur<Q.length-1){cur++;render();}else{result();}
+  }
+  function result(){
+    var sc={R:0,I:0,A:0,S:0,E:0,C:0};
+    for(var k=0;k<Q.length;k++){sc[Q[k][1]]+=ans[k];}
+    var sorted=ORDER.slice().sort(function(a,b){return sc[b]-sc[a]||ORDER.indexOf(a)-ORDER.indexOf(b)});
+    var code=sorted.slice(0,3).join('');
+    var tie=sc[sorted[2]]===sc[sorted[3]]||sc[sorted[1]]===sc[sorted[2]]||sc[sorted[0]]===sc[sorted[1]];
+    try{localStorage.setItem('holland_result',JSON.stringify({scores:sc,code:code,date:new Date().toISOString().slice(0,10)}));}catch(e){}
+    var h='<p class="q-lead">Your Holland code</p><div class="code">'+code+'</div>'+
+      '<p>'+sorted.slice(0,3).map(function(t){return T[t].e+' '+T[t].n}).join(' · ')+'</p>';
+    sorted.forEach(function(t,i){
+      h+='<div class="res-row"><span class="res-name">'+T[t].e+' '+T[t].n+'</span><span class="res-score">'+sc[t]+' / 40</span>'+
+         '<div class="res-bar"><div class="'+(i<3?'top':'rest')+'" style="width:'+((sc[t]-8)/32*100)+'%"></div></div></div>';
+    });
+    if(tie){h+='<p class="q-lead">Some of your scores are tied, so the order of those letters could be swapped. Explore careers for both versions of your code.</p>';}
+    sorted.slice(0,3).forEach(function(t,i){
+      var x=T[t];
+      h+='<div class="lead"><h3>'+x.e+' '+(i===0?'Strongest':'Also strong')+': '+x.n+'</h3>'+
+        '<p>'+x.d+'</p><p><strong>Example careers:</strong> '+x.j+'</p>'+
+        '<p><strong>In our test:</strong> '+x.m+'.</p>'+
+        '<p><strong>Read:</strong> '+x.l.map(function(a){return '<a href="'+a[0]+'">'+a[1]+'</a>'}).join(' · ')+'</p></div>';
+    });
+    h+='<p>Now take our main career test and compare: if it points to one of the fields above, that\'s a good sign you\'re on the right track.</p>'+
+       '<div class="res-actions"><a class="cta" href="https://ivannahodka.github.io/career-test/">Take the main test →</a><button type="button" class="cta secondary" id="againBtn">Retake</button></div>';
+    box.innerHTML=h;
+    document.getElementById('againBtn').addEventListener('click',function(){ans=[];cur=0;render();});
+    box.scrollIntoView({behavior:'smooth',block:'start'});
+  }
+  document.getElementById('startBtn').addEventListener('click',render);
+  document.addEventListener('keydown',function(e){
+    if(!box.querySelector('.sc'))return;
+    var n=parseInt(e.key,10); if(n>=1&&n<=5)pick(n);
+  });
+})();
+</script>
+</body>
+</html>

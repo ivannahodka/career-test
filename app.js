@@ -355,6 +355,18 @@ function buildHome() {
       ru: { label:'📚 Методика Климова: классификация профессий', href:'articles/klimov-method-ru.html' },
     },
     {
+      group: 'grpGuide',
+      ru: { label:'🧪 Тест Холланда (RIASEC, на английском)', href:'holland-test.html' },
+      en: { label:'🧪 Holland Code (RIASEC) test', href:'holland-test.html' },
+      de: { label:'🧪 Holland-Code-Test (RIASEC, Englisch)', href:'holland-test.html' },
+      fr: { label:'🧪 Test du code Holland (RIASEC, anglais)', href:'holland-test.html' },
+      es: { label:'🧪 Test del código Holland (RIASEC, inglés)', href:'holland-test.html' },
+      pt: { label:'🧪 Teste do código Holland (RIASEC, inglês)', href:'holland-test.html' },
+      zh: { label:'🧪 霍兰德职业兴趣测试 (RIASEC，英文)', href:'holland-test.html' },
+      ar: { label:'🧪 اختبار رمز هولاند (RIASEC، بالإنجليزية)', href:'holland-test.html' },
+      he: { label:'🧪 מבחן קוד הולנד (RIASEC, באנגלית)', href:'holland-test.html' },
+    },
+    {
       group: 'grpDev',
       ru: { label:'💻 Как стать frontend-разработчиком', href:'articles/frontend-developer-ru.html' },
       en: { label:'💻 How to become a frontend developer', href:'articles/frontend-developer-en.html' },
