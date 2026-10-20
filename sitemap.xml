@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ivannahodka.github.io/career-test/</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -194,7 +194,7 @@
   </url>
   <url>
     <loc>https://ivannahodka.github.io/career-test/articles/cybersecurity-en.html</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -302,7 +302,7 @@
   </url>
   <url>
     <loc>https://ivannahodka.github.io/career-test/articles/ai-ml-engineer-en.html</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -326,7 +326,7 @@
   </url>
   <url>
     <loc>https://ivannahodka.github.io/career-test/articles/marketer-en.html</loc>
-    <lastmod>2026-09-06</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -350,7 +350,7 @@
   </url>
   <url>
     <loc>https://ivannahodka.github.io/career-test/articles/financier-en.html</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -368,7 +368,7 @@
   </url>
   <url>
     <loc>https://ivannahodka.github.io/career-test/articles/sales-ru.html</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -404,7 +404,7 @@
   </url>
   <url>
     <loc>https://ivannahodka.github.io/career-test/articles/introvert-careers-ru.html</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -458,7 +458,7 @@
   </url>
   <url>
     <loc>https://ivannahodka.github.io/career-test/articles/future-careers-en.html</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -479,5 +479,53 @@
     <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ivannahodka.github.io/career-test/en/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ivannahodka.github.io/career-test/de/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ivannahodka.github.io/career-test/fr/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ivannahodka.github.io/career-test/es/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ivannahodka.github.io/career-test/pt/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ivannahodka.github.io/career-test/ar/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ivannahodka.github.io/career-test/he/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ivannahodka.github.io/career-test/zh/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
 </urlset>

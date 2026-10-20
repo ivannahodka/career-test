@@ -862,6 +862,15 @@ function visibleId() {
 }
 
 function setLang(code) {
+  // На главном экране переходим на адрес нужного языка (/en/, /de/ …)
+  if (window.LANG_URLS && window.LANG_URLS[code] && code !== lang) {
+    const homeEl = document.getElementById('home');
+    if (homeEl && homeEl.style.display !== 'none' && homeEl.offsetParent !== null) {
+      try { localStorage.setItem('career_lang', code); } catch(e) {}
+      location.href = window.LANG_URLS[code];
+      return;
+    }
+  }
   lang = code;
   try { localStorage.setItem('career_lang', code); } catch(e) {}
   const d = I18N[code];
@@ -3245,12 +3254,16 @@ function exportPDF() {
 
 // ─── INIT ──────────────────────────────────────────────────────────────────────
 (function() {
+  // 0. Языковая страница (/en/, /de/ …) — язык задан адресом страницы
+  if (window.PAGE_LANG_STRICT && window.PAGE_LANG && I18N[window.PAGE_LANG]) { lang = window.PAGE_LANG; return; }
   // 1. Сохранённый выбор пользователя — наивысший приоритет
   try {
     const saved = localStorage.getItem('career_lang');
     if (saved && I18N[saved]) { lang = saved; return; }
   } catch(e) {}
 
+  // 1b. Язык страницы по умолчанию (главная — русская версия)
+  if (window.PAGE_LANG && I18N[window.PAGE_LANG]) { lang = window.PAGE_LANG; return; }
   // 2. Язык браузера — если ещё не выбирал вручную
   const SUPPORTED = ['ru','en','de','fr','es','pt','ar','he','zh'];
   const navLangs = navigator.languages && navigator.languages.length
@@ -3265,3 +3278,22 @@ function exportPDF() {
 })();
 buildLangBar();
 showHome();
+
+// Подсказка о версии на языке браузера (только на главной, если язык ещё не выбирали)
+(function suggestLangPage() {
+  if (!window.LANG_URLS || window.PAGE_LANG_STRICT) return;
+  try { if (localStorage.getItem('career_lang')) return; } catch(e) {}
+  const nav = ((navigator.languages && navigator.languages[0]) || navigator.language || '').toLowerCase().split('-')[0];
+  if (!nav || nav === lang || !window.LANG_URLS[nav] || !I18N[nav]) return;
+  const T = { en:'This test is also available in English', de:'Dieser Test ist auch auf Deutsch verfügbar',
+    fr:'Ce test est aussi disponible en français', es:'Este test también está disponible en español',
+    pt:'Este teste também está disponível em português', ar:'هذا الاختبار متاح أيضاً باللغة العربية',
+    he:'המבחן זמין גם בעברית', zh:'本测试也提供中文版', ru:'Этот тест есть и на русском' };
+  if (!T[nav]) return;
+  const a = document.createElement('a');
+  a.href = window.LANG_URLS[nav];
+  a.dir = I18N[nav].dir || 'ltr';
+  a.textContent = '🌐 ' + T[nav] + ' →';
+  a.style.cssText = 'display:block;text-align:center;background:#f0efff;color:#4c44d4;padding:10px 16px;font-size:14px;font-weight:600;text-decoration:none';
+  document.body.insertBefore(a, document.body.firstChild);
+})();
