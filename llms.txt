@@ -1,6 +1,6 @@
 # Career Test — Free Career Orientation Test
 
-> A free, no-signup career orientation test for teens (13-16) and anyone exploring career options. 10 questions, 6 domains (IT, Creative, Business, Science, Education, Engineering), 40 careers, available in 9 languages (Russian, English, German, French, Spanish, Portuguese, Chinese, Arabic, Hebrew). The site also hosts a growing library of career choice guides and in-depth "how to become" guides for specific IT, business, science and creative careers, written for beginners with no prior experience.
+> A free, no-signup career orientation test for teens (13-16) and anyone exploring career options. 10 questions, 6 domains (IT, Creative, Business, Science, Education, Engineering), 40 careers, available in 9 languages (Russian, English, German, French, Spanish, Portuguese, Chinese, Arabic, Hebrew). The site also hosts a growing library of career choice guides and in-depth "how to become" guides for specific IT, business, science, creative and education careers, written for beginners with no prior experience.
 
 ## Main pages
 - [Take the career test](https://ivannahodka.github.io/career-test/en/): The main 10-question career aptitude test, free and anonymous, no sign-up required. Language versions: [Russian](https://ivannahodka.github.io/career-test/), [English](https://ivannahodka.github.io/career-test/en/), [German](https://ivannahodka.github.io/career-test/de/), [French](https://ivannahodka.github.io/career-test/fr/), [Spanish](https://ivannahodka.github.io/career-test/es/), [Portuguese](https://ivannahodka.github.io/career-test/pt/), [Arabic](https://ivannahodka.github.io/career-test/ar/), [Hebrew](https://ivannahodka.github.io/career-test/he/), [Chinese](https://ivannahodka.github.io/career-test/zh/).
@@ -79,6 +79,10 @@
 ## Creative career guides
 - [Graphic Designer](https://ivannahodka.github.io/career-test/articles/graphic-designer-en.html): What a graphic designer does, how it differs from UX/UI design and illustration, composition/typography/color, software (Figma, Illustrator, free alternatives), timeline, free resources, and building a portfolio.
 - [Графический дизайнер](https://ivannahodka.github.io/career-test/articles/graphic-designer-ru.html)
+
+## Education career guides
+- [Teacher](https://ivannahodka.github.io/career-test/articles/teacher-en.html): What teachers do, where they work, how to qualify in the US and UK (licensing, QTS, alternative routes for career changers), skills, timeline, free resources and pay.
+- [Учитель](https://ivannahodka.github.io/career-test/articles/teacher-ru.html)
 
 ## Notes
 - Career choice guides help students decide what to do after school at 16 and 18, and help adults plan a career change (college, university, apprenticeships, courses).
