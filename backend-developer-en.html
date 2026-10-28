@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="../favicon.ico" sizes="any">
+<title>How to become a backend developer: teen guide</title>
+<meta name="description" content="How to become a backend developer at 13–16: what to learn, Python vs JavaScript, how long it takes. A clear guide with no fluff.">
+<link rel="canonical" href="https://ivannahodka.github.io/career-test/articles/backend-developer-en.html">
+<link rel="alternate" hreflang="en" href="https://ivannahodka.github.io/career-test/articles/backend-developer-en.html">
+<link rel="alternate" hreflang="ru" href="https://ivannahodka.github.io/career-test/articles/backend-developer-ru.html">
+<link rel="alternate" hreflang="x-default" href="https://ivannahodka.github.io/career-test/articles/backend-developer-ru.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ivannahodka.github.io/career-test/articles/backend-developer-en.html">
+<meta property="og:title" content="How to become a backend developer: teen guide">
+<meta property="og:description" content="How to become a backend developer at 13–16: what to learn, Python vs JavaScript, how long it takes. A clear guide with no fluff.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://ivannahodka.github.io/career-test/og-image-en.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to become a backend developer: teen guide">
+<meta name="twitter:description" content="How to become a backend developer at 13–16: what to learn, Python vs JavaScript, how long it takes. A clear guide with no fluff.">
+<meta name="twitter:image" content="https://ivannahodka.github.io/career-test/og-image-en.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"How to become a backend developer: teen guide","description":"How to become a backend developer at 13–16: what to learn, Python vs JavaScript, how long it takes. A clear guide with no fluff.","url":"https://ivannahodka.github.io/career-test/articles/backend-developer-en.html","inLanguage":"en","author":{"@type":"Organization","name":"Career Test"},"publisher":{"@type":"Organization","name":"Career Test","url":"https://ivannahodka.github.io/career-test/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do you need maths for backend?", "acceptedAnswer": {"@type": "Answer", "text": "Basic logic and algorithmic thinking — yes. Advanced maths — no, unless you're going into machine learning or game dev. Most backend work is data handling and logic, not equations."}}, {"@type": "Question", "name": "Python or JavaScript to start?", "acceptedAnswer": {"@type": "Answer", "text": "Python — if you want the easiest start and the option to move into data science or ML later. JavaScript (Node.js) — if you already know frontend and want one language for everything."}}, {"@type": "Question", "name": "Can you start at 13–14?", "acceptedAnswer": {"@type": "Answer", "text": "Absolutely. Python was specifically designed as a teaching language — the syntax reads like pseudocode. Many of the best developers started at exactly this age."}}, {"@type": "Question", "name": "What's the difference between backend and DevOps?", "acceptedAnswer": {"@type": "Answer", "text": "Backend writes the application code. DevOps configures the servers, deployment and infrastructure where that code runs. At the start these are different jobs, though the lines blur at senior levels."}}]}</script>
+<style>
+  body{font-family:system-ui,Arial,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;color:#1a202c;line-height:1.75}
+  h1{font-size:2rem;margin-bottom:8px;line-height:1.3}
+  h2{font-size:1.35rem;margin:44px 0 12px;padding-bottom:6px;border-bottom:2px solid #6C63FF;color:#6C63FF}
+  h3{font-size:1.05rem;margin:24px 0 8px;color:#2d3748}
+  .subtitle{color:#718096;margin-bottom:36px;font-size:1.05rem}
+  .tldr{background:#f7f6ff;border-left:4px solid #6C63FF;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0 28px;font-size:1rem}
+  .back{display:inline-block;margin-bottom:24px;color:#6C63FF;text-decoration:none;font-size:.95rem}
+  .back:hover{text-decoration:underline}
+  .cta{background:#6C63FF;color:white;display:inline-block;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700;margin:16px 0;font-size:1rem}
+  .cta:hover{background:#5a52d5}
+  .cta-block{background:#f0efff;border-radius:12px;padding:24px;margin:40px 0;text-align:center}
+  .cta-block p{margin:0 0 16px;font-size:1.05rem}
+  .tip{background:#f0fff4;border-left:4px solid #48bb78;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .warn{background:#fffbeb;border-left:4px solid #f6e05e;padding:14px 18px;border-radius:0 8px 8px 0;margin:20px 0}
+  .roadmap{counter-reset:step}
+  .step{counter-increment:step;background:#f7f8fc;border-left:4px solid #6C63FF;padding:16px 20px 16px 56px;border-radius:0 8px 8px 0;margin:16px 0;position:relative}
+  .step::before{content:counter(step);position:absolute;left:16px;top:16px;background:#6C63FF;color:white;width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+  table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}
+  th{background:#6C63FF;color:white;padding:10px 12px;text-align:left}
+  td{padding:9px 12px;border-bottom:1px solid #e2e8f0}
+  tr:nth-child(even) td{background:#f7f8fc}
+  ul,ol{padding-left:24px}
+  li{margin:8px 0}
+  code{background:#f0efff;padding:2px 6px;border-radius:4px;font-size:.9em;color:#6C63FF}
+  footer{margin-top:56px;padding-top:16px;border-top:1px solid #e2e8f0;color:#a0aec0;font-size:.8rem}
+  .all-articles-acc details{background:#f7f8fc;border-radius:8px;margin:8px 0;padding:10px 16px}
+  .all-articles-acc summary{cursor:pointer;font-weight:700;color:#6C63FF}
+  .all-articles-acc ul{margin:10px 0 4px;padding-left:24px}
+  .all-articles-acc li{margin:6px 0}
+</style>
+</head>
+<body>
+<a class="back" href="https://ivannahodka.github.io/career-test/en/">← Free career aptitude test</a>
+
+<h1>How to become a backend developer: a guide for teenagers</h1>
+<p class="subtitle">Backend is the invisible part of every website and app. This is where everything important happens: storing data, authentication, business logic. If you like thinking more than designing — keep reading.</p>
+<div class="tldr"><strong>In short:</strong> A backend developer builds an application's "brain" — data storage, authentication, and server-side logic the user never sees directly. Most people start with one language (Python, JavaScript/Node.js, Java, or Go), and reaching a Junior level takes 8-14 months.</div>
+
+
+<p>A backend developer builds the "brain" of an application. You don't see their work directly, but without it nothing works: no login system, no shopping cart, no social media feed.</p>
+
+<div class="cta-block">
+  <p>Not sure if programming suits you? Take the free career test — 10 minutes</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/en/">Take the test →</a>
+</div>
+
+<h2>Backend vs frontend — what's the difference?</h2>
+<p>Think of an app like a restaurant:</p>
+<ul>
+  <li><strong>Frontend</strong> — the dining room, tables, menus, waiters. Everything the customer sees.</li>
+  <li><strong>Backend</strong> — the kitchen. Food is prepared here, orders are processed, ingredients are stored. The customer never sees it, but it's what makes the restaurant work.</li>
+  <li><strong>Database</strong> — the fridge where everything is kept.</li>
+</ul>
+<p>A backend developer builds and maintains that kitchen. Their code runs on servers — computers that never turn off and handle thousands of requests per second.</p>
+
+<h2>What you need to learn</h2>
+
+<h3>1. A programming language</h3>
+<p>Backend can be written in several languages. Here are the most popular ones for beginners:</p>
+<table>
+  <tr><th>Language</th><th>Beginner-friendly?</th><th>Used by</th></tr>
+  <tr><td><strong>Python</strong></td><td>Simplest syntax, huge community</td><td>Instagram, YouTube, Dropbox</td></tr>
+  <tr><td><strong>JavaScript (Node.js)</strong></td><td>One language for frontend + backend</td><td>Netflix, LinkedIn, PayPal</td></tr>
+  <tr><td><strong>Java</strong></td><td>Reliable, lots of jobs</td><td>banks, large enterprises</td></tr>
+  <tr><td><strong>Go</strong></td><td>Fast, modern</td><td>Google, Uber, Twitch</td></tr>
+</table>
+<div class="tip"><strong>Recommendation:</strong> start with Python. The most readable syntax, easiest to find learning materials, and huge community support.</div>
+
+<h3>2. Databases</h3>
+<p>Every app stores data. You need to know how to read and write it. Start with <strong>SQL</strong> — the query language used everywhere.</p>
+<p>Example: <code>SELECT * FROM users WHERE age > 18</code> — get all users older than 18. It reads almost like plain English.</p>
+
+<h3>3. APIs — how apps talk to each other</h3>
+<p>An API is the interface through which frontend talks to backend. When you tap "Sign in with Google" — that's an API request. Backend developers create and maintain these interfaces.</p>
+
+<h3>4. Server basics</h3>
+<p>You need to understand how to run code on a server, what HTTP is, how the internet works. This comes naturally with practice — you don't need to study it separately upfront.</p>
+
+<h2>How long does it take?</h2>
+<table>
+  <tr><th>Stage</th><th>Time</th><th>Result</th></tr>
+  <tr><td>Python basics</td><td>1–2 months</td><td>Read code, write simple scripts</td></tr>
+  <tr><td>Databases + SQL</td><td>1 month</td><td>Store and query data</td></tr>
+  <tr><td>First API project</td><td>1–2 months</td><td>A working app with a database</td></tr>
+  <tr><td>Junior level</td><td>8–14 months total</td><td>Ready for a first job</td></tr>
+</table>
+<p>Backend is slightly harder to start than frontend — it requires more abstract thinking. But if you enjoy logic and puzzles, that difficulty becomes interesting rather than frustrating.</p>
+
+<h2>What to do right now</h2>
+<div class="roadmap">
+  <div class="step"><strong>Install Python</strong> — <a href="https://python.org" target="_blank">python.org</a>, free, 5 minutes. Open your terminal and type <code>print("Hello, world!")</code>. That's your first program.</div>
+  <div class="step"><strong>Take an interactive course</strong> — <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a> has a full Python curriculum, free. Or <a href="https://cs50.harvard.edu/python/" target="_blank">CS50P from Harvard</a> — also completely free.</div>
+  <div class="step"><strong>Build something real</strong> — a Telegram bot, a weather script, a to-do list that saves to a file. Anything useful to you personally.</div>
+  <div class="step"><strong>Learn SQL</strong> — <a href="https://sqlbolt.com" target="_blank">SQLBolt.com</a> — free interactive lessons right in your browser, no setup needed.</div>
+  <div class="step"><strong>Build your first API</strong> — use Flask or FastAPI in Python. A simple server that responds to requests. Put it on GitHub.</div>
+</div>
+
+<h2>Free resources</h2>
+<ul>
+  <li><a href="https://cs50.harvard.edu/python/" target="_blank">CS50P — Harvard's Python course</a> — one of the best free courses available</li>
+  <li><a href="https://pythontutor.com" target="_blank">Python Tutor</a> — visualises what your code does step by step</li>
+  <li><a href="https://sqlbolt.com" target="_blank">SQLBolt</a> — SQL in the browser, no installation needed</li>
+  <li><a href="https://fastapi.tiangolo.com" target="_blank">FastAPI docs</a> — modern framework, excellent documentation</li>
+  <li><a href="https://roadmap.sh/backend" target="_blank">roadmap.sh/backend</a> — full map of what to learn and in what order</li>
+</ul>
+
+<div class="warn">
+  <strong>Don't try to learn everything at once.</strong> Backend is a broad field — databases, servers, security, cloud — that's years of work. Start with one language and one project. Depth comes with experience.
+</div>
+
+<h2>How much do backend developers earn?</h2>
+<p>Backend development is traditionally paid higher than frontend — because of greater complexity and responsibility. The growth path is the same:</p>
+<ul>
+  <li><strong>Junior</strong> — first income often comes during learning, through freelance or internships.</li>
+  <li><strong>Middle</strong> — comfortable income, typically reached after 2–3 years of practice.</li>
+  <li><strong>Senior / Tech Lead</strong> — among the highest-paid levels in the entire tech industry.</li>
+</ul>
+<p>Backend developers work remotely with ease — server-side code isn't tied to any office or location.</p>
+
+<h2>Backend is probably right for you if...</h2>
+<ul>
+  <li>You enjoy solving problems that have multiple valid solutions</li>
+  <li>You don't mind when the result of your work isn't visually obvious</li>
+  <li>You're curious about how systems work "under the hood"</li>
+  <li>You like logic, maths or puzzles</li>
+</ul>
+<p>It's probably not for you if seeing an immediate visual result matters a lot — then look at frontend or UX/UI design instead.</p>
+
+<div class="cta-block">
+  <p>Take the test — find out if backend suits you or if another IT direction is a better fit</p>
+  <a class="cta" href="https://ivannahodka.github.io/career-test/en/">Take the free test →</a>
+</div>
+
+<h2>Frequently asked questions</h2>
+<h3>Do you need maths for backend?</h3>
+<p>Basic logic and algorithmic thinking — yes. Advanced maths — no, unless you're going into machine learning or game dev. Most backend work is data handling and logic, not equations.</p>
+
+<h3>Python or JavaScript to start?</h3>
+<p>Python — if you want the easiest start and the option to move into data science or ML later. JavaScript (Node.js) — if you already know frontend and want one language for everything.</p>
+
+<h3>Can you start at 13–14?</h3>
+<p>Absolutely. Python was specifically designed as a teaching language — the syntax reads like pseudocode. Many of the best developers started at exactly this age.</p>
+
+<h3>What's the difference between backend and DevOps?</h3>
+<p>Backend writes the application code. DevOps configures the servers, deployment and infrastructure where that code runs. At the start these are different jobs, though the lines blur at senior levels.</p>
+
+<h2>All articles</h2>
+<div class="all-articles-acc">
+<details>
+<summary>🧭 Choosing a career</summary>
+<ul>
+<li><a href="career-after-school-en.html">🎓 What career to choose after school</a></li>
+<li><a href="introvert-careers-en.html">🤫 Best jobs for introverts</a></li>
+<li><a href="career-change-30-en.html">🔄 How to change careers at 30+</a></li>
+<li><a href="future-careers-en.html">🚀 Jobs of the future and AI</a></li>
+<li><a href="../holland-test.html">🧪 Holland Code (RIASEC) test</a></li>
+<li><a href="../how-to-choose-en.html">📖 How to Choose a Career: 7 Steps</a></li>
+</ul>
+</details>
+<details open>
+<summary>💻 Development</summary>
+<ul>
+<li><a href="frontend-developer-en.html">💻 How to become a frontend developer</a></li>
+<li><a href="game-developer-en.html">🎮 How to become a Game Developer</a></li>
+<li><a href="mobile-developer-en.html">📱 How to become a Mobile Developer</a></li>
+</ul>
+</details>
+<details>
+<summary>🔍 Testing</summary>
+<ul>
+<li><a href="qa-engineer-en.html">🐞 How to become a QA engineer</a></li>
+</ul>
+</details>
+<details>
+<summary>🚀 Infrastructure</summary>
+<ul>
+<li><a href="devops-engineer-en.html">🛠️ How to become a DevOps engineer</a></li>
+<li><a href="system-administrator-en.html">🖥️ How to become a System Administrator</a></li>
+<li><a href="cloud-engineer-en.html">☁️ How to become a Cloud Engineer</a></li>
+<li><a href="it-support-specialist-en.html">🎧 How to become an IT Support Specialist</a></li>
+</ul>
+</details>
+<details>
+<summary>📊 Data & AI</summary>
+<ul>
+<li><a href="data-analyst-en.html">📊 How to become a Data Analyst</a></li>
+<li><a href="database-administrator-en.html">🗄️ How to become a Database Administrator</a></li>
+<li><a href="ai-ml-engineer-en.html">🤖 How to become an AI/ML Engineer</a></li>
+</ul>
+</details>
+<details>
+<summary>🔐 Security</summary>
+<ul>
+<li><a href="cybersecurity-en.html">🛡️ How to become a Cybersecurity Specialist</a></li>
+</ul>
+</details>
+<details>
+<summary>🎨 Design</summary>
+<ul>
+<li><a href="ux-ui-designer-en.html">🎨 How to become a UX/UI Designer</a></li>
+</ul>
+</details>
+<details>
+<summary>📋 Product Management</summary>
+<ul>
+<li><a href="product-manager-en.html">📋 How to become a Product Manager</a></li>
+<li><a href="technical-writer-en.html">📝 How to become a Technical Writer</a></li>
+</ul>
+</details>
+<details>
+<summary>💼 Business & Management</summary>
+<ul>
+<li><a href="marketer-en.html">📣 How to become a Marketer</a></li>
+<li><a href="entrepreneur-en.html">🚀 How to become an Entrepreneur</a></li>
+<li><a href="financier-en.html">💰 How to become a Financier</a></li>
+<li><a href="hr-en.html">🤝 How to become an HR Manager</a></li>
+<li><a href="sales-en.html">💼 How to become a Sales Manager</a></li>
+<li><a href="business-analyst-en.html">📈 How to become a Business Analyst</a></li>
+</ul>
+</details>
+<details>
+<summary>🔬 Science & Medicine</summary>
+<ul>
+<li><a href="psychologist-en.html">🧠 How to become a Psychologist</a></li>
+</ul>
+</details>
+<details>
+<summary>🖌️ Creative</summary>
+<ul>
+<li><a href="graphic-designer-en.html">🖼️ How to become a Graphic Designer</a></li>
+</ul>
+</details>
+<details>
+<summary>👩‍🏫 Education</summary>
+<ul>
+<li><a href="teacher-en.html">👩‍🏫 How to become a Teacher</a></li>
+</ul>
+</details>
+</div>
+
+
+<footer>
+  <p>© Career Test · <a href="https://ivannahodka.github.io/career-test/en/">Career test</a> · <a href="../glossary-static-en.html">Glossary</a> · <a href="backend-developer-ru.html">Русский</a></p>
+</footer>
+</body>
+</html>
