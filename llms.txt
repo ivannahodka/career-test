@@ -75,6 +75,8 @@
 ## Science & medicine career guides
 - [Psychologist](https://ivannahodka.github.io/career-test/articles/psychologist-en.html): What a psychologist does, psychologist vs therapist vs psychiatrist, specialties, education paths in the US and UK, timeline, free courses, and how pay works.
 - [Психолог](https://ivannahodka.github.io/career-test/articles/psychologist-ru.html)
+- [Doctor](https://ivannahodka.github.io/career-test/articles/doctor-en.html): Types of doctors, training paths and years in the US, UK and India (pre-med, MCAT, Foundation Programme, NEET, residency), key subjects, shorter healthcare routes, free resources and pay.
+- [Врач](https://ivannahodka.github.io/career-test/articles/doctor-ru.html)
 
 ## Creative career guides
 - [Graphic Designer](https://ivannahodka.github.io/career-test/articles/graphic-designer-en.html): What a graphic designer does, how it differs from UX/UI design and illustration, composition/typography/color, software (Figma, Illustrator, free alternatives), timeline, free resources, and building a portfolio.

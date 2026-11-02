@@ -666,6 +666,18 @@ function buildHome() {
     ar: { label:'👩‍🏫 كيف تصبح معلماً', href:'articles/teacher-en.html' },
     he: { label:'👩‍🏫 איך להפוך למורה', href:'articles/teacher-en.html' },
   },
+  {
+    group: 'grpSci',
+    ru: { label:'🩺 Как стать врачом', href:'articles/doctor-ru.html' },
+    en: { label:'🩺 How to become a Doctor', href:'articles/doctor-en.html' },
+    de: { label:'🩺 Wie wird man Arzt?', href:'articles/doctor-en.html' },
+    fr: { label:'🩺 Comment devenir médecin', href:'articles/doctor-en.html' },
+    es: { label:'🩺 Cómo convertirse en médico', href:'articles/doctor-en.html' },
+    pt: { label:'🩺 Como se tornar médico', href:'articles/doctor-en.html' },
+    zh: { label:'🩺 如何成为医生', href:'articles/doctor-en.html' },
+    ar: { label:'🩺 كيف تصبح طبيباً', href:'articles/doctor-en.html' },
+    he: { label:'🩺 איך להפוך לרופא', href:'articles/doctor-en.html' },
+  },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
