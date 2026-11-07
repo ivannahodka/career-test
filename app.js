@@ -678,6 +678,18 @@ function buildHome() {
     ar: { label:'🩺 كيف تصبح طبيباً', href:'articles/doctor-en.html' },
     he: { label:'🩺 איך להפוך לרופא', href:'articles/doctor-en.html' },
   },
+  {
+    group: 'grpSci',
+    ru: { label:'🦷 Как стать стоматологом', href:'articles/dentist-ru.html' },
+    en: { label:'🦷 How to become a Dentist', href:'articles/dentist-en.html' },
+    de: { label:'🦷 Wie wird man Zahnarzt?', href:'articles/dentist-en.html' },
+    fr: { label:'🦷 Comment devenir dentiste', href:'articles/dentist-en.html' },
+    es: { label:'🦷 Cómo convertirse en dentista', href:'articles/dentist-en.html' },
+    pt: { label:'🦷 Como se tornar dentista', href:'articles/dentist-en.html' },
+    zh: { label:'🦷 如何成为牙医', href:'articles/dentist-en.html' },
+    ar: { label:'🦷 كيف تصبح طبيب أسنان', href:'articles/dentist-en.html' },
+    he: { label:'🦷 איך להפוך לרופא שיניים', href:'articles/dentist-en.html' },
+  },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',

@@ -77,6 +77,8 @@
 - [Психолог](https://ivannahodka.github.io/career-test/articles/psychologist-ru.html)
 - [Doctor](https://ivannahodka.github.io/career-test/articles/doctor-en.html): Types of doctors, training paths and years in the US, UK and India (pre-med, MCAT, Foundation Programme, NEET, residency), key subjects, shorter healthcare routes, free resources and pay.
 - [Врач](https://ivannahodka.github.io/career-test/articles/doctor-ru.html)
+- [Dentist](https://ivannahodka.github.io/career-test/articles/dentist-en.html): What dentists do, dental specialties, training paths in the US, UK and India (DAT, DDS/DMD, BDS, NEET), required subjects, shorter dental careers, free resources and pay.
+- [Стоматолог](https://ivannahodka.github.io/career-test/articles/dentist-ru.html)
 
 ## Creative career guides
 - [Graphic Designer](https://ivannahodka.github.io/career-test/articles/graphic-designer-en.html): What a graphic designer does, how it differs from UX/UI design and illustration, composition/typography/color, software (Figma, Illustrator, free alternatives), timeline, free resources, and building a portfolio.
