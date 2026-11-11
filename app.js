@@ -690,6 +690,18 @@ function buildHome() {
     ar: { label:'🦷 كيف تصبح طبيب أسنان', href:'articles/dentist-en.html' },
     he: { label:'🦷 איך להפוך לרופא שיניים', href:'articles/dentist-en.html' },
   },
+  {
+    group: 'grpSci',
+    ru: { label:'🔪 Как стать хирургом', href:'articles/surgeon-ru.html' },
+    en: { label:'🔪 How to become a Surgeon', href:'articles/surgeon-en.html' },
+    de: { label:'🔪 Wie wird man Chirurg?', href:'articles/surgeon-en.html' },
+    fr: { label:'🔪 Comment devenir chirurgien', href:'articles/surgeon-en.html' },
+    es: { label:'🔪 Cómo convertirse en cirujano', href:'articles/surgeon-en.html' },
+    pt: { label:'🔪 Como se tornar cirurgião', href:'articles/surgeon-en.html' },
+    zh: { label:'🔪 如何成为外科医生', href:'articles/surgeon-en.html' },
+    ar: { label:'🔪 كيف تصبح جراحاً', href:'articles/surgeon-en.html' },
+    he: { label:'🔪 איך להפוך למנתח', href:'articles/surgeon-en.html' },
+  },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',

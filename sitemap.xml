@@ -542,13 +542,13 @@
   </url>
   <url>
     <loc>https://ivannahodka.github.io/career-test/articles/doctor-ru.html</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ivannahodka.github.io/career-test/articles/doctor-en.html</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -561,6 +561,18 @@
   <url>
     <loc>https://ivannahodka.github.io/career-test/articles/dentist-en.html</loc>
     <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ivannahodka.github.io/career-test/articles/surgeon-ru.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ivannahodka.github.io/career-test/articles/surgeon-en.html</loc>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
