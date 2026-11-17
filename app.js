@@ -702,6 +702,18 @@ function buildHome() {
     ar: { label:'🔪 كيف تصبح جراحاً', href:'articles/surgeon-en.html' },
     he: { label:'🔪 איך להפוך למנתח', href:'articles/surgeon-en.html' },
   },
+  {
+    group: 'grpSci',
+    ru: { label:'💊 Как стать психиатром', href:'articles/psychiatrist-ru.html' },
+    en: { label:'💊 How to become a Psychiatrist', href:'articles/psychiatrist-en.html' },
+    de: { label:'💊 Wie wird man Psychiater?', href:'articles/psychiatrist-en.html' },
+    fr: { label:'💊 Comment devenir psychiatre', href:'articles/psychiatrist-en.html' },
+    es: { label:'💊 Cómo convertirse en psiquiatra', href:'articles/psychiatrist-en.html' },
+    pt: { label:'💊 Como se tornar psiquiatra', href:'articles/psychiatrist-en.html' },
+    zh: { label:'💊 如何成为精神科医生', href:'articles/psychiatrist-en.html' },
+    ar: { label:'💊 كيف تصبح طبيباً نفسياً', href:'articles/psychiatrist-en.html' },
+    he: { label:'💊 איך להפוך לפסיכיאטר', href:'articles/psychiatrist-en.html' },
+  },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
