@@ -83,6 +83,8 @@
 - [Хирург](https://ivannahodka.github.io/career-test/articles/surgeon-ru.html)
 - [Psychiatrist](https://ivannahodka.github.io/career-test/articles/psychiatrist-en.html): Psychiatrist vs psychologist vs therapist, types of psychiatrists, training paths and years in the US, UK and India (residency, core and higher psychiatry training, MD), a day in the life, pros and cons, and how to start in high school.
 - [Психиатр](https://ivannahodka.github.io/career-test/articles/psychiatrist-ru.html)
+- [Engineer](https://ivannahodka.github.io/career-test/articles/engineer-en.html): Types of engineers (civil, mechanical, electrical, robotics, design, electronics, chemical, aerospace, environmental), degrees and years in the US, UK and India (ABET, PE, BEng/MEng, CEng, JEE, BTech), key subjects, pros and cons and how to start in high school.
+- [Инженер](https://ivannahodka.github.io/career-test/articles/engineer-ru.html)
 
 ## Creative career guides
 - [Graphic Designer](https://ivannahodka.github.io/career-test/articles/graphic-designer-en.html): What a graphic designer does, how it differs from UX/UI design and illustration, composition/typography/color, software (Figma, Illustrator, free alternatives), timeline, free resources, and building a portfolio.
