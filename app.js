@@ -726,6 +726,18 @@ function buildHome() {
     ar: { label:'⚙️ كيف تصبح مهندساً', href:'articles/engineer-en.html' },
     he: { label:'⚙️ איך להפוך למהנדס', href:'articles/engineer-en.html' },
   },
+  {
+    group: 'grpEng',
+    ru: { label:'🤖 Как стать робототехником', href:'articles/robotics-engineer-ru.html' },
+    en: { label:'🤖 How to become a Robotics Engineer', href:'articles/robotics-engineer-en.html' },
+    de: { label:'🤖 Wie wird man Robotik-Ingenieur?', href:'articles/robotics-engineer-en.html' },
+    fr: { label:'🤖 Comment devenir ingénieur en robotique', href:'articles/robotics-engineer-en.html' },
+    es: { label:'🤖 Cómo convertirse en ingeniero de robótica', href:'articles/robotics-engineer-en.html' },
+    pt: { label:'🤖 Como se tornar engenheiro de robótica', href:'articles/robotics-engineer-en.html' },
+    zh: { label:'🤖 如何成为机器人工程师', href:'articles/robotics-engineer-en.html' },
+    ar: { label:'🤖 كيف تصبح مهندس روبوتات', href:'articles/robotics-engineer-en.html' },
+    he: { label:'🤖 איך להפוך למהנדס רובוטיקה', href:'articles/robotics-engineer-en.html' },
+  },
     // Добавляй новые статьи сюда по той же схеме
   ];
   const articlesBtnLabel = { ru:'Статьи', en:'Articles', de:'Artikel', fr:'Articles',
